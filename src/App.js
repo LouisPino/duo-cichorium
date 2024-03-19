@@ -5,7 +5,10 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Ensembles from "./pages/Ensembles";
-import Projects from "./pages/Projects";
+import Projects from "./components/Projects";
+import Press from "./pages/Press";
+import Media from "./pages/Media";
+import Contact from "./pages/Contact";
 function App() {
   return (
     <div className="App">
@@ -14,6 +17,9 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/ensembles" element={<Ensembles />} />
+        <Route exact path="/press" element={<Press />} />
+        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/media" element={<Media />} />
         <Route exact path="/percussion" element={<Projects category="percussion" />} />
         <Route exact path="/video-art" element={<Projects category="video art" />} />
         <Route exact path="/multimedia" element={<Projects category="multimedia" />} />

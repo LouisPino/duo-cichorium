@@ -45,17 +45,17 @@ function Header() {
                 </Link>
 
                 <div className="my-nav">
-                    <Link to="/about">
-                        <p className="link nav-btn-text" onClick={linkClicked}>About</p>
+                    <Link to="/press">
+                        <p className="link nav-btn-text" onClick={linkClicked}>Press</p>
                     </Link>
-                    <Link to="/about">
-                        <p className="link nav-btn-text" onClick={linkClicked}>About</p>
+                    <Link to="/contact">
+                        <p className="link nav-btn-text" onClick={linkClicked}>Contact</p>
                     </Link>
-                    <Link to="/ensembles">
-                        <p className="link nav-btn-text" onClick={linkClicked}>Ensembles</p>
+                    <Link to="media">
+                        <p className="link nav-btn-text" onClick={linkClicked}>Media</p>
                     </Link>
                     <div className='workbtn'>
-                        <p className="link nav-btn-text work">Work</p>
+                        {/* <p className="link nav-btn-text work">Work</p> */}
                         {workDrop && <div className="work-content">
                             <Link to="/percussion">
                                 <p className="link work-link-text" onClick={linkClicked}>Percussion</p>
@@ -69,7 +69,8 @@ function Header() {
                             <Link to="/multimedia">
                                 <p className="link work-link-text" onClick={linkClicked}>Multimedia</p>
                             </Link>
-                        </div>}
+                        </div>
+                        }
                     </div>
                 </div>
             </div>

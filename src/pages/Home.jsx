@@ -1,7 +1,7 @@
 
 import HomeHero from "../components/HomeHero"
 import LinkPanels from "../components/LinkPanels"
-import RecentProjects from "./RecentProjects"
+import RecentProjects from "../components/RecentProjects"
 import "../styles/home.css"
 
 export default function Home() {

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import PageTitle from "../components/PageTitle"
 import '../styles/projects.css'
-function RecentProjects({ category }) {
+function Projects({ category }) {
     const [projects, setProjects] = useState(null);
     const getProjectsData = async () => {
         const response = await fetch("./projects.json");
@@ -34,7 +34,7 @@ function RecentProjects({ category }) {
                         {project.programLink ? (
                             <div className="program">
                                 <a href={`./assets/${project.programLink}`} target="_blank"> <button className="cv-btn">Download Program</button></a>
-                                <h3 key={idx}>{project.programText}</h3>
+                                <h3 className="myh3" key={idx}>{project.programText}</h3>
                             </div>
                         ) : ""
                         }
@@ -50,15 +50,16 @@ function RecentProjects({ category }) {
 
 
         return (
-            projects.length > 0 ?
+            projects.length > 0 ? <>
+                <PageTitle page={category.toUpperCase()} />
                 <section className="projects-body">
-                    <PageTitle page={category.toUpperCase()} />
                     {projectCards}
                 </section>
+            </>
                 :
                 <div>No projects found in this category.</div> // Handle empty array
         );
     }
 }
 
-export default RecentProjects;
+export default Projects;

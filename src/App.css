@@ -25,6 +25,10 @@ body {
   color: white;
 }
 
+.myh3 {
+  font-size: 1.25rem;
+}
+
 .nopacity {
   opacity: 0;
 }
