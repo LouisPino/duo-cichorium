@@ -40,7 +40,7 @@ header {
     display: flex;
     justify-content: space-around;
     padding: .5rem;
-    width: 40%;
+    width: 60%;
     align-items: center;
     background-color: none !important;
 }
@@ -49,8 +49,10 @@ header {
 .nav-btn-text {
     display: inline-block;
     position: relative;
+    text-align: center;
     font-size: 1.25rem;
-    color: var(--pink-text)
+    color: var(--pink-text);
+    margin-right: 8px;
 }
 
 .nav-btn-text::after {
@@ -106,9 +108,9 @@ header {
     display: block;
 }
 
-.dropdown-content,
+.my-dropdown-content,
 .work-content {
-    position: absolute;
+    position: relative;
     background: rgba(0, 0, 0, 1);
     width: 200px;
     min-height: 100px;
@@ -117,7 +119,7 @@ header {
     border: 1px solid var(--pink-text);
 }
 
-.dropdown-content {
+.my-dropdown-content {
     left: -75px;
     animation: burger-drop 200ms ease-in-out
 }
@@ -131,7 +133,7 @@ header {
     display: block;
     margin: 0.5em;
     text-align: center;
-    color: transparent;
+    color: pink;
     font-size: 24px;
     font-weight: bold;
 }

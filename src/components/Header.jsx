@@ -10,9 +10,9 @@ function Header() {
     useEffect(() => {
         const hamburgerEl = document.getElementById("hamburger-div");
         const workEl = document.querySelector(".workbtn");
-        hamburgerEl.addEventListener("mouseover", () => { setBurgerDrop(true) })
+        hamburgerEl.addEventListener("mouseover", () => { setBurgerDrop(true); })
         hamburgerEl.addEventListener("click", () => { toggleBurger() })
-        hamburgerEl.addEventListener("mouseout", () => { setBurgerDrop(false) })
+        hamburgerEl.addEventListener("mouseout", () => { if (burgerDrop) setBurgerDrop(false); })
         workEl.addEventListener("mouseover", () => { setWorkDrop(true) })
         workEl.addEventListener("mouseout", () => { setWorkDrop(false) })
     }, [])
@@ -63,8 +63,8 @@ function Header() {
                     <div className='workbtn'>
                         {/* <p className="link nav-btn-text work">Work</p> */}
                         {workDrop && <div className="work-content">
-                            <Link to="/percussion">
-                                <p className="link work-link-text" onClick={linkClicked}>Percussion</p>
+                            <Link to="/tranzac-residency">
+                                <p className="link nav-btn-text" onClick={linkClicked}>TRANZAC Residency</p>
                             </Link>
                             <Link to="/video-art">
                                 <p className="link work-link-text" onClick={linkClicked}>Video Art</p>
@@ -84,27 +84,24 @@ function Header() {
 
             <div className="dropbtn" id="hamburger-div">
                 <img className="hamburger" src="/assets/burger.png" alt="img1" />
-                <div className={burgerDrop ? 'dropdown-visible dropdown-content' : 'dropdown-hidden dropdown-content'}>
+                <div className={burgerDrop ? 'dropdown-visible my-dropdown-content' : 'dropdown-hidden my-dropdown-content'}>
                     <Link to="/" className="burger-link" onClick={linkClicked}>
                         <p className="burger-link-text link">Home</p>
                     </Link>
-                    <Link to="/about" className="burger-link" onClick={linkClicked}>
-                        <p className="burger-link-text link">About</p>
+                    <Link to="/works">
+                        <p className="link burger-link-text" onClick={linkClicked}>Works</p>
                     </Link>
-                    <Link to="/ensembles">
-                        <p className="link burger-link-text" onClick={linkClicked}>Ensembles</p>
+                    <Link to="/tranzac-residency" className="burger-link" onClick={linkClicked}>
+                        <p className="burger-link-text link">TRANZAC Residency</p>
                     </Link>
-                    <Link to="/percussion">
-                        <p className="link burger-link-text" onClick={linkClicked}>Percussion</p>
+                    <Link to="/the-sylvan-legacy">
+                        <p className="link burger-link-text" onClick={linkClicked}>The Sylvan Legacy</p>
                     </Link>
-                    <Link to="/video-art">
-                        <p className="link burger-link-text" onClick={linkClicked}>Video Art</p>
+                    <Link to="/press">
+                        <p className="link burger-link-text" onClick={linkClicked}>Press</p>
                     </Link>
-                    <Link to="/compositions">
-                        <p className="link burger-link-text" onClick={linkClicked}>Compositions</p>
-                    </Link>
-                    <Link to="/multimedia">
-                        <p className="link burger-link-text" onClick={linkClicked}>Multimedia</p>
+                    <Link to="/contact">
+                        <p className="link burger-link-text" onClick={linkClicked}>Contact</p>
                     </Link>
                 </div>
             </div>

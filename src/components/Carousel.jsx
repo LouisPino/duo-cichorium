@@ -18,9 +18,14 @@ const Carousel = () => {
 
     return (
         <div className="carousel">
-            <a class="carousel-item" href="#one!"><img src="assets/DuoCichorium.jpg" alt="img1" /></a>
-            <a class="carousel-item" href="#two!"><img src="assets/Cic.jpg" alt="img2" /></a>
-            <a class="carousel-item" href="#three!"><img src="assets/Trevor.jpeg" alt="img3" /></a>
+            <a class="carousel-item" href="#one!"><img src="assets/carousel1.jpg" alt="img1" /></a>
+            <a class="carousel-item" href="#one!"><img src="assets/carousel2.jpg" alt="img1" /></a>
+            <a class="carousel-item" href="#one!"><img src="assets/carousel3.jpg" alt="img1" /></a>
+            <a class="carousel-item" href="#one!"><img src="assets/carousel4.jpg" alt="img1" /></a>
+            <a class="carousel-item" href="#one!"><img src="assets/carousel5.jpg" alt="img1" /></a>
+            <a class="carousel-item" href="#one!"><img src="assets/carousel6.jpg" alt="img1" /></a>
+            <a class="carousel-item" href="#one!"><img src="assets/carousel7.jpg" alt="img1" /></a>
+            <a class="carousel-item" href="#one!"><img src="assets/carousel8.jpg" alt="img1" /></a>
         </div>
     );
 };
