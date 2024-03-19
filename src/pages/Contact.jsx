@@ -1,11 +1,24 @@
+import ContactForm from '../components/ContactForm';
+import { useEffect } from "react"
 
 
-export default function Contact() {
-    return (
-        <>
-            Contact
-        </>
-
-
+function Contact() {
+    useEffect(() => {
+        const app = document.querySelector(".App");
+        app.style.overflowY = "hidden"
+        function handleResize() {
+            if (window.innerWidth / window.innerHeight > 1.5) {
+                app.style.overflowY = "visible"
+            }
+        }
+        window.onresize = handleResize
+        handleResize()
+    }, [])
+    return (<>
+        <ContactForm />
+    </>
     )
 }
+
+
+export default Contact
