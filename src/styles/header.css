@@ -1,0 +1,204 @@
+header {
+    width: 100vw;
+    height: 100px;
+    position: relative;
+}
+
+
+* {
+    /* border: 1px solid red; */
+}
+
+.header-content {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    z-index: 1;
+}
+
+.header-black {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-shadow: inset 0 0 120px 12px black;
+    z-index: 1;
+}
+
+.cic-logo {
+    position: absolute;
+    left: 12px;
+    top: 0;
+    height: 200px;
+}
+
+.my-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem;
+    width: 40%;
+    align-items: center;
+    background-color: none !important;
+}
+
+
+.nav-btn-text {
+    display: inline-block;
+    position: relative;
+    font-size: 1.25rem;
+    color: var(--pink-text)
+}
+
+.nav-btn-text::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--pink-text);
+    transition: 0.25s ease;
+}
+
+.nav-btn-text:hover::after {
+    transition: 0.25s ease;
+    width: 100%;
+}
+
+
+
+.Link {
+    text-decoration: none;
+}
+
+
+.hamburger {
+    display: none;
+    width: 50px;
+    height: auto;
+    margin: 30px auto;
+}
+
+
+
+#hamburger-div {
+    width: 50px;
+    margin: 0 auto;
+    z-index: 1;
+    /* border: 1px solid black; */
+}
+
+.dropdown-hidden {
+    display: none;
+}
+
+.dropdown-visible {
+    display: block;
+}
+
+
+.dropbtn {
+    position: relative;
+    display: block;
+}
+
+.dropdown-content,
+.work-content {
+    position: absolute;
+    background: rgba(0, 0, 0, 1);
+    width: 200px;
+    min-height: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 15%;
+    border: 1px solid var(--pink-text);
+}
+
+.dropdown-content {
+    left: -75px;
+    animation: burger-drop 200ms ease-in-out
+}
+
+
+.burger-link {
+    display: block;
+}
+
+.burger-link-text {
+    display: block;
+    margin: 0.5em;
+    text-align: center;
+    color: transparent;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.work-link-text {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: var(--pink-text)
+}
+
+.workbtn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.work-content p {
+    opacity: 1;
+}
+
+.work-content {
+    margin-top: 56px;
+    cursor: default;
+    animation: work-drop 300ms ease-in-out;
+}
+
+@keyframes work-drop {
+    0% {
+        top: -400px
+    }
+
+    100% {
+        top: 0
+    }
+}
+
+@keyframes burger-drop {
+    0% {
+        top: -400px
+    }
+
+    100% {
+        top: 40px
+    }
+}
+
+@media screen and (max-width: 1520px) {
+
+    .work-content {
+        right: -12px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .hamburger {
+        display: block;
+    }
+
+    .header-content * {
+        display: none;
+    }
+
+    /* #hamburger-div {
+        border: none;
+    } */
+}

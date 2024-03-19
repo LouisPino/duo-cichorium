@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/assets/*"
+  to = "/unauthorized.html"
+  status = 403
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
