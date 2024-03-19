@@ -1,4 +1,5 @@
 import ContactForm from '../components/ContactForm';
+import MailList from '../components/MailList';
 import { useEffect } from "react"
 
 
@@ -16,6 +17,7 @@ function Contact() {
     }, [])
     return (<>
         <ContactForm />
+        <MailList />
     </>
     )
 }
