@@ -7,8 +7,10 @@ import About from "./pages/About";
 import Ensembles from "./pages/Ensembles";
 import Projects from "./components/Projects";
 import Press from "./pages/Press";
-import Media from "./pages/Media";
+import Works from "./pages/Works";
 import Contact from "./pages/Contact";
+import Tranzac from "./pages/Tranzac";
+import Sylvan from "./pages/Sylvan";
 function App() {
   return (
     <div className="App">
@@ -19,7 +21,9 @@ function App() {
         <Route exact path="/ensembles" element={<Ensembles />} />
         <Route exact path="/press" element={<Press />} />
         <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/media" element={<Media />} />
+        <Route exact path="/works" element={<Works />} />
+        <Route exact path="/the-sylvan-legacy" element={<Sylvan />} />
+        <Route exact path="/tranzac-residency" element={<Tranzac />} />
         <Route exact path="/percussion" element={<Projects category="percussion" />} />
         <Route exact path="/video-art" element={<Projects category="video art" />} />
         <Route exact path="/multimedia" element={<Projects category="multimedia" />} />

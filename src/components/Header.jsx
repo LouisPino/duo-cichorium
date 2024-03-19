@@ -45,14 +45,20 @@ function Header() {
                 </Link>
 
                 <div className="my-nav">
+                    <Link to="works">
+                        <p className="link nav-btn-text" onClick={linkClicked}>Works</p>
+                    </Link>
+                    <Link to="/tranzac-residency">
+                        <p className="link nav-btn-text" onClick={linkClicked}>TRANZAC Residency</p>
+                    </Link>
+                    <Link to="/the-sylvan-legacy">
+                        <p className="link nav-btn-text" onClick={linkClicked}>The Sylvan Legacy</p>
+                    </Link>
                     <Link to="/press">
                         <p className="link nav-btn-text" onClick={linkClicked}>Press</p>
                     </Link>
                     <Link to="/contact">
                         <p className="link nav-btn-text" onClick={linkClicked}>Contact</p>
-                    </Link>
-                    <Link to="media">
-                        <p className="link nav-btn-text" onClick={linkClicked}>Media</p>
                     </Link>
                     <div className='workbtn'>
                         {/* <p className="link nav-btn-text work">Work</p> */}

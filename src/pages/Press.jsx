@@ -3,7 +3,8 @@
 export default function Press() {
     return (
         <>
-            PRESS
+            PRESS-
+            Photos and reviews
         </>
 
 
