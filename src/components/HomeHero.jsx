@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import glow from "../scripts/glow.js"
 import { resetFrog, hop } from "../scripts/hop.js"
 import Carousel from "./Carousel.jsx"

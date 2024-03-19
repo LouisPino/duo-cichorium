@@ -28,5 +28,5 @@ export default function About() {
 
         :
 
-        <h1 className="loading-title"></h1>;
+        <h1 className="loading-title">Loading</h1>;
 }

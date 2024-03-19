@@ -5,7 +5,7 @@ export default function Panel({ title, img }) {
             <div className='panel-slide'>
                 <p className='panel-title here'>{title.toUpperCase()}</p>
             </div>
-            <img className="panel-img" src={img} />
+            <img className="panel-img" src={img} alt="img1" />
         </div >
     )
 }

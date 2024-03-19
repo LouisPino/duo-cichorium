@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css';
 
@@ -18,9 +18,9 @@ const Carousel = () => {
 
     return (
         <div className="carousel">
-            <a class="carousel-item" href="#one!"><img src="assets/DuoCichorium.jpg" /></a>
-            <a class="carousel-item" href="#two!"><img src="assets/Cic.jpg" /></a>
-            <a class="carousel-item" href="#three!"><img src="assets/Trevor.jpeg" /></a>
+            <a class="carousel-item" href="#one!"><img src="assets/DuoCichorium.jpg" alt="img1" /></a>
+            <a class="carousel-item" href="#two!"><img src="assets/Cic.jpg" alt="img2" /></a>
+            <a class="carousel-item" href="#three!"><img src="assets/Trevor.jpeg" alt="img3" /></a>
         </div>
     );
 };

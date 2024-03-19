@@ -1,4 +1,4 @@
-[[redirects]]
+nb[[redirects]]
   from = "/assets/*"
   to = "/unauthorized.html"
   status = 403

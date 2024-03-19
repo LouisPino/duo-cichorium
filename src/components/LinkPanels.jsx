@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import Panel from "./Panel.jsx"
-import { useEffect, useState } from "react";
 
 function LinkPanels() {
     return (

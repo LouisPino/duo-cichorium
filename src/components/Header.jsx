@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "../styles/header.css"
 import resizeScroll from "../scripts/scrollbar.js"
@@ -41,7 +41,7 @@ function Header() {
             <div id="scrollpath"></div>
             <div className="header-content">
                 <Link className="Link" to="/">
-                    <img className="cic-logo" src="assets/CicLogo.jpg"></img>
+                    <img className="cic-logo" src="assets/CicLogo.jpg" alt="img1"></img>
                 </Link>
 
                 <div className="my-nav">
@@ -76,7 +76,7 @@ function Header() {
 
 
             <div className="dropbtn" id="hamburger-div">
-                <img className="hamburger" src="/assets/burger.png" />
+                <img className="hamburger" src="/assets/burger.png" alt="img1" />
                 <div className={burgerDrop ? 'dropdown-visible dropdown-content' : 'dropdown-hidden dropdown-content'}>
                     <Link to="/" className="burger-link" onClick={linkClicked}>
                         <p className="burger-link-text link">Home</p>
