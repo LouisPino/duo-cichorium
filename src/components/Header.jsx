@@ -66,9 +66,9 @@ function Header() {
                     <div className='workbtn'>
                         {/* <p className="link nav-btn-text work">Work</p> */}
                         {workDrop && <div className="work-content">
-                            <Link to="/tranzac-residency">
+                            {/* <Link to="/tranzac-residency">
                                 <p className="link nav-btn-text" onClick={linkClicked}>TRANZAC Residency</p>
-                            </Link>
+                            </Link> */}
                             <Link to="/video-art">
                                 <p className="link work-link-text" onClick={linkClicked}>Video Art</p>
                             </Link>
@@ -94,9 +94,9 @@ function Header() {
                     <Link to="/works">
                         <p className="link burger-link-text" onClick={linkClicked}>Works</p>
                     </Link>
-                    <Link to="/tranzac-residency" className="burger-link" onClick={linkClicked}>
+                    {/* <Link to="/tranzac-residency" className="burger-link" onClick={linkClicked}>
                         <p className="burger-link-text link">TRANZAC Residency</p>
-                    </Link>
+                    </Link> */}
                     <Link to="/the-sylvan-legacy">
                         <p className="link burger-link-text" onClick={linkClicked}>The Sylvan Legacy</p>
                     </Link>

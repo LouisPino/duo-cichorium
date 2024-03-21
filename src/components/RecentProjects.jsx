@@ -26,16 +26,15 @@ function RecentProjects({ category }) {
                 return <ProjectCard title={project.name} shortDesc={project.shortDesc} img={project.img} />
             }
         })
-        console.log(projectCards)
-        return (<>
-            <PageTitle page={category.toUpperCase()} />
-            <div className="project-cards-ctr">
-                {projectCards}
-            </div>
-        </>
+        return (
+            <>
+                <PageTitle page={category} />
+                <div className="project-cards-ctr">
+                    {projectCards}
+                </div>
+            </>
         )
     }
-
 }
 
 export default RecentProjects;

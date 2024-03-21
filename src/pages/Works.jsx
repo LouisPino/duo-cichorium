@@ -20,11 +20,12 @@ export default function Works() {
         const projectCards = projects.map((project) => {
             return <ProjectCard title={project.name} shortDesc={project.shortDesc} img={project.img} />
         })
-        console.log(projectCards)
-        return (
+        return (<>
+            <PageTitle page={"Repertoire"} />
             <div className="project-cards-ctr">
                 {projectCards}
             </div>
+        </>
         )
     }
 }

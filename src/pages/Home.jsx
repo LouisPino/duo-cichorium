@@ -9,7 +9,7 @@ export default function Home() {
         <>
             <HomeHero />
             <hr />
-            <RecentProjects category="recent" />
+            <RecentProjects category="Featured Work" />
         </>
     )
 }
