@@ -1,0 +1,14 @@
+.press-photos-ctr {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    justify-content: space-around;
+    margin: 0 auto
+}
+
+.press-photo {
+    margin: 4px;
+    width: 40vw;
+    height: auto;
+    object-fit: contain;
+}

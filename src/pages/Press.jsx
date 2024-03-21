@@ -1,10 +1,11 @@
-
+import Quotes from "../components/Quotes"
+import PressPhotos from "../components/PressPhotos"
 
 export default function Press() {
     return (
         <>
-            PRESS-
-            Photos and reviews
+            <Quotes />
+            <PressPhotos />
         </>
 
 
