@@ -68,7 +68,7 @@ const ContactForm = () => {
                         name="button"
                         className="button"
                     >
-                        SEND A MESSAGE
+                        Send message
                     </button>
                 </div>
             </form >

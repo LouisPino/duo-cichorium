@@ -28,7 +28,7 @@ function HomeHero() {
                 <div className="jaz-gif-bg"></div>
                 <img id="jaz-gif" src="assets/DuoCichorium.jpg" />
             </div> */}
-            <button><Link to="/about">Learn More</Link></button>
+            <Link className="Link" to="/about"><button className="button margin-auto center-text">Learn More</button></Link>
         </section >
     );
 

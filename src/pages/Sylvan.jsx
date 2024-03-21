@@ -3,7 +3,7 @@
 export default function Sylvan() {
     return (
         <>
-            Where we update our progress on the piece
+            <h4 className="center-text">Stay tuned for updates on our upcoming audience interactive Choose-Your-Own-Adventure piece!</h4>
         </>
 
 
