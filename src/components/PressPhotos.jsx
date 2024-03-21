@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import PageTitle from "../components/PageTitle"
 import { useState } from "react";
 import "../styles/press.css"
 
@@ -26,6 +27,8 @@ const PressPhotos = () => {
                 {images}
             </div>
         );
-    };
+    } else {
+        return <PageTitle page={"Loading"} />
+    }
 }
 export default PressPhotos;
