@@ -102,6 +102,28 @@ hr:after {
     text-align: center;
 }
 
+.contact-form-ctr {
+    width: 75vw;
+    margin: 0 auto;
+    border-radius: 24px;
+    border: 1px solid white;
+    padding: 16px;
+}
+
+.mail-form-ctr {
+    width: 380px;
+}
+
+form {
+    background-color: var(--pink-text);
+    border-radius: 12px;
+    padding: 16px;
+}
+
+label {
+    color: var(--gray-bg);
+}
+
 
 @media screen and (max-width: 700px) {
     .hero {

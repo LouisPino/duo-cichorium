@@ -23,7 +23,6 @@ export default function About() {
             <p className="bio">
                 <span className="here bio-name">{about.name}</span>{about.bio}
             </p>
-            <a href="./assets/Jasmine_Tsui_CV_2024.pdf" target="_blank"> <button className="cv-btn">Download CV</button></a>
         </div>
 
         :

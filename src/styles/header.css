@@ -2,6 +2,8 @@ header {
     width: 100vw;
     height: 100px;
     position: relative;
+    background-color: var(--pink-text);
+
 }
 
 
@@ -31,9 +33,9 @@ header {
 
 .cic-logo {
     position: absolute;
-    left: 12px;
+    left: 0;
     top: 0;
-    height: 200px;
+    height: 100px;
 }
 
 .my-nav {
@@ -43,6 +45,7 @@ header {
     width: 60%;
     align-items: center;
     background-color: none !important;
+
 }
 
 
@@ -51,7 +54,7 @@ header {
     position: relative;
     text-align: center;
     font-size: 1.25rem;
-    color: var(--pink-text);
+    color: var(--gray-bg);
     margin-right: 8px;
 }
 
@@ -70,8 +73,6 @@ header {
     transition: 0.25s ease;
     width: 100%;
 }
-
-
 
 .Link {
     text-decoration: none;

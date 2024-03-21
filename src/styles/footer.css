@@ -26,7 +26,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* position: absolute; */
     z-index: 2;
 }
 
@@ -34,10 +33,25 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 8px;
 }
 
+input {
+    color: var(--gray-bg);
+}
 
-#mc_embed_signup_scroll {
-    position: relative;
-    /* border: 1px solid red; */
+input::placeholder {
+    color: var(--gray-bg);
+}
+
+button {
+    background-color: var(--gray-bg);
+    color: var(--pink-text);
+    border-radius: 12px;
+    border: 1px solid white;
+    padding: 4px 8px;
+}
+
+.subscribe-text {
+    color: var(--gray-bg);
 }

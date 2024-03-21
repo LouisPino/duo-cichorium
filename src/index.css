@@ -19,3 +19,7 @@ code {
   --gray-bg: #16183a;
   --pink-text: #bac1e2;
 }
+
+.center-text {
+  text-align: center;
+}

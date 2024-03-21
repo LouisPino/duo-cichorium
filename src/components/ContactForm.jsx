@@ -28,49 +28,54 @@ const ContactForm = () => {
         );
     }
 
-    return (
-        <form name="contact" data-netlify="true" onSubmit={handleSubmit}>
-            <input type="hidden" name="form-name" value="contact" />
-            <div className="form-field">
-                <label>NAME</label>
+    return (<>
+        <h1 className="center-text">Send us an email!</h1>
+        <div className="contact-form-ctr">
+            <form name="contact" className="contact-form" data-netlify="true" onSubmit={handleSubmit}>
+                <input type="hidden" name="form-name" value="contact" />
+                <div className="form-field">
+                    <label>NAME</label>
 
-                <input
-                    type="text"
-                    name="name"
-                    className="text-input"
-                    required
-                />
-            </div>
-            <div className="form-field">
-                <label>EMAIL</label>
+                    <input
+                        type="text"
+                        name="name"
+                        className="text-input"
+                        required
+                    />
+                </div>
+                <div className="form-field">
+                    <label>EMAIL</label>
 
-                <input
-                    type="email"
-                    name="email"
-                    className="text-input"
-                    required
-                />
-            </div>
-            <div className="form-field">
-                <label>MESSAGE</label>
+                    <input
+                        type="email"
+                        name="email"
+                        className="text-input"
+                        required
+                    />
+                </div>
+                <div className="form-field">
+                    <label>MESSAGE</label>
 
-                <textarea
-                    name="message"
-                    className=""
-                    required
-                />
-            </div>
-            <div className="">
-                <button
-                    type="submit"
-                    name="button"
-                    className="btn"
-                >
-                    SEND A MESSAGE
-                </button>
-            </div>
-        </form>
+                    <textarea
+                        name="message"
+                        className=""
+                        required
+                    />
+                </div>
+                <div className="">
+                    <button
+                        type="submit"
+                        name="button"
+                        className="button"
+                    >
+                        SEND A MESSAGE
+                    </button>
+                </div>
+            </form >
+        </div>
+    </>
     );
 };
+
 
 export default ContactForm;
