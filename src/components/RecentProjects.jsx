@@ -23,7 +23,7 @@ function RecentProjects({ category }) {
     if (projects?.length) {
         const projectCards = projects.map((project) => {
             if (project.feature) {
-                return <ProjectCard title={project.name} shortDesc={project.shortDesc} img={project.img} />
+                return <ProjectCard project={project} />
             }
         })
         return (

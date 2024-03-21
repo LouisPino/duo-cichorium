@@ -18,7 +18,7 @@ export default function Works() {
         return <PageTitle page={"Loading"} />;
     } else {
         const projectCards = projects.map((project) => {
-            return <ProjectCard title={project.name} shortDesc={project.shortDesc} img={project.img} />
+            return <ProjectCard project={project} />
         })
         return (<>
             <PageTitle page={"Repertoire"} />

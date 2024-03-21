@@ -49,7 +49,7 @@ function Header() {
                         <p className="link nav-btn-text" onClick={linkClicked}>About</p>
                     </Link>
                     <Link to="/works">
-                        <p className="link nav-btn-text" onClick={linkClicked}>Works</p>
+                        <p className="link nav-btn-text" onClick={linkClicked}>Repertoire</p>
                     </Link>
                     {/* <Link to="/tranzac-residency">
                         <p className="link nav-btn-text" onClick={linkClicked}>TRANZAC Residency</p>
@@ -92,7 +92,7 @@ function Header() {
                         <p className="burger-link-text link">Home</p>
                     </Link>
                     <Link to="/works">
-                        <p className="link burger-link-text" onClick={linkClicked}>Works</p>
+                        <p className="link burger-link-text" onClick={linkClicked}>Repertoire</p>
                     </Link>
                     {/* <Link to="/tranzac-residency" className="burger-link" onClick={linkClicked}>
                         <p className="burger-link-text link">TRANZAC Residency</p>

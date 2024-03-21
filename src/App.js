@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Ensembles from "./pages/Ensembles";
-import Projects from "./components/Projects";
+import Project from "./pages/Project";
 import Press from "./pages/Press";
 import Works from "./pages/Works";
 import Contact from "./pages/Contact";
@@ -24,10 +24,14 @@ function App() {
         <Route exact path="/works" element={<Works />} />
         <Route exact path="/the-sylvan-legacy" element={<Sylvan />} />
         <Route exact path="/tranzac-residency" element={<Tranzac />} />
-        <Route exact path="/percussion" element={<Projects category="percussion" />} />
-        <Route exact path="/video-art" element={<Projects category="video art" />} />
-        <Route exact path="/multimedia" element={<Projects category="multimedia" />} />
-        <Route exact path="/compositions" element={<Projects category="compositions" />} />
+        <Route path="/works/Anticommunication" element={<Project url="Anticommunication" />} />
+        <Route path="/works/Elemental" element={<Project url="Elemental" />} />
+        <Route path="/works/Letter" element={<Project url="Letter" />} />
+        <Route path="/works/Damage" element={<Project url="Damage" />} />
+        <Route path="/works/Ritual" element={<Project url="Ritual" />} />
+        <Route path="/works/Grains" element={<Project url="Grains" />} />
+        <Route path="/works/Fours" element={<Project url="Fours" />} />
+        <Route path="/works/Dreams" element={<Project url="Dreams" />} />
       </Routes>
       <Footer />
     </div>
