@@ -24,14 +24,14 @@ function App() {
         <Route exact path="/works" element={<Works />} />
         <Route exact path="/the-sylvan-legacy" element={<Sylvan />} />
         <Route exact path="/tranzac-residency" element={<Tranzac />} />
-        <Route path="/works/Anticommunication" element={<Project url="Anticommunication" />} />
-        <Route path="/works/Elemental" element={<Project url="Elemental" />} />
-        <Route path="/works/Letter" element={<Project url="Letter" />} />
-        <Route path="/works/Damage" element={<Project url="Damage" />} />
-        <Route path="/works/Ritual" element={<Project url="Ritual" />} />
-        <Route path="/works/Grains" element={<Project url="Grains" />} />
-        <Route path="/works/Fours" element={<Project url="Fours" />} />
-        <Route path="/works/Dreams" element={<Project url="Dreams" />} />
+        <Route path="/Anticommunication" element={<Project url="Anticommunication" />} />
+        <Route path="/Elemental" element={<Project url="Elemental" />} />
+        <Route path="/Letter" element={<Project url="Letter" />} />
+        <Route path="/Damage" element={<Project url="Damage" />} />
+        <Route path="/Ritual" element={<Project url="Ritual" />} />
+        <Route path="/Grains" element={<Project url="Grains" />} />
+        <Route path="/Fours" element={<Project url="Fours" />} />
+        <Route path="/Dreams" element={<Project url="Dreams" />} />
       </Routes>
       <Footer />
     </div>
