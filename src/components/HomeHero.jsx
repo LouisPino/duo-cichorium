@@ -24,10 +24,6 @@ function HomeHero() {
             <Carousel />
 
             <p className="bio">Duo Cichorium is comprised of interdisciplinary artists Jasmine Tsui and Louis Pino. Like the Chicory plant, the two performers are not native to Ontario, but have taken root in the environment of Toronto following their tertiary education.</p>
-            {/* <div className="hero-right">
-                <div className="jaz-gif-bg"></div>
-                <img id="jaz-gif" src="assets/DuoCichorium.jpg" />
-            </div> */}
             <Link className="Link" to="/about"><button className="button margin-auto center-text">Learn More</button></Link>
         </section >
     );

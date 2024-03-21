@@ -2,23 +2,9 @@
   /* border: 1px solid red; */
 }
 
-.project-category {
-  font-size: 4rem;
-  text-align: center;
-  margin: 0;
-}
-
-.projects-body {
-  margin: 0 auto;
-  position: relative;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .project-card {
-  width: 35%;
-  margin: 50px auto;
+  width: 25%;
+  margin: 8px 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,6 +12,20 @@
   border-radius: 16px;
   border: 1px solid var(--pink-text);
   padding: 16px;
+  background-color: var(--pink-text);
+  color: var(--gray-bg);
+}
+
+.project-cards-ctr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-card>img {
+  width: 80%;
+  max-height: 60%;
+  object-fit: contain;
 }
 
 
