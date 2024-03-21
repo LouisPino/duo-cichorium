@@ -26,15 +26,14 @@
 } */
 
 .carousel {
-    min-width: 100vw;
-    min-height: 1000px;
+    min-height: 56vw;
     /* border: 1px solid red; */
-    margin-top: -20vw;
 }
 
 .carousel-item {
-    min-width: 70vw;
-    /* border: 1px solid red; */
+    min-width: 100vw;
+    min-height: 56vw;
+    border: 1px solid red;
 
 }
 
