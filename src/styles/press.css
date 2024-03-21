@@ -12,3 +12,12 @@
     height: auto;
     object-fit: contain;
 }
+
+.quotes-ctr {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.author {
+    font-style: italic;
+}
