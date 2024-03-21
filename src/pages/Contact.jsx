@@ -17,7 +17,6 @@ function Contact() {
     }, [])
     return (<>
         <ContactForm />
-        <MailList />
     </>
     )
 }

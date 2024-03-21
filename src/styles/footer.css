@@ -6,7 +6,6 @@
 }
 
 .socials-ctr img:hover {
-    animation: animate 5s infinte;
     filter: invert(100%);
     transition: 200ms;
 }
@@ -27,7 +26,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
+    /* position: absolute; */
     z-index: 2;
 }
 
@@ -35,4 +34,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+
+#mc_embed_signup_scroll {
+    position: relative;
+    /* border: 1px solid red; */
 }
