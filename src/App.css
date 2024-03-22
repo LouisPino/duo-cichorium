@@ -47,6 +47,9 @@ button:focus {
   color: white !important;
 }
 
+.italic {
+  font-style: italic;
+}
 
 input {
   color: var(--gray-bg);
@@ -243,9 +246,6 @@ h2 {
     margin-top: 70px;
   }
 
-  .mobile-only {
-    display: block;
-  }
 
   #about-bio {
     width: 75%;
@@ -268,4 +268,9 @@ h2 {
   input {
     font-size: .8rem;
   }
+
+  .mobile-only {
+    display: block;
+  }
+
 }

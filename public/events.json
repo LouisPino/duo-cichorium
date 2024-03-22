@@ -11,9 +11,46 @@
       "title": ""
     },
     "photos": [],
-    "desc": "",
-    "program": "",
-    "recording_url": "",
+    "desc": "Our debut concert, ELEMENTAL, for The Music Gallery's You In Mind series. The first half of the program features works by Matthew Shlomovitz, Pauline Oliveros, Julia Mermelstein, and Nolan Hildebrand. The second half featured our epic multimedia tribute to the four elements of nature, the Elemental Suite.",
+    "program": [
+      {
+        "title": "Letter Piece #1-A",
+        "composer": "Matthew Shlomovitz",
+        "url": "Letter"
+      },
+      {
+        "title": "All Fours for the Drum Bum",
+        "composer": "Pauline Oliveros arr. Duo Cichorium",
+        "url": "Fours"
+      },
+      {
+        "title": "out of grains, into clouds",
+        "composer": "Julia Mermelstein",
+        "url": "Grains"
+      },
+      {
+        "title": "Noise Ritual",
+        "composer": "Nolan Hildebrand",
+        "guests": "Nolan Hildebrand",
+        "url": "Ritual"
+      },
+      {
+        "title": "Letter Piece #1-B",
+        "composer": "Matthew Shlomovitz",
+        "url": "Letter"
+      },
+      {
+        "title": "Intermission",
+        "composer": "",
+        "url": ""
+      },
+      {
+        "title": "Elemental Suite",
+        "composer": "Duo Cichorium",
+        "url": "Elemental"
+      }
+    ],
+    "recording_url": "https://www.youtube.com/embed/NKh6lITs_rk",
     "url": "ElementalConcert",
     "shortDesc": "Our debut concert, ELEMENTAL, for The Music Gallery's You In Mind series. The first half of the program features works by Matthew Shlomovitz, Pauline Oliveros, Julia Mermelstein, and Nolan Hildebrand. The second half featured our epic multimedia tribute to the four elements of nature, the Elemental Suite."
   },
@@ -23,16 +60,60 @@
     "title": "Behaviours: Play",
     "organizer": "ArrayMusic",
     "series": "Behaviours",
+    "program": [
+      {
+        "title": "Anticommunication",
+        "composer": "Jet Kye Chong",
+        "url": "Anticommunication"
+      },
+      {
+        "title": "Desiderium",
+        "composer": "Duo Cichorium",
+        "url": "Elemental"
+      },
+      {
+        "title": "Feedback Dreams",
+        "composer": "Duo Cichorium",
+        "url": "Dreams"
+      },
+      {
+        "title": "Noise Ritual",
+        "composer": "Duo Cichorium",
+        "url": "SpeedRun"
+      },
+      {
+        "title": "Letter Piece #1-B",
+        "composer": "Matthew Shlomovitz",
+        "url": "Letter"
+      }
+    ],
     "photo": {
       "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046648/cichorium/carousel/carousel5_lkpxki.jpg",
       "credit": "",
       "title": ""
     },
     "photos": [],
-    "desc": "",
-    "program": "",
-    "recording_url": "",
+    "desc": "In February of 2024, we performed a program designed around the idea of play for ArrayMusic's Behaviours series. In this program we debuted our performance of Jet Kye Chong's Anticommunication, as well as two new compositions, Feedback Dreams and 0% Any Damage Reverse Glitch Speed Run.",
+    "recording_url": "https://www.youtube.com/embed/qOQ3z_GgknQ",
     "url": "Behaviours",
     "shortDesc": "In February of 2024, we performed a program designed around the idea of play for ArrayMusic's Behaviours series. In this program we debuted our performance of Jet Kye Chong's Anticommunication, as well as two new compositions, Feedback Dreams and 0% Any Damage Reverse Glitch Speed Run "
+  },
+  {
+    "location": "The Bridge, Toronto",
+    "date": "May 4th, 2024",
+    "title": "Horse Idoling Zone",
+    "organizer": "PonyHAUS",
+    "series": "",
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711141609/Screenshot_2024-03-22_170631_bwiee0.png",
+      "credit": "",
+      "title": ""
+    },
+    "photos": [],
+    "desc": "We'll be playing a set at the next PonyHAUS show, Horse Idoling Zone! This show is a triple bill with G.A.G. and Daniel Tapper. Not much to talk about here...it hasn't happened yet!",
+    "program": [],
+    "recording_url": "",
+    "url": "PonyHAUS",
+    "shortDesc": "We'll be playing a set at the next PonyHAUS show! This show is a triple bill with G.A.G. and Daniel Tapper."
   }
 ]

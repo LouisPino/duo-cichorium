@@ -28,6 +28,9 @@ export default function Events() {
 
         <div className="events-body">
             <Photo photo={photo} />
+            <PageTitle page="Upcoming" />
+            <Event event={events[2]} />
+            <PageTitle page="Previous" />
             <Event event={events[1]} />
             <Event event={events[0]} />
         </div>

@@ -53,9 +53,9 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                     {/* <Link to="/tranzac-residency">
                         <p className="link nav-btn-text" onClick={linkClicked}>TRANZAC Residency</p>
                     </Link> */}
-                    <Link to="/the-sylvan-legacy">
+                    {/* <Link to="/the-sylvan-legacy">
                         <p className="link nav-btn-text" onClick={linkClicked}>The Sylvan Legacy</p>
-                    </Link>
+                    </Link> */}
                     <Link to="/events">
                         <p className="link nav-btn-text" onClick={linkClicked}>Events</p>
                     </Link>
@@ -102,9 +102,9 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                     {/* <Link to="/tranzac-residency" className="burger-link" onClick={linkClicked}>
                         <p className="burger-link-text link">TRANZAC Residency</p>
                     </Link> */}
-                    <Link to="/the-sylvan-legacy">
+                    {/* <Link to="/the-sylvan-legacy">
                         <p className="link burger-link-text" onClick={linkClicked}>The Sylvan Legacy</p>
-                    </Link>
+                    </Link> */}
                     <Link to="/events">
                         <p className="link burger-link-text" onClick={linkClicked}>Events</p>
                     </Link>

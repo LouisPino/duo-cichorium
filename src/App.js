@@ -12,6 +12,7 @@ import Contact from "./pages/Contact";
 import Tranzac from "./pages/Tranzac";
 import Events from "./pages/Events";
 import Sylvan from "./pages/Sylvan";
+import EventPage from "./pages/EventPage";
 function App() {
   const [burgerDrop, setBurgerDrop] = useState(false)
   const [workDrop, setWorkDrop] = useState(false)
@@ -40,6 +41,9 @@ function App() {
         <Route path="/Grains" element={<Project url="Grains" />} />
         <Route path="/Fours" element={<Project url="Fours" />} />
         <Route path="/Dreams" element={<Project url="Dreams" />} />
+        <Route path="/ElementalConcert" element={<EventPage url="ElementalConcert" />} />
+        <Route path="/Behaviours" element={<EventPage url="Behaviours" />} />
+        <Route path="/PonyHAUS" element={<EventPage url="PonyHAUS" />} />
       </Routes>
       <Footer />
     </div>
