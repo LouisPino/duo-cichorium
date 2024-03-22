@@ -73,6 +73,11 @@ header {
     width: 100%;
 }
 
+.nav-btn-text:hover {
+    transition: 0.25s ease;
+    width: 100%;
+}
+
 .Link {
     text-decoration: none;
     text-align: center;

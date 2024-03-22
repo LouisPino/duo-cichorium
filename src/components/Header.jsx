@@ -60,7 +60,7 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                         <p className="link nav-btn-text" onClick={linkClicked}>Events</p>
                     </Link>
                     <div className='workbtn'>
-                        <p className="nav-btn-text">Current Projects</p>
+                        <p className="nav-btn-text link">Current Projects</p>
                         {workDrop && <div className="work-content">
                             {/* <Link to="/tranzac-residency">
                                 <p className="link nav-btn-text" onClick={linkClicked}>TRANZAC Residency</p>
