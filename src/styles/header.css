@@ -3,7 +3,6 @@ header {
     height: 100px;
     position: relative;
     background-color: var(--pink-text);
-
 }
 
 
@@ -82,18 +81,21 @@ header {
 
 .hamburger {
     display: none;
-    width: 50px;
+    width: 24px;
     height: auto;
-    margin: 30px auto;
+    margin: 8px;
+    position: absolute;
+    right: 0;
+
 }
 
-
-
 #hamburger-div {
-    width: 50px;
+    position: absolute;
     margin: 0 auto;
     z-index: 1;
-    /* border: 1px solid black; */
+    right: 0;
+    /* border: 1px solid red; */
+    width: 100%;
 }
 
 .dropdown-hidden {
@@ -122,7 +124,7 @@ header {
 }
 
 .my-dropdown-content {
-    left: -75px;
+    margin: auto;
     animation: burger-drop 200ms ease-in-out
 }
 
@@ -196,13 +198,15 @@ header {
 @media screen and (max-width: 700px) {
     .hamburger {
         display: block;
+
     }
 
     .header-content * {
         display: none;
     }
 
-    /* #hamburger-div {
-        border: none;
-    } */
+    header {
+        background-color: transparent;
+        height: 0px;
+    }
 }

@@ -4,27 +4,6 @@
     width: 100%;
 }
 
-/* 
-#jaz-gif {
-    width: 60%;
-    aspect-ratio: 1 / 1;
-    border-radius: 50%;
-    margin-left: 10%;
-    object-fit: cover;
-} */
-
-/* .jaz-gif-bg {
-    position: absolute;
-    width: 30%;
-    margin-left: 5%;
-    aspect-ratio: 1/1;
-    border-radius: 50%;
-    animation: animate 8s linear infinite;
-    color: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
-    box-shadow: 0px 0px 30px 10px;
-    pointer-events: none;
-} */
-
 .carousel {
     min-height: 56vw;
     /* border: 1px solid red; */
@@ -62,71 +41,10 @@
 }
 
 
-/* 
-
-.tagline h2 {
-    text-align: center;
-    font-size: 5rem;
-} */
-/* 
-.panels {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-    justify-content: center;
-} */
-/* 
-.panel {
-    position: relative;
-    justify-content: center;
-    margin: 0 5px;
-    overflow: hidden;
-} */
-/* 
-.panel-slide {
-    background: linear-gradient(#191919, #9198e5);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: -100%;
-    transition: 200ms;
-}
-
-.panel:hover .panel-slide {
-    top: 0 !important;
-}
-
-.panel-title {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    top: 33%;
-    font-size: 3vw;
-    font-weight: 900;
-}
-
-.panel-img {
-    width: 100%;
-}
-
-.link-comp {
-    width: 40%;
-} */
-
 hr {
     width: 85%;
     margin-top: 32px;
 }
-
-/* hr:after {
-    content: "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ";
-    letter-spacing: 2px;
-    font-weight: 900;
-    font-size: large;
-    text-wrap: nowrap;
-    overflow: hidden;
-    text-align: center;
-} */
 
 .contact-form-ctr {
     width: 75vw;
@@ -153,67 +71,12 @@ label {
 
 @media screen and (max-width: 700px) {
     .hero {
-        flex-direction: column-reverse;
-        align-items: center;
+        justify-content: start;
     }
 
-    #jaz-gif {
-        width: 80vw;
-        margin: 0 auto;
+    .carousel {
+        max-height: 30px;
     }
 
-    .jaz-gif-bg {
-        width: 80vw;
-        margin-left: 10%;
-    }
-
-    .tagline h2 {
-        font-size: 3rem;
-        animation: animate 5s linear infinite;
-    }
-
-    #loud {
-
-        animation: animate 10s linear infinite;
-    }
-
-    .hero-right {
-        width: 100%;
-    }
-
-    .tagline {
-        flex-direction: row;
-        width: 90%;
-        /* display: none; */
-    }
-
-    hr {
-        display: none;
-    }
-
-    .panels {
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-    }
-
-    .panel-title {
-        font-size: 8vw;
-        margin-top: 30%;
-    }
-
-    .panel {
-        width: 80vw;
-        margin: 0;
-    }
-
-    .panel-slide {
-        top: 0 !important;
-        background: linear-gradient(#19191938, #000b8638);
-    }
-
-    .link-comp {
-        width: 80vw;
-    }
 
 }
