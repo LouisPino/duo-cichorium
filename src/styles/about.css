@@ -7,6 +7,10 @@
     width: 25vw;
 }
 
+.bio-body .press-photo {
+    margin: 0;
+}
+
 .bio-name {
     font-size: 3rem;
 }
