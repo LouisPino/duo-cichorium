@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import PageTitle from "../components/PageTitle"
+import Photo from "../components/Photo"
 import { useState } from "react";
 import "../styles/press.css"
 
@@ -18,8 +19,8 @@ const PressPhotos = () => {
 
 
     if (about) {
-        const images = about.photos.map((src) => {
-            return <img className="press-photo" src={src} />
+        const images = about.photos.map((photo) => {
+            return <Photo photo={photo} />
         })
 
         return (

@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
+import Photo from "./Photo"
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css';
 
@@ -53,15 +54,51 @@ const Carousel = () => {
         };
     }, [carouselIdx]); // Ensure carouselIdx is captured correctly
 
+
+    const carouselPhotos = [
+        {
+            url: "https://res.cloudinary.com/dsvcyich1/image/upload/c_fill,w_2000,h_1125,ar_16:9/v1711046650/cichorium/carousel/carousel3_u9jjjo.jpg", credit: "ArrayMusic, Feb. 8, 2024",
+            title: "Feedback Dreams"
+        },
+        {
+            url: "https://res.cloudinary.com/dsvcyich1/image/upload/c_fill,w_2000,h_1125,ar_16:9/v1711046652/cichorium/carousel/carousel7_veufl2.jpg", credit: "Thomas Li",
+            title: "Cichorium Gothic"
+        },
+        {
+            url: "https://res.cloudinary.com/dsvcyich1/image/upload/c_fill,w_2000,h_1125,ar_16:9/v1711046648/cichorium/carousel/carousel5_lkpxki.jpg", credit: "ArrayMusic, Feb. 8, 2024",
+            title: "Desiderium"
+        },
+        {
+            url: "https://res.cloudinary.com/dsvcyich1/image/upload/c_fill,w_2000,h_1125,ar_16:9/v1711046170/cichorium/carousel/carousel4_zv4zqs.jpg", credit: "June 16, 2023",
+            title: "Matchbox Ritual"
+        },
+        {
+            url: "https://res.cloudinary.com/dsvcyich1/image/upload/c_fill,w_2000,h_1125,ar_16:9/v1711046165/cichorium/carousel/carousel6_wn4rrn.jpg", credit: "Thomas Li",
+            title: ""
+        },
+        {
+            url: "https://res.cloudinary.com/dsvcyich1/image/upload/c_fill,w_2000,h_1125,ar_16:9/v1711046166/cichorium/carousel/carousel8_snxrpz.jpg", credit: "Music Gallery, June 16, 2023",
+            title: "Desiderium"
+        },
+        {
+            url: "https://res.cloudinary.com/dsvcyich1/image/upload/c_fill,w_2000,h_1125,ar_16:9/v1711046168/cichorium/carousel/carousel2_ymyfen.jpg", credit: "Music Gallery, June 16, 2023",
+            title: "Letter Piece"
+        }
+    ]
+
+
+
+    const carouselComponents = carouselPhotos.map((photo) => {
+        return <Photo carousel={true} photo={photo} />
+    })
+
+
+
+
+
     return (
         <div className="carousel">
-            <a class="carousel-item"><img src="https://res.cloudinary.com/dsvcyich1/image/upload/c_fill,w_2000,h_1125,ar_16:9/v1711046650/cichorium/carousel/carousel3_u9jjjo.jpg" alt="img1" /></a>
-            <a class="carousel-item"><img src="https://res.cloudinary.com/dsvcyich1/image/upload/c_fill,w_2000,h_1125,ar_16:9/v1711046652/cichorium/carousel/carousel7_veufl2.jpg" alt="img1" /></a>
-            <a class="carousel-item"><img src="https://res.cloudinary.com/dsvcyich1/image/upload/c_fill,w_2000,h_1125,ar_16:9/v1711046648/cichorium/carousel/carousel5_lkpxki.jpg" alt="img1" /></a>
-            <a class="carousel-item"><img src="https://res.cloudinary.com/dsvcyich1/image/upload/c_fill,w_2000,h_1125,ar_16:9/v1711046170/cichorium/carousel/carousel4_zv4zqs.jpg" alt="img1" /></a>
-            <a class="carousel-item"><img src="https://res.cloudinary.com/dsvcyich1/image/upload/c_fill,w_2000,h_1125,ar_16:9/v1711046165/cichorium/carousel/carousel6_wn4rrn.jpg" alt="img1" /></a>
-            <a class="carousel-item"><img src="https://res.cloudinary.com/dsvcyich1/image/upload/c_fill,w_2000,h_1125,ar_16:9/v1711046166/cichorium/carousel/carousel8_snxrpz.jpg" alt="img1" /></a>
-            <a class="carousel-item"><img src="https://res.cloudinary.com/dsvcyich1/image/upload/c_fill,w_2000,h_1125,ar_16:9/v1711046168/cichorium/carousel/carousel2_ymyfen.jpg" alt="img1" /></a>
+            {carouselComponents}
         </div>
 
 

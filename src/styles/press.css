@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     width: 90vw;
     justify-content: space-around;
+    align-items: end;
     margin: 0 auto
 }
 
@@ -13,6 +14,8 @@
     object-fit: contain;
 }
 
+.carousel-photo {}
+
 .quotes-ctr {
     width: 80vw;
     margin: 0 auto;
@@ -20,4 +23,21 @@
 
 .author {
     font-style: italic;
+}
+
+.img-ctr {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-credit {
+    position: absolute;
+    margin: 4px 4px;
+    bottom: 0;
+    /* width: 100%;
+    text-align: center; */
+    right: 0;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 0 4px;
 }
