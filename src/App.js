@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import { useState } from "react";
 import './App.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -11,11 +12,18 @@ import Contact from "./pages/Contact";
 import Tranzac from "./pages/Tranzac";
 import Sylvan from "./pages/Sylvan";
 function App() {
+  const [burgerDrop, setBurgerDrop] = useState(false)
+  const [workDrop, setWorkDrop] = useState(false)
+
+
+
+
+
   return (
     <div className="App">
-      <Header />
+      <Header burgerDrop={burgerDrop} setBurgerDrop={setBurgerDrop} workDrop={workDrop} setWorkDrop={setWorkDrop} />
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/" element={<Home burgerDrop={burgerDrop} setBurgerDrop={setBurgerDrop} workDrop={workDrop} setWorkDrop={setWorkDrop} />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/press" element={<Press />} />
         <Route exact path="/contact" element={<Contact />} />

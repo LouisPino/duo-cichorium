@@ -3,9 +3,8 @@ import { useEffect, useState } from "react";
 import "../styles/header.css"
 import resizeScroll from "../scripts/scrollbar.js"
 
-function Header() {
-    const [burgerDrop, setBurgerDrop] = useState(false)
-    const [workDrop, setWorkDrop] = useState(false)
+function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
+
 
     useEffect(() => {
         const hamburgerEl = document.getElementById("hamburger-div");
