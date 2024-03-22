@@ -11,7 +11,7 @@ const SecondaryVideos = ({ project }) => {
             <div className="secondary-iframe-ctr">
                 <iframe src={video.url} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-            <p>{video.caption}</p>
+            <p className="project-desc">{video.caption}</p>
         </>
         )
     })
