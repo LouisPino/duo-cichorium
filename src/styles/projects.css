@@ -53,6 +53,12 @@
   width: 100vw;
 }
 
+.secondary-iframe-ctr {
+  padding-bottom: 30%;
+  position: relative;
+  width: 50vw;
+}
+
 iframe {
   top: 0;
   left: 0;

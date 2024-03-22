@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import PageTitle from "../components/PageTitle";
+import SecondaryVideos from "../components/SecondaryVideos";
 import "../styles/about.css"
 export default function Project({ url }) {
     const [project, setProject] = useState(null);
@@ -24,6 +25,7 @@ export default function Project({ url }) {
                 <iframe src={project.mainvideo} title={project.name} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <p className="project-desc">{project.desc}</p>
+            {project.secondaryVideos && <SecondaryVideos project={project} />}
         </div>
     )
 }

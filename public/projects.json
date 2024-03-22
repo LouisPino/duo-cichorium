@@ -6,6 +6,12 @@
     "feature": true,
     "programText": "Poetry by Kevin King Hope",
     "mainvideo": "https://www.youtube.com/embed/83XIyVW5MeA",
+    "secondaryVideos": [
+      {
+        "url": "https://www.youtube.com/embed/jY9bbJ7wv40",
+        "caption": "Desiderium performed at ArrayMusic, February 8th, 2024"
+      }
+    ],
     "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711055704/cichorium/Screenshot_2024-03-21_171433_rztubh.png",
     "shortDesc": "An epic multimedia extravaganza paying tribute to the four elements of nature",
     "desc": "A four-movement music, art, and electronic extravaganza co-composed by Jaz Tsui and Louis Pino. Each movement utilizes customized electronic systems corresponding to a respective element of matter.\nMatchbox Ritual is a cyclical ritual between states of peace and chaos completed by two performers, both completing and beginning their journeys while briefly meeting in the middle. \nMorphogenesis features a handmade tree sculpture with custom projection art using OBS-based mapping; the sound and visuals reflect a sunset, a night storm, followed by the breaking of dawn. \nDesiderium uses DIY hydrophones, capturing the sounds of water and instruments within it; sounds are processed in Ableton Live, creating a soundscape that explores island caves, a vibrant shore, and the depths of the ocean. \nScintillation combines the MUGIC motion sensor, Arduino, and Max, to allow the performers to control the wind (electronic fans) to activate several sets of windchimes — an aleatoric soundscape evoking a spring day in a breezy field."
