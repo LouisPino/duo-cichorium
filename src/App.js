@@ -10,6 +10,7 @@ import Press from "./pages/Press";
 import Works from "./pages/Works";
 import Contact from "./pages/Contact";
 import Tranzac from "./pages/Tranzac";
+import Upcoming from "./pages/Upcoming";
 import Sylvan from "./pages/Sylvan";
 function App() {
   const [burgerDrop, setBurgerDrop] = useState(false)
@@ -28,6 +29,7 @@ function App() {
         <Route exact path="/press" element={<Press />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/works" element={<Works />} />
+        <Route exact path="/upcoming" element={<Upcoming />} />
         <Route exact path="/the-sylvan-legacy" element={<Sylvan />} />
         <Route exact path="/tranzac-residency" element={<Tranzac />} />
         <Route path="/Anticommunication" element={<Project url="Anticommunication" />} />
