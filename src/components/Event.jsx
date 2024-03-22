@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Photo from "../components/Photo"
-import { useState } from "react";
 import "../styles/events.css"
 
 const Event = ({ event }) => {
