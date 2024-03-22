@@ -56,6 +56,9 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                     <Link to="/the-sylvan-legacy">
                         <p className="link nav-btn-text" onClick={linkClicked}>The Sylvan Legacy</p>
                     </Link>
+                    <Link to="/events">
+                        <p className="link nav-btn-text" onClick={linkClicked}>Events</p>
+                    </Link>
                     <Link to="/press">
                         <p className="link nav-btn-text" onClick={linkClicked}>Press</p>
                     </Link>
@@ -101,6 +104,9 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                     </Link> */}
                     <Link to="/the-sylvan-legacy">
                         <p className="link burger-link-text" onClick={linkClicked}>The Sylvan Legacy</p>
+                    </Link>
+                    <Link to="/events">
+                        <p className="link burger-link-text" onClick={linkClicked}>Events</p>
                     </Link>
                     <Link to="/press">
                         <p className="link burger-link-text" onClick={linkClicked}>Press</p>

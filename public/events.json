@@ -1,0 +1,38 @@
+[
+  {
+    "location": "918 Bathurst, Toronto",
+    "date": "June 16, 2023",
+    "title": "ELEMENTAL",
+    "organizer": "The Music Gallery",
+    "series": "You In Mind",
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046170/cichorium/carousel/carousel4_zv4zqs.jpg",
+      "credit": "",
+      "title": ""
+    },
+    "photos": [],
+    "desc": "",
+    "program": "",
+    "recording_url": "",
+    "url": "ElementalConcert",
+    "shortDesc": "Our debut concert, ELEMENTAL, for The Music Gallery's You In Mind series. The first half of the program features works by Matthew Shlomovitz, Pauline Oliveros, Julia Mermelstein, and Nolan Hildebrand. The second half featured our epic multimedia tribute to the four elements of nature, the Elemental Suite."
+  },
+  {
+    "location": "ArrayMusic, Toronto",
+    "date": "February 8, 2024",
+    "title": "Behaviours: Play",
+    "organizer": "ArrayMusic",
+    "series": "Behaviours",
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046648/cichorium/carousel/carousel5_lkpxki.jpg",
+      "credit": "",
+      "title": ""
+    },
+    "photos": [],
+    "desc": "",
+    "program": "",
+    "recording_url": "",
+    "url": "Behaviours",
+    "shortDesc": "In February of 2024, we performed a program designed around the idea of play for ArrayMusic's Behaviours series. In this program we debuted our performance of Jet Kye Chong's Anticommunication, as well as two new compositions, Feedback Dreams and 0% Any Damage Reverse Glitch Speed Run "
+  }
+]
