@@ -72,6 +72,8 @@
     position: relative
 }
 
+
+
 .event-card-desc {
     width: 75%;
     padding: 50px;
@@ -79,11 +81,18 @@
     margin: 0 auto;
 }
 
+.event-card-location {
+    margin-top: 0;
+}
+
 .event-card-l {
     max-width: 33%;
     position: relative;
 }
 
+.event-card-series {
+    margin-top: 2px;
+}
 
 .event-card-l img {
     width: 100%;
@@ -99,9 +108,9 @@
 }
 
 @media screen and (max-width: 700px) {
-
     .event-card {
         flex-direction: column;
+        position: relative;
     }
 
     .event-card-desc {
@@ -112,6 +121,11 @@
     .event-card-date,
     .event-card-location {
         font-size: .8rem;
-        ;
+    }
+
+    .event-card-l {
+        min-width: 100%;
+        text-align: center;
+        margin: 0 auto
     }
 }
