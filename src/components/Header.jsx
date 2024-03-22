@@ -91,6 +91,9 @@ function Header() {
                     <Link to="/" className="burger-link" onClick={linkClicked}>
                         <p className="burger-link-text link">Home</p>
                     </Link>
+                    <Link to="/about" className="burger-link" onClick={linkClicked}>
+                        <p className="burger-link-text link">About</p>
+                    </Link>
                     <Link to="/works">
                         <p className="link burger-link-text" onClick={linkClicked}>Repertoire</p>
                     </Link>

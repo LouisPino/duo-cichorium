@@ -46,17 +46,7 @@ hr {
     margin-top: 32px;
 }
 
-.contact-form-ctr {
-    width: 75vw;
-    margin: 0 auto;
-    border-radius: 24px;
-    border: 1px solid white;
-    padding: 16px;
-}
 
-.mail-form-ctr {
-    width: 380px;
-}
 
 form {
     background-color: var(--pink-text);
