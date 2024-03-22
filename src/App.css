@@ -25,32 +25,34 @@ body {
   color: white;
 }
 
-.button {
+button {
   cursor: pointer;
   transition: 200ms;
   color: var(--pink-text);
   background-color: var(--gray-bg);
+  border-radius: 12px;
+  border: 1px solid white;
+  padding: 4px 8px;
 }
 
-.button:hover {
-  transition: 200ms;
-  color: var(--gray-bg);
-  background-color: var(--pink-text);
-}
-
-.button:focus {
-  background-color: black !important;
-  color: white !important;
-}
-
-.button:hover {
+button:hover {
   transition: 200ms;
   color: var(--gray-bg);
   background-color: var(--pink-text);
 }
 
 button:focus {
-  background-color: black;
+  background-color: black !important;
+  color: white !important;
+}
+
+
+input {
+  color: var(--gray-bg);
+}
+
+input::placeholder {
+  color: var(--gray-bg);
 }
 
 .myh3 {
