@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from "react";
 import PageTitle from "../components/PageTitle";
+import Photo from "../components/Photo"
 import "../styles/about.css"
 export default function About() {
     const [about, setAbout] = useState(null);
@@ -20,6 +21,7 @@ export default function About() {
     return about ?
 
         <div className="bio-body">
+            <Photo photo={about.photos[1]} />
             <p className="bio">
                 <span className="here bio-name">{about.name}</span>{about.bio}
             </p>

@@ -27,12 +27,6 @@
 .socials-ctr img {
     width: 50px;
     margin: 0 8px;
-    transition: 200ms;
-}
-
-.socials-ctr img:hover {
-    filter: invert(100%);
-    transition: 200ms;
 }
 
 

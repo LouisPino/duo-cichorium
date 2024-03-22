@@ -5,14 +5,14 @@ import "../styles/press.css"
 
 const ProjectCard = ({ project }) => {
     return (
-        <div className="project-card">
+        <Link className="project-card" to={`/${project.url}`} >
+            {/* <div className="project-card"> */}
             <h5 className="project-title">{project.name}</h5>
-            <Link className="project-card-link" to={`/${project.url}`} >
-                <img src={project.img} />
-            </Link>
+            <img src={project.img} />
             <p>{project.shortDesc}</p>
-            <Link to={`/${project.url}`} > <button>Learn More</button></Link>
-        </div >
+            {/* <Link to={`/${project.url}`} > <button>Watch</button></Link> */}
+            {/* </div > */}
+        </Link>
     )
 }
 export default ProjectCard;

@@ -1,7 +1,10 @@
 .bio-body {
     display: flex;
-    flex-direction: column;
     align-items: center;
+}
+
+.bio-body img {
+    width: 25vw;
 }
 
 .bio-name {
