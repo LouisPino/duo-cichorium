@@ -43,6 +43,7 @@
   width: 100%;
   max-height: 100%;
   object-fit: contain;
+  border-radius: 16px;
 }
 
 
@@ -138,6 +139,7 @@ iframe {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .ens-name {
@@ -152,6 +154,13 @@ iframe {
   color: var(--pink-text)
 }
 
+
+.click-for-more {
+  font-size: .9rem;
+  padding: 0;
+  margin: 0;
+}
+
 @media screen and (max-width: 700px) {
 
   .project-info {
@@ -160,6 +169,10 @@ iframe {
 
   .project-category {
     font-size: 2rem;
+  }
+
+  .project-card {
+    width: 90%;
   }
 
   .ens-card {
@@ -175,4 +188,5 @@ iframe {
   .page-gif {
     width: 25%;
   }
+
 }

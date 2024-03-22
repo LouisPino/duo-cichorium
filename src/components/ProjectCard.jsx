@@ -12,6 +12,7 @@ const ProjectCard = ({ project }) => {
             <p>{project.shortDesc}</p>
             {/* <Link to={`/${project.url}`} > <button>Watch</button></Link> */}
             {/* </div > */}
+            <p className="mobile-only click-for-more">- Tap to learn more -</p>
         </Link>
     )
 }

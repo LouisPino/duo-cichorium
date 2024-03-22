@@ -186,67 +186,7 @@ h2 {
 }
 
 
-@keyframes animate {
 
-  0%,
-  100% {
-    filter: hue-rotate(0deg);
-  }
-
-  50% {
-    filter: hue-rotate(360deg);
-  }
-}
-
-
-@media screen and (max-width: 1000px) {
-  .about-main {
-    flex-direction: column;
-    margin-top: 70px;
-  }
-
-  #about-bio {
-    width: 75%;
-  }
-
-  .about-name {
-    display: block;
-    text-align: center;
-    line-height: 80px;
-  }
-
-  .gif-ctr {
-    max-width: 80%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  #about-bio {
-    padding: 2px;
-    font-size: 12px;
-    width: 95%;
-  }
-
-  .bio-text {
-    margin: 0;
-    padding: 15px;
-  }
-
-  #scrollpath {
-    display: none;
-  }
-
-  #progressbar {
-    display: none;
-  }
-
-  #progressbar:before {
-    display: none;
-  }
-
-}
 
 /* //////////////////////////////////////////////////////////////////////Scroll Bar/////////// */
 #scrollpath {
@@ -278,4 +218,54 @@ h2 {
   height: 100%;
   background: linear-gradient(to top, #008aff, #00ffe7);
   filter: blur(10px);
+}
+
+
+@keyframes animate {
+
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-main {
+    flex-direction: column;
+    margin-top: 70px;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  #about-bio {
+    width: 75%;
+  }
+
+  .about-name {
+    display: block;
+    text-align: center;
+    line-height: 80px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  #scrollpath,
+  #progressbar {
+    width: 2px;
+  }
+
+  input {
+    font-size: .8rem;
+  }
 }

@@ -17,29 +17,12 @@
 
 }
 
+.home-bio {
+    width: 80vw;
+    margin: 16px auto;
+    text-align: justify;
 
-.gallery {
-    background: #EEE;
 }
-
-.gallery-cell {
-    width: 66%;
-    height: 200px;
-    margin-right: 10px;
-    background: #8C8;
-    counter-increment: gallery-cell;
-}
-
-/* cell number */
-.gallery-cell:before {
-    display: block;
-    text-align: center;
-    content: counter(gallery-cell);
-    line-height: 200px;
-    font-size: 80px;
-    color: white;
-}
-
 
 hr {
     width: 85%;
@@ -68,5 +51,8 @@ label {
         max-height: 30px;
     }
 
+    .home-bio {
+        font-size: 1.2rem;
+    }
 
 }
