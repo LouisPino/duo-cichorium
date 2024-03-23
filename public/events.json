@@ -110,5 +110,23 @@
     "recording_url": "",
     "url": "PonyHAUS",
     "shortDesc": "We'll be playing a set at the next PonyHAUS show! This show is a triple bill with G.A.G. and Daniel Tapper."
+  },
+  {
+    "location": "The TRANZAC, Toronto",
+    "date": "May - October 2024",
+    "title": "TRANZAC Residency",
+    "organizer": "",
+    "series": "",
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046652/cichorium/carousel/carousel7_veufl2.jpg",
+      "credit": "",
+      "title": ""
+    },
+    "photos": [],
+    "desc": "We will be one of the Ensembles in Residence at The TRANZAC from May to October of 2024. We'll be hosting a variety of shows, bringing together artists from different genres and backgrounds for six performances.",
+    "program": [],
+    "recording_url": "",
+    "url": "tranzac-residency",
+    "shortDesc": "We will be one of the Ensembles in Residence at The TRANZAC from May to October of 2024. We'll be hosting a variety of shows, bringing together artists from different genres and backgrounds for six performances."
   }
 ]

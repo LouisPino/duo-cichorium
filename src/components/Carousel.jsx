@@ -10,16 +10,11 @@ const Carousel = () => {
 
 
     useEffect(() => {
-        function setIdx() {
-            if (carouselInstance.current) {
-                console.log(carouselInstance.current.center);
-            }
-        }
+
         const options = {
             dist: 0,
             indicators: true,
-            numVisible: 5,
-            onCycleTo: setIdx
+            numVisible: 5
         };
         carouselInstance.current = M.Carousel.init(document.querySelector(".carousel"), options);
 
