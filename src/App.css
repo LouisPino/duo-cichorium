@@ -166,7 +166,7 @@ h2 {
   font-weight: 700;
   color: transparent;
   -webkit-text-stroke: 1px black;
-  transition: font-weight 200ms;
+  transition: font-weight 100ms;
 }
 
 
