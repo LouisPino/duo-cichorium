@@ -1,5 +1,6 @@
 import PageTitle from "../components/PageTitle";
 import ProjectCard from "../components/ProjectCard"
+import ProjectCardVideo from "../components/ProjectCardVideo"
 import { useEffect, useState } from "react";
 
 export default function Works() {
@@ -18,7 +19,7 @@ export default function Works() {
         return <PageTitle page={"Loading"} />;
     } else {
         const projectCards = projects.map((project) => {
-            return <ProjectCard project={project} />
+            return <ProjectCardVideo project={project} />
         })
         return (<>
             <PageTitle page={"Repertoire"} />

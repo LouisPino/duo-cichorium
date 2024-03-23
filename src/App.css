@@ -240,6 +240,10 @@ h2 {
   display: none;
 }
 
+.desktop-only {
+  display: block;
+}
+
 @media screen and (max-width: 1000px) {
   .about-main {
     flex-direction: column;
@@ -269,8 +273,17 @@ h2 {
     font-size: .8rem;
   }
 
+
+}
+
+@media screen and (max-width: 420px) {
+
   .mobile-only {
     display: block;
+  }
+
+  .desktop-only {
+    display: none;
   }
 
 }

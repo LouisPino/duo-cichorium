@@ -50,6 +50,10 @@
     margin: 0 auto;
 }
 
+.video-caption {
+    margin-top: 4px;
+}
+
 .event-desc {
     width: 80vw;
     text-align: justify;

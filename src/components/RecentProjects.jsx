@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import PageTitle from "../components/PageTitle"
 import ProjectCard from "../components/ProjectCard"
+import ProjectCardVideo from "../components/ProjectCardVideo"
 import '../styles/projects.css'
 function RecentProjects({ category }) {
     const [projects, setProjects] = useState(null);
@@ -23,7 +24,7 @@ function RecentProjects({ category }) {
     if (projects?.length) {
         const projectCards = projects.map((project) => {
             if (project.feature) {
-                return <ProjectCard project={project} />
+                return <ProjectCardVideo project={project} />
             }
         })
         return (
