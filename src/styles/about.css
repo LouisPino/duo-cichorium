@@ -21,31 +21,13 @@
     text-align: justify;
 }
 
-.cv-btn {
-    border-radius: 16px;
-    background-color: var(--blue-text);
-    color: white;
-    padding: 24px;
-    border: 2px solid white;
-    font-family: "Poppins", serif;
-}
 
 .bio-body a {
-    color: white;
+    color: var(--blue-text);
     padding: 0;
     margin-top: 32px;
 }
 
-.cv-btn a:visited {
-    color: white;
-}
-
-.cv-btn:hover {
-    color: black;
-    transition: 300ms;
-    border-color: transparent;
-    cursor: pointer;
-}
 
 @media screen and (max-width: 700px) {
 

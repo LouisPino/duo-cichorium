@@ -33,19 +33,19 @@ hr {
 
 form,
 .contact-success-ctr {
-    background-color: var(--blue-text);
+    background-color: var(--box);
     border-radius: 12px;
     padding: 16px;
 }
 
 .contact-success-ctr {
-    color: var(--bg);
+    color: var(--blue-text);
     width: 75vw;
     margin: 0 auto;
 }
 
 label {
-    color: var(--bg);
+    color: var(--blue-text);
 }
 
 

@@ -23,7 +23,7 @@ export default function About() {
         <div className="bio-body">
             <Photo photo={about.photos[1]} />
             <p className="bio">
-                <span className="here bio-name">{about.name}</span>{about.bio}
+                <span className="glow font700 bio-name">{about.name}</span>{about.bio}
             </p>
         </div>
 

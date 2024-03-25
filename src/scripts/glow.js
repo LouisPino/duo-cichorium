@@ -1,8 +1,8 @@
 function glow(e) {
-    if (!e.target.classList.value.includes("here")) {
-        e.target.classList.add("here");
+    if (!e.target.classList.value.includes("glow")) {
+        e.target.classList.add("glow");
     } else {
-        e.target.classList.remove("here");
+        e.target.classList.remove("glow");
     }
 }
 
