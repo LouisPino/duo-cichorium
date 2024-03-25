@@ -13,7 +13,7 @@ export default function Tranzac() {
     return (
         <div className="tranzac-page">
             <Photo photo={photo} />
-            <h4 className="tranzac-p">We will be one of 14 ensembles in residence at The TRANZAC Club from May to October 2024 </h4>
+            <h4 className="tranzac-p">We will be one of the ensembles in residence at The TRANZAC Club from May to October 2024 </h4>
             <h5 className="tranzac-p">Stay tuned for updates and  videos for the upcoming season!!!</h5>
         </div>
 

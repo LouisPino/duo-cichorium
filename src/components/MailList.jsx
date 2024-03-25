@@ -8,9 +8,8 @@ export default function MailList() {
                     <div id="mc_embed_signup_scroll">
                         <div class="indicates-required subscribe-text">Subscribe to our monthly newsletter!</div>
                         <div class="mc-field-group">
-                            {/* <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label> */}
                             <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" placeholder="Your Email Address" />
-                            <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                            <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe" >Subscribe</button>
                         </div>
                         <div id="mce-responses" class="clear foot">
                             <div class="response" id="mce-error-response" style={{ display: "none" }}></div>
@@ -20,9 +19,6 @@ export default function MailList() {
                             <input type="text" name="b_d9502485d6c1b635fd14c4912_8590cfffd6" tabindex="-1" value="" />
                         </div>
                         <div class="optionalParent">
-                            <div class="clear foot">
-                                <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe" >Subscribe</button>
-                            </div>
                         </div>
                     </div>
                 </form>

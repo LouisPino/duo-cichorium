@@ -19,7 +19,7 @@
 
 .footer-text {
     position: absolute;
-    right: 12px;
+    right: 24px;
     bottom: 0;
 }
 
@@ -52,6 +52,17 @@
 
 .mail-form-ctr {
     width: 380px;
+}
+
+#mce-EMAIL {
+    width: 50%;
+    display: inline;
+}
+
+#mc-embedded-subscribe {
+    width: 30%;
+    margin: 0 10%;
+    display: inline;
 }
 
 @media screen and (max-width: 700px) {

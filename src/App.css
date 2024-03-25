@@ -113,12 +113,6 @@ header {
   position: absolute;
 }
 
-
-iframe {
-  border: none;
-}
-
-
 .name {
   color: transparent;
   width: fit-content;

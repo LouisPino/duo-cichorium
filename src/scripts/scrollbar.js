@@ -6,12 +6,12 @@ window.onscroll = function () {
         scrollFlowerEl = document.querySelector(".scroll-img")
     }
     let progressHeight = (window.scrollY / totalHeight) * 100;
-    console.log(progressHeight)
     if (scrollFlowerEl) {
         if (progressHeight < 1) {
             scrollFlowerEl.style.top = scrollFlowerEl.style.height;
         } else {
             scrollFlowerEl.style.top = `calc(${progressHeight}% - 24px)`;
+            // scrollFlowerEl.addEventListener("click", scrollTest)
         }
     } else {
         totalHeight = document.body.scrollHeight - window.innerHeight;
@@ -34,6 +34,21 @@ observer.observe(document.body, {
 function resizeScroll() {
     totalHeight = document.body.scrollHeight - window.innerHeight;
 }
+
+// function scrollTest() {
+//     scrollFlowerEl.addEventListener("drag", printDrag)
+//     scrollFlowerEl.addEventListener("dragend", releaseFlower)
+// }
+
+// function printDrag(e) {
+//     window.scrollBy(0, e.offsetY)
+// }
+
+// function releaseFlower(e) {
+//     let progressHeight = (window.scrollY / totalHeight) * 100;
+//     scrollFlowerEl.style.top = `calc(${progressHeight}% - 24px)`;
+// }
+
 
 document.querySelectorAll('*').forEach(el => {
     if (el.offsetWidth > el.parentNode.offsetWidth) {
