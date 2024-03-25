@@ -9,6 +9,7 @@ const ProjectCardVideo = ({ project }) => {
             {/* <div className="project-card"> */}
             <h5 className="project-title">{project.name}</h5>
             <div className="iframe-ctr-card">
+                <img className="iframe-load-flower" src="./assets/FlowerPng.png" />
                 <iframe src={project.mainvideo}></iframe>
             </div>
 
