@@ -109,6 +109,10 @@ iframe {
   width: 80%;
 }
 
+.secondary-caption {
+  text-align: center;
+}
+
 .ensembles-body {
   padding: 0;
   margin: 0;
