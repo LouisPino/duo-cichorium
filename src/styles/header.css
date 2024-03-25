@@ -1,8 +1,10 @@
 header {
     width: 100vw;
-    height: 100px;
+    height: 110px;
     position: relative;
     background-color: var(--pink-text);
+    padding: 0;
+    /* border: 1px solid red; */
 }
 
 
@@ -11,7 +13,8 @@ header {
 }
 
 .header-content {
-    position: absolute;
+    padding: 0;
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -21,26 +24,32 @@ header {
 }
 
 .cic-logo {
-    height: 100px;
+    height: 110px;
+    padding: 0;
 }
 
 .my-nav {
+    padding: 0;
+    height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     justify-content: space-between;
-    padding: .5rem;
     width: fit-content;
     background-color: none !important;
-    width: 25vw;
+    width: 40%;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-l {
+    padding-left: .5rem;
     align-items: left;
 
 }
 
 .nav-r {
+    padding-right: .5rem;
     align-items: end;
 }
 
@@ -86,6 +95,11 @@ header {
 .Link {
     text-decoration: none;
     text-align: center;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 110px;
 }
 
 
