@@ -60,7 +60,7 @@
   border: none;
   width: 100%;
   position: relative;
-  min-height: 25vw;
+  min-height: 23vw;
   display: flex;
   justify-content: center;
   background-color: var(--box);
