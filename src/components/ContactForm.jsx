@@ -29,7 +29,6 @@ const ContactForm = () => {
     }
 
     return (<>
-        <h1 className="center-text">Email Us!</h1>
         <div className="contact-form-ctr">
             <form name="contact" className="contact-form" data-netlify="true" onSubmit={handleSubmit}>
                 <input type="hidden" name="form-name" value="contact" />

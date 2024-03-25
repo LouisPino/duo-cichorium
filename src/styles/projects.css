@@ -18,12 +18,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  box-shadow: 0px 0px 8px 1px var(--pink-text);
+  box-shadow: 0px 0px 8px 1px var(--blue-text);
   /* border-radius: 16px; */
-  border: 1px solid var(--pink-text);
+  border: 1px solid var(--blue-text);
   padding: 16px;
-  background-color: var(--pink-text);
-  color: var(--gray-bg);
+  background-color: var(--blue-text);
+  color: var(--bg);
   text-align: center;
   transition: 200ms
 }
@@ -124,9 +124,9 @@ iframe {
   justify-content: space-between;
   align-items: center;
   padding: 5%;
-  box-shadow: 0px 0px 8px 1px var(--pink-text);
-  border: 1px solid var(--pink-text);
-  /* background-color: var(--pink-text); */
+  box-shadow: 0px 0px 8px 1px var(--blue-text);
+  border: 1px solid var(--blue-text);
+  /* background-color: var(--blue-text); */
   color: white;
   width: 85%;
   /* border-radius: 16px; */
@@ -161,13 +161,13 @@ iframe {
 .ens-name {
   margin: 0;
   text-align: center;
-  color: var(--pink-text)
+  color: var(--blue-text)
 }
 
 .ens-bio {
   text-align: justify;
   padding-left: 16px;
-  color: var(--pink-text)
+  color: var(--blue-text)
 }
 
 

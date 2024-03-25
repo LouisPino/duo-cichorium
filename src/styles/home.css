@@ -32,13 +32,13 @@ hr {
 
 
 form {
-    background-color: var(--pink-text);
+    background-color: var(--blue-text);
     border-radius: 12px;
     padding: 16px;
 }
 
 label {
-    color: var(--gray-bg);
+    color: var(--bg);
 }
 
 

@@ -16,8 +16,20 @@ code {
 }
 
 :root {
-  --gray-bg: #16183a;
-  --pink-text: #bac1e2;
+  --bg: #15161a;
+  --blue-text: #8d93ba;
+  --nav-bar: #2c2f45;
+  --scroll-bar: #26265a;
+  --scroll-bar: #26265a;
+  --box-glow: #464185;
+  --box: #1f2033;
+  --rainbow-1: #8d93ba;
+  --rainbow-2: #9494dc;
+  --rainbow-3: #746cdd;
+  --rainbow-4: #5e49e1;
+  --rainbow-5: #703eea;
+  --rainbow-6: #933fea;
+  --rainbow-7: #9f7be2;
 }
 
 .center-text {

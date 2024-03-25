@@ -1,5 +1,5 @@
 import ContactForm from '../components/ContactForm';
-import MailList from '../components/MailList';
+import PageTitle from '../components/PageTitle';
 import { useEffect } from "react"
 
 
@@ -16,6 +16,7 @@ function Contact() {
         handleResize()
     }, [])
     return (<>
+        <PageTitle page="Email Us!" />
         <ContactForm />
     </>
     )
