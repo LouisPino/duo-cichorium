@@ -14,29 +14,6 @@
     object-fit: contain;
 }
 
-.press-photo:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(180deg,
-            var(--rainbow-1),
-            var(--rainbow-2),
-            var(--rainbow-4),
-            var(--rainbow-5),
-            var(--rainbow-6),
-            var(--rainbow-7),
-            var(--rainbow-6),
-            var(--rainbow-5),
-            var(--rainbow-4),
-            var(--rainbow-3),
-            var(--rainbow-2));
-    filter: blur(100px);
-}
-
-
 .quotes-ctr {
     width: 80vw;
     margin: 0 auto;
@@ -60,8 +37,6 @@
     position: absolute;
     margin: 4px;
     bottom: 0;
-    /* width: 100%;
-    text-align: center; */
     right: 0;
     background-color: rgba(0, 0, 0, .8);
     padding: 0 8px;

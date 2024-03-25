@@ -57,6 +57,7 @@
 }
 
 .iframe-ctr-card {
+  border: none;
   width: 100%;
   position: relative;
   min-height: 25vw;
@@ -156,6 +157,12 @@ iframe {
   justify-content: center;
   align-items: center;
   text-align: center;
+  position: relative;
+}
+
+
+.project-category {
+  padding-bottom: 6px;
 }
 
 .ens-name {
