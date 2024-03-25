@@ -57,7 +57,10 @@
 #mce-EMAIL {
     width: 50%;
     display: inline;
+    box-shadow: none;
+    border-color: var(--blue-text) !important;
 }
+
 
 #mc-embedded-subscribe {
     width: 30%;

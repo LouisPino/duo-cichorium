@@ -1,10 +1,16 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "../styles/header.css"
 import resizeScroll from "../scripts/scrollbar.js"
 
 function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
+    const location = useLocation()
+    let path
 
+    useEffect(() => {
+        path = location.pathname
+        console.log(path)
+    }, [location])
 
     useEffect(() => {
         const hamburgerEl = document.getElementById("hamburger-div");
@@ -44,16 +50,16 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
 
                 <div className="my-nav nav-l">
                     <Link to="/">
-                        <p className="link nav-btn-text" onClick={linkClicked}>Home</p>
+                        <p className={`link nav-btn-text ${location.pathname === "/" ? "current-location" : ""}`} onClick={linkClicked}>Home</p>
                     </Link>
                     <Link to="/about">
-                        <p className="link nav-btn-text" onClick={linkClicked}>About</p>
+                        <p className={`link nav-btn-text ${location.pathname === "/about" ? "current-location" : ""}`} onClick={linkClicked}>About</p>
                     </Link>
                     <Link to="/works">
-                        <p className="link nav-btn-text" onClick={linkClicked}>Repertoire</p>
+                        <p className={`link nav-btn-text ${location.pathname === "/works" ? "current-location" : ""}`} onClick={linkClicked}>Repertoire</p>
                     </Link>
                     <Link to="/tranzac-residency">
-                        <p className="link nav-btn-text" onClick={linkClicked}>TRANZAC Residency</p>
+                        <p className={`link nav-btn-text ${location.pathname === "/tranzac-residency" ? "current-location" : ""}`} onClick={linkClicked}>TRANZAC Residency</p>
                     </Link>
                 </div>
                 <Link className="Link" to="/">
@@ -64,13 +70,13 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                         <p className="link nav-btn-text" onClick={linkClicked}>The Sylvan Legacy</p>
                     </Link> */}
                     <Link to="/press">
-                        <p className="link nav-btn-text" onClick={linkClicked}>Press</p>
+                        <p className={`link nav-btn-text ${location.pathname === "/press" ? "current-location" : ""}`} onClick={linkClicked}>Press</p>
                     </Link>
                     <Link to="/events">
-                        <p className="link nav-btn-text" onClick={linkClicked}>Events</p>
+                        <p className={`link nav-btn-text ${location.pathname === "/events" ? "current-location" : ""}`} onClick={linkClicked}>Events</p>
                     </Link>
                     <Link to="/contact">
-                        <p className="link nav-btn-text" onClick={linkClicked}>Contact</p>
+                        <p className={`link nav-btn-text ${location.pathname === "/contact" ? "current-location" : ""}`} onClick={linkClicked}>Contact</p>
                     </Link>
                     <div className='workbtn'>
                         <p className="nav-btn-text link">Current Projects</p>

@@ -177,8 +177,26 @@ h2 {
 .link:hover {
   font-weight: 700;
   color: transparent;
-  -webkit-text-stroke: 1px black;
+  /* -webkit-text-stroke: 1px black; */
   transition: font-weight 100ms;
+  background: linear-gradient(90deg,
+      var(--rainbow-1),
+      var(--rainbow-2),
+      var(--rainbow-4),
+      var(--rainbow-5),
+      var(--rainbow-6),
+      var(--rainbow-7),
+      var(--rainbow-6),
+      var(--rainbow-5),
+      var(--rainbow-4),
+      var(--rainbow-3),
+      var(--rainbow-2));
+  animation: animate 5s linear infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-decoration: none;
+  background-size: 200% 100%;
 }
 
 

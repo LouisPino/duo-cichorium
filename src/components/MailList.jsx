@@ -11,14 +11,8 @@ export default function MailList() {
                             <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" placeholder="Your Email Address" />
                             <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe" >Subscribe</button>
                         </div>
-                        <div id="mce-responses" class="clear foot">
-                            <div class="response" id="mce-error-response" style={{ display: "none" }}></div>
-                            <div class="response" id="mce-success-response" style={{ display: "none" }}></div>
-                        </div>
                         <div aria-hidden="true" style={{ position: "absolute", left: "-5000px" }}>
                             <input type="text" name="b_d9502485d6c1b635fd14c4912_8590cfffd6" tabindex="-1" value="" />
-                        </div>
-                        <div class="optionalParent">
                         </div>
                     </div>
                 </form>

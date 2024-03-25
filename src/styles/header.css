@@ -62,14 +62,24 @@ header {
     margin: 0;
 }
 
-.nav-btn-text::after {
+/* .nav-btn-text::after {
     content: '';
     position: absolute;
     width: 0%;
     height: 2px;
     bottom: 0;
-    background-color: var(--bg);
     transition: 0.25s ease;
+    background-color:
+        var(--rainbow-7);
+    border-radius: 2px;
+} */
+.current-location::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    background-color: var(--rainbow-7);
 }
 
 .nav-l .nav-btn-text::after {

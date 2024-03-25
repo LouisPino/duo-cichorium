@@ -1,5 +1,5 @@
-import { Route, Routes } from "react-router-dom";
-import { useState } from "react";
+import { Route, Routes, useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
 import './App.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -17,10 +17,6 @@ import Subscribed from "./pages/Subscribed";
 function App() {
   const [burgerDrop, setBurgerDrop] = useState(false)
   const [workDrop, setWorkDrop] = useState(false)
-
-
-
-
 
   return (
     <div className="App">
