@@ -36,7 +36,7 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
 
     return (
         <header>
-            <div id="progressbar"></div>
+            <div id="progressbar"><img src="/assets/CicFlower.jpg" className="scroll-img" /></div>
             <div id="scrollpath"></div>
             <div className="header-content">
 

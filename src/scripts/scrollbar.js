@@ -1,18 +1,29 @@
 let progress
 let totalHeight
+let scrollFlowerEl = document.querySelector(".scroll-img")
 window.onscroll = function () {
+    if (!scrollFlowerEl) {
+        scrollFlowerEl = document.querySelector(".scroll-img")
+    }
     let progressHeight = (window.scrollY / totalHeight) * 100;
-    if (progress) {
-        progress.style.height = progressHeight + "%";
+    console.log(progressHeight)
+    if (scrollFlowerEl) {
+        if (progressHeight < 1) {
+            scrollFlowerEl.style.top = scrollFlowerEl.style.height;
+        } else {
+            scrollFlowerEl.style.top = `calc(${progressHeight}% - 10px)`;
+        }
     } else {
         totalHeight = document.body.scrollHeight - window.innerHeight;
-        progress = document.getElementById("progressbar");
+        scrollFlowerEl = document.querySelector(".scroll-img");
     }
 }
 
 let observer = new MutationObserver(function (mutations) {
     setTimeout(resizeScroll, 500)
 });
+
+
 
 observer.observe(document.body, {
     childList: true,
@@ -26,7 +37,6 @@ function resizeScroll() {
 
 document.querySelectorAll('*').forEach(el => {
     if (el.offsetWidth > el.parentNode.offsetWidth) {
-        console.log(el);
     }
 });
 

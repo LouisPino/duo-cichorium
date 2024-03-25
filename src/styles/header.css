@@ -42,13 +42,13 @@ header {
 }
 
 .nav-l {
-    padding-left: .5rem;
+    padding-left: 8px;
     align-items: left;
 
 }
 
 .nav-r {
-    padding-right: .5rem;
+    padding-right: 16px;
     align-items: end;
 }
 
