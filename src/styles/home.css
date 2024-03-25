@@ -31,10 +31,17 @@ hr {
 
 
 
-form {
+form,
+.contact-success-ctr {
     background-color: var(--blue-text);
     border-radius: 12px;
     padding: 16px;
+}
+
+.contact-success-ctr {
+    color: var(--bg);
+    width: 75vw;
+    margin: 0 auto;
 }
 
 label {

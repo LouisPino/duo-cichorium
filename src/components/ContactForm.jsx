@@ -23,7 +23,9 @@ const ContactForm = () => {
     if (submitted) {
         return (
             <>
-                <div className="msg-success">THANK YOU FOR YOUR MESSAGE!<br />WE'LL GET BACK TO YOU AS SOON AS POSSIBLE.</div>
+                <div className="contact-success-ctr">
+                    <h5 className="msg-success center-text">THANK YOU FOR YOUR MESSAGE!<br />WE'LL GET BACK TO YOU AS SOON AS POSSIBLE.</h5>
+                </div>
             </>
         );
     }
