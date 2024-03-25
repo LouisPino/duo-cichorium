@@ -22,7 +22,7 @@ export default function Works() {
             return <ProjectCardVideo project={project} />
         })
         return (<>
-            <PageTitle page={"Repertoire"} />
+            {/* <PageTitle page={"Repertoire"} /> */}
             <div className="project-cards-ctr">
                 {projectCards}
             </div>

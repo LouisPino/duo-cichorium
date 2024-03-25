@@ -51,6 +51,13 @@
 }
 
 .mail-form-ctr {
+    padding: 8px;
+    border-radius: 16px;
+
+}
+
+
+.mail-form-ctr {
     width: 380px;
 }
 
