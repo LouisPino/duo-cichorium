@@ -113,16 +113,16 @@ header {
 
 .hamburger {
     display: none;
-    width: 24px;
+    width: 36px;
     height: auto;
     margin: 8px;
-    position: absolute;
+    position: fixed;
     right: 0;
 
 }
 
 #hamburger-div {
-    position: absolute;
+    position: fixed;
     margin: 0 auto;
     z-index: 1;
     right: 0;
