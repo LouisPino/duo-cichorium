@@ -37,6 +37,7 @@ body {
 }
 
 button {
+  font-family: "Jazfont-Regular", serif !important;
   cursor: pointer;
   transition: 200ms;
   color: var(--blue-text);
@@ -68,6 +69,8 @@ input {
 
 input::placeholder {
   color: var(--blue-text);
+  font-family: "Jazfont-Regular", serif !important;
+
 }
 
 .myh3 {
