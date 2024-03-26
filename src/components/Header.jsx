@@ -63,14 +63,14 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                     </Link>
                 </div>
                 <Link className="Link" to="/">
-                    <img className="cic-logo" src="assets/CicLogo.jpg" alt="img1"></img>
+                    <img className="cic-logo" src="assets/LogoPng.png" alt="img1"></img>
                 </Link>
                 <div className="my-nav nav-r">
                     {/* <Link to="/the-sylvan-legacy">
                         <p className="link nav-btn-text" onClick={linkClicked}>The Sylvan Legacy</p>
                     </Link> */}
                     <Link to="/press">
-                        <p className={`link nav-btn-text ${location.pathname === "/press" ? "current-location" : ""}`} onClick={linkClicked}>Press</p>
+                        <p className={`link nav-btn-text ${location.pathname === "/press" ? "current-location" : ""}`} onClick={linkClicked}>Photos</p>
                     </Link>
                     <Link to="/events">
                         <p className={`link nav-btn-text ${location.pathname === "/events" ? "current-location" : ""}`} onClick={linkClicked}>Events</p>
@@ -113,7 +113,7 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                         <p className="link burger-link-text" onClick={linkClicked}>Events</p>
                     </Link>
                     <Link to="/press">
-                        <p className="link burger-link-text" onClick={linkClicked}>Press</p>
+                        <p className="link burger-link-text" onClick={linkClicked}>Photos</p>
                     </Link>
                     <Link to="/contact">
                         <p className="link burger-link-text" onClick={linkClicked}>Contact</p>

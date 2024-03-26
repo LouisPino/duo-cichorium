@@ -4,7 +4,7 @@ import PressPhotos from "../components/PressPhotos"
 export default function Press() {
     return (
         <>
-            <Quotes />
+            {/* <Quotes /> */}
             <PressPhotos />
         </>
 

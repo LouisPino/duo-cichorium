@@ -4,7 +4,9 @@
     width: 90vw;
     justify-content: space-around;
     align-items: end;
-    margin: 0 auto
+    margin: 0 auto;
+    margin-top: 20px;
+
 }
 
 .press-photo {
@@ -42,6 +44,10 @@
     padding: 0 8px;
 }
 
+#materialbox-overlay {
+    background-color: black;
+    opacity: .9 !important;
+}
 
 @media screen and (max-width: 700px) {
     span {
