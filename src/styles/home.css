@@ -34,7 +34,7 @@ hr {
 form,
 .contact-success-ctr {
     background-color: var(--box);
-    border-radius: 12px;
+    border-radius: 4px;
     padding: 16px;
 }
 

@@ -4,6 +4,7 @@
     align-items: center;
 }
 
+
 .bio-body img {
     width: 100%;
 }
@@ -33,15 +34,21 @@
     position: relative;
     width: 25vw;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
+
+.about-photo-arrow {
+    max-width: 25px;
+}
+
 
 .overlay-img {
     height: 100%;
     width: 100%;
+    padding: 0 25px;
     position: absolute;
-    top: -50%;
-    left: 0;
-    transition: 200ms;
+    pointer-events: none !important;
 }
 
 
