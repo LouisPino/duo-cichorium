@@ -1,4 +1,3 @@
-let progress
 let totalHeight
 let scrollFlowerEl = document.querySelector(".scroll-img")
 window.onscroll = function () {

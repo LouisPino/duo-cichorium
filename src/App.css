@@ -25,6 +25,11 @@ body {
   color: white;
 }
 
+.no-width {
+  /* display: none !important; */
+  opacity: 0
+}
+
 button {
   cursor: pointer;
   transition: 200ms;

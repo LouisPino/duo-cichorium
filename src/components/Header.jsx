@@ -5,12 +5,9 @@ import resizeScroll from "../scripts/scrollbar.js"
 
 function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
     const location = useLocation()
-    let path
+    const [scrolls, setScrolls] = useState(true)
 
-    useEffect(() => {
-        path = location.pathname
-        console.log(path)
-    }, [location])
+    useEffect(checkHeight, [location])
 
     useEffect(() => {
         const hamburgerEl = document.getElementById("hamburger-div");
@@ -21,6 +18,15 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
         workEl.addEventListener("mouseover", () => { setWorkDrop(true) })
         workEl.addEventListener("mouseout", () => { setWorkDrop(false) })
     }, [])
+
+
+    function checkHeight() {
+        if (window.innerHeight < document.body.scrollHeight) {
+            setScrolls(true)
+        } else {
+            setScrolls(false)
+        }
+    }
 
     function linkClicked() {
         setBurgerDrop(false)
@@ -38,14 +44,18 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
             setWorkDrop(false)
         }
         resizeScroll()
+        checkHeight()
     }
+
+    window.addEventListener('scroll', checkHeight)
 
     return (
         <header>
-            <div id="progressbar">
+
+            <div id="progressbar" className={`desktop-only ${scrolls ? "" : "no-width"}`}  >
                 <img src="/assets/FlowerPng.png" className="scroll-img" />
             </div>
-            <div id="scrollpath"></div>
+            <div id="scrollpath" className="desktop-only"></div>
             <div className="header-content">
 
                 <div className="my-nav nav-l">
