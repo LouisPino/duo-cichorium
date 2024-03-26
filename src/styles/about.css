@@ -39,14 +39,14 @@
 }
 
 .about-photo-arrow {
-    max-width: 25px;
+    max-width: 35px;
 }
 
 
 .overlay-img {
     height: 100%;
     width: 100%;
-    padding: 0 25px;
+    padding: 0 35px;
     position: absolute;
     pointer-events: none !important;
 }
@@ -67,4 +67,64 @@
     }
 
 
+}
+
+
+
+@keyframes left-slide-out {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes right-slide-in {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* You might want to add the reverse animations as well */
+@keyframes right-slide-out {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes left-slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slide-out {
+    animation: left-slide-out 0.3s forwards;
+}
+
+.slide-in {
+    animation: right-slide-in 0.3s forwards;
+}
+
+/* And for the reverse animations */
+.slide-out-reverse {
+    animation: right-slide-out 0.3s forwards;
+}
+
+.slide-in-reverse {
+    animation: left-slide-in 0.3s forwards;
 }

@@ -2,14 +2,11 @@
 import { useEffect, useState, useRef } from "react";
 import PageTitle from "../components/PageTitle";
 import Photo from "../components/Photo"
-import Carousel from "../components/Carousel"
 
 export default function About() {
     const [about, setAbout] = useState(null);
     const [hatIdx, setHatIdx] = useState(0);
-    const [carouselIdx, setCarouselIdx] = useState(0);
-    const carouselTimer = useRef(null); // Use useRef for persistent mutable storage
-    const carouselInstance = useRef(null); // Mutable reference for instances
+
 
     const getAboutData = async () => {
         const response = await fetch("./about.json");
@@ -21,26 +18,46 @@ export default function About() {
 
     useEffect(() => {
         getAboutData();
-        const overlayCtrEl = document.querySelector(".overlay-ctr")
-        const overlayImgEl = document.querySelector(".overlay-img")
-        // if (overlayCtrEl && overlayImgEl) {
-        //     overlayCtrEl.addEventListener("mouseover", () => { overlayImgEl.style.top = 0 })
-        //     overlayCtrEl.addEventListener("mouseout", () => { overlayImgEl.style.top = "-0%" })
-        // }
-
-    }, [about]);
+    }, []);
 
     function incHair() {
-        const overlayImgEl = document.querySelector(".overlay-img")
-        overlayImgEl.classList.add("left-slide-out")
-        setHatIdx((prevHatIdx) => ((prevHatIdx + 1) % hatImgs.length))
+        const overlayImgEl = document.querySelector(".overlay-img");
+        overlayImgEl.classList.remove("slide-in-reverse"); // Slide in
+        overlayImgEl.classList.remove("slide-in"); // Slide in
+        overlayImgEl.classList.add("slide-out-reverse"); // Slide in
+        overlayImgEl.addEventListener('animationend', () => {
+            setHatIdx((prevHatIdx) => ((prevHatIdx + 1) % hatImgs.length));
+            overlayImgEl.src = `./assets/hair/${hatImgs[hatIdx]}.png`; // Update the image source
+            overlayImgEl.classList.remove("slide-out-reverse");
+            overlayImgEl.classList.remove("slide-out");
+            overlayImgEl.classList.add("slide-in-reverse"); // Slide in
+        }, { once: true });
+
     }
     function decHair() {
-        const overlayImgEl = document.querySelector(".overlay-img")
-        overlayImgEl.classList.add("left-slide-out")
-        setHatIdx((prevHatIdx) => ((prevHatIdx - 1) % hatImgs.length >= 0 ? (prevHatIdx - 1) % hatImgs.length : hatImgs.length - 1))
-    }
+        const overlayImgEl = document.querySelector(".overlay-img");
+        overlayImgEl.classList.remove("slide-in"); // Prepare for slide in
+        overlayImgEl.classList.remove("slide-in-reverse"); // Ensure reverse slide-in class is removed
+        // Start slide out
+        overlayImgEl.classList.add("slide-out"); // Start sliding out
+        overlayImgEl.addEventListener('animationend', () => {
+            // Correctly decrement the hat index
+            setHatIdx((prevHatIdx) => {
+                const newIndex = (prevHatIdx - 1) >= 0 ? prevHatIdx - 1 : hatImgs.length - 1;
 
+                return newIndex;
+            });
+            // Ensure you're waiting for the index to update before setting the source
+            // This might need to be handled differently if setHatIdx is asynchronous (e.g., in React state)
+            setTimeout(() => {
+                overlayImgEl.src = `./assets/hair/${hatImgs[hatIdx]}.png`; // Update the image source
+            }, 0); // Adjust based on your state management
+            overlayImgEl.classList.remove("slide-out");
+            overlayImgEl.classList.remove("slide-out-reverse");
+            overlayImgEl.classList.add("slide-in"); // Prepare for slide in
+        }
+            , { once: true });
+    }
 
 
     if (about === null) {
