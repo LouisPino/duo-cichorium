@@ -55,12 +55,9 @@
         font-size: 1.2rem;
     }
 
-    .bio-body {
-        flex-direction: column;
+    .overlay-ctr {
+        width: 75vw;
     }
 
-    .bio-body img {
-        width: 75vw;
-        margin-top: 12px;
-    }
+
 }
