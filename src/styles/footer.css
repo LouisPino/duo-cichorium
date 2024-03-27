@@ -40,14 +40,9 @@
 
 .subscribe-text {
     color: var(--blue-text);
+    font-size: var(--very-small);
 }
 
-.contact-form-ctr {
-    width: 75vw;
-    margin: 0 auto;
-    border: 1px solid white;
-    padding: 16px;
-}
 
 .mail-form-ctr {
     padding: 8px;
@@ -57,6 +52,10 @@
 
 .mail-form-ctr {
     width: 380px;
+}
+
+.mail-form-ctr * {
+    text-align: center;
 }
 
 #mce-EMAIL {
@@ -79,20 +78,10 @@
         width: 90vw;
     }
 
-    .mail-form-ctr * {
-        font-size: .8rem !important;
-        text-align: center;
-    }
-
-    .contact-form-ctr {
-        border-radius: 24px;
-        border: none;
-        padding: 0;
-        width: 90vw;
-    }
 
     .footer-text {
         position: relative;
+        right: 0;
     }
 
     .socials-ctr img {

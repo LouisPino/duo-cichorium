@@ -10,13 +10,7 @@
 * {
   /* border: 1px solid red; */
   text-decoration: none;
-  font-size: 16px;
 }
-
-/* 
-::-webkit-scrollbar {
-  display: none;
-} */
 
 html,
 body {
@@ -32,7 +26,6 @@ body {
 }
 
 .no-width {
-  /* display: none !important; */
   opacity: 0
 }
 

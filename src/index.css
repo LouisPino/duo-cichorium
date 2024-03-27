@@ -29,6 +29,11 @@ code {
   --rainbow-5: #703eea;
   --rainbow-6: #933fea;
   --rainbow-7: #9f7be2;
+  --very-small: 1.25rem;
+  --small: 1.5rem;
+  --medium: 2rem;
+  --large: 3rem;
+  --very-large: 4rem;
 }
 
 .center-text {

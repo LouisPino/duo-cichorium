@@ -44,8 +44,17 @@ form,
     margin: 0 auto;
 }
 
+.contact-form-ctr {
+    width: 75vw;
+    margin: 0 auto;
+    border: 1px solid white;
+    padding: 16px;
+}
+
+
 label {
     color: var(--blue-text);
+    font-size: var(--very-small);
 }
 
 
@@ -60,6 +69,14 @@ label {
 
     .home-bio {
         font-size: 1.2rem;
+    }
+
+
+    .contact-form-ctr {
+        border-radius: 24px;
+        border: none;
+        padding: 0;
+        width: 90vw;
     }
 
 }

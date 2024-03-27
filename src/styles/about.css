@@ -14,12 +14,12 @@
 }
 
 .bio-name {
-    font-size: 3rem;
+    font-size: var(--large);
 }
 
 .bio {
     padding: 0 10%;
-    font-size: 3rem;
+    font-size: var(--medium);
     text-align: justify;
 }
 

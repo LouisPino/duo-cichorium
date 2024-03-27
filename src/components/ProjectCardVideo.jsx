@@ -13,7 +13,7 @@ const ProjectCardVideo = ({ project }) => {
                 <iframe src={project.mainvideo}></iframe>
             </div>
 
-            <p>{project.shortDesc}</p>
+            <p className="project-card-desc">{project.shortDesc}</p>
 
             <p className="desktop-only click-for-more">- Click to learn more -</p>
             <p className="mobile-only click-for-more">- Tap to learn more -</p>

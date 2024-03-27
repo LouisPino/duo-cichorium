@@ -101,13 +101,17 @@
 
 .project-name {
   text-align: center;
-  font-size: 2rem;
+  font-size: var(--medium);
   margin: 0;
 }
 
 .project-desc {
   text-align: justify;
   width: 80%;
+}
+
+.project-card-desc {
+  font-size: var(--small);
 }
 
 .secondary-caption {
@@ -134,7 +138,7 @@
 
 
 .click-for-more {
-  font-size: .9rem;
+  font-size: var(--very-small);
   padding: 0;
   margin: 0;
 }

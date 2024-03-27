@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
             {/* <div className="project-card"> */}
             <h5 className="project-title">{project.name}</h5>
             <img src={project.img} />
-            <p>{project.shortDesc}</p>
+            <p className="project-card-desc">{project.shortDesc}</p>
             {/* <Link to={`/${project.url}`} > <button>Watch</button></Link> */}
             {/* </div > */}
             <p className="mobile-only click-for-more">- Tap to learn more -</p>
