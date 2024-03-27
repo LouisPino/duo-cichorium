@@ -160,7 +160,7 @@
   }
 
   .project-category {
-    font-size: 2rem;
+    font-size: var(--large);
   }
 
   .project-card {

@@ -338,4 +338,8 @@ h2 {
     display: none;
   }
 
+  .glow:after {
+    background: none;
+  }
+
 }

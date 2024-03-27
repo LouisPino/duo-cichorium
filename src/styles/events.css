@@ -121,6 +121,7 @@
     .event-card {
         flex-direction: column;
         position: relative;
+        width: 90%;
     }
 
     .event-card-desc {
