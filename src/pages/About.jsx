@@ -43,6 +43,7 @@ export default function About() {
         }, { once: true });
 
     }
+
     function decHair() {
         const overlayImgEl = document.querySelector(".overlay-img");
         overlayImgEl.classList.remove("slide-in"); // Prepare for slide in
@@ -60,6 +61,15 @@ export default function About() {
             , { once: true });
     }
 
+
+
+    const hatImgEls = hatImgs.map((img) => {
+        return <img className="overlay-img" src={`./assets/hair/${img}.png`} />
+    })
+
+
+
+
     if (about === null) {
         return <PageTitle page={"Loading"} />;
     }
@@ -70,7 +80,7 @@ export default function About() {
                 <img className="about-photo-arrow" onClick={decHair} src="./assets/FlowerPng.png" />
                 <Photo photo={about.photos[1]} />
                 <img className="about-photo-arrow" onClick={incHair} src={`./assets/FlowerPng.png`} />
-                <img className="overlay-img" src={`./assets/hair/${hatImgs[hatIdx]}.png`} />
+                {hatImgEls[hatIdx]}
             </div>
             <p className="bio">
                 <span className="glow font700 bio-name">{about.name}</span>{about.bio}
