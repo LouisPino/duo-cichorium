@@ -14,11 +14,18 @@ export default function About() {
         setAbout(data);
     };
 
-    const hatImgs = ["blank", "hats", "saiyans"]
+    const hatImgs = ["blank", "hats", "saiyans", "flowers"]
 
     useEffect(() => {
         getAboutData();
     }, []);
+
+    useEffect(() => {
+        if (hatIdx) {
+            const overlayImgEl = document.querySelector(".overlay-img");
+            overlayImgEl.src = `./assets/hair/${hatImgs[hatIdx]}.png`; // Update the image source
+        }
+    }, [hatIdx])
 
     function incHair() {
         const overlayImgEl = document.querySelector(".overlay-img");
@@ -26,8 +33,10 @@ export default function About() {
         overlayImgEl.classList.remove("slide-in"); // Slide in
         overlayImgEl.classList.add("slide-out-reverse"); // Slide in
         overlayImgEl.addEventListener('animationend', () => {
-            setHatIdx((prevHatIdx) => ((prevHatIdx + 1) % hatImgs.length));
-            overlayImgEl.src = `./assets/hair/${hatImgs[hatIdx]}.png`; // Update the image source
+            setHatIdx((prevHatIdx) => {
+                console.log(prevHatIdx)
+                return (prevHatIdx + 1) % hatImgs.length
+            })
             overlayImgEl.classList.remove("slide-out-reverse");
             overlayImgEl.classList.remove("slide-out");
             overlayImgEl.classList.add("slide-in-reverse"); // Slide in
@@ -42,23 +51,14 @@ export default function About() {
         overlayImgEl.classList.add("slide-out"); // Start sliding out
         overlayImgEl.addEventListener('animationend', () => {
             // Correctly decrement the hat index
-            setHatIdx((prevHatIdx) => {
-                const newIndex = (prevHatIdx - 1) >= 0 ? prevHatIdx - 1 : hatImgs.length - 1;
-
-                return newIndex;
-            });
-            // Ensure you're waiting for the index to update before setting the source
-            // This might need to be handled differently if setHatIdx is asynchronous (e.g., in React state)
-            setTimeout(() => {
-                overlayImgEl.src = `./assets/hair/${hatImgs[hatIdx]}.png`; // Update the image source
-            }, 0); // Adjust based on your state management
+            setHatIdx((prevHatIdx) => (prevHatIdx - 1 >= 0 ? prevHatIdx - 1 : hatImgs.length - 1)
+            );
             overlayImgEl.classList.remove("slide-out");
             overlayImgEl.classList.remove("slide-out-reverse");
             overlayImgEl.classList.add("slide-in"); // Prepare for slide in
         }
             , { once: true });
     }
-
 
     if (about === null) {
         return <PageTitle page={"Loading"} />;
