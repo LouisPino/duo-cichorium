@@ -1,5 +1,8 @@
 
 export default function PageTitle({ page }) {
+
+
+
     return (
         <div className="page-title hover-glow">
             <img src="./assets/pagegif.gif" alt="" className="page-gif gif-reverse" />

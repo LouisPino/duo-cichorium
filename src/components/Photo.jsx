@@ -1,14 +1,7 @@
-import React, { useEffect, useState, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
-import 'materialize-css/dist/css/materialize.min.css';
-import M from 'materialize-css';
 
 export default function Photo({ photo, carousel }) {
     const location = useLocation()
-    useEffect(() => {
-        var elems = document.querySelectorAll('.materialboxed');
-        var instances = M.Materialbox.init(elems);
-    }, [])
 
     return (
         <div className={carousel ? "img-ctr carousel-item" : "img-ctr"}>
