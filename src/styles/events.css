@@ -131,7 +131,7 @@
 
     .event-card-date,
     .event-card-location {
-        font-size: .8rem;
+        font-size: var(--very-small)
     }
 
     .event-card-l {
