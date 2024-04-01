@@ -73,7 +73,7 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                     </Link>
                 </div>
                 <Link className="Link" to="/">
-                    <img className="cic-logo" src="assets/LogoPng.png" alt="img1"></img>
+                    <div className="cic-logo" src="assets/BannerNoFlowersTrans.png" alt="img1"></div>
                 </Link>
                 <div className="my-nav nav-r">
                     {/* <Link to="/the-sylvan-legacy">

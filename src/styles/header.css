@@ -23,8 +23,20 @@ header {
 }
 
 .cic-logo {
-    height: 130px;
+    min-height: 130px;
+    min-width: 420px;
     padding: 0;
+    background: url("../../public/assets/BannerNoFlowersTrans.PNG");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cic-logo:hover {
+    background: url("../../public/assets/BannerFlowersTrans.PNG");
+    min-height: 130px;
+    min-width: 420px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 400ms;
 }
 
 .my-nav {
