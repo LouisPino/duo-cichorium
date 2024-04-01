@@ -6,11 +6,10 @@ window.onscroll = function () {
     }
     let progressHeight = (window.scrollY / totalHeight) * 100;
     if (scrollFlowerEl) {
-        if (progressHeight < 1) {
+        if (progressHeight < .5) {
             scrollFlowerEl.style.top = scrollFlowerEl.style.height;
         } else {
             scrollFlowerEl.style.top = `calc(${progressHeight}% - 24px)`;
-            // scrollFlowerEl.addEventListener("click", scrollTest)
         }
     } else {
         totalHeight = document.body.scrollHeight - window.innerHeight;

@@ -38,6 +38,9 @@ export default function Event({ url }) {
             </div>
                 :
                 <Photo photo={event.photo} />}
+                                {event.tickets &&
+                <a href={`https://${event.tickets}`} target="_blank"><button>Tickets Here!</button></a>
+                }
             <p className="video-caption italic">{event.video_caption}</p>
             <div className="event-page-text">
                 {event.program.length ? <h5>Program</h5> : ""}

@@ -53,7 +53,7 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
         <header>
 
             <div id="progressbar" className={`desktop-only ${scrolls ? "" : "no-width"}`}  >
-                <img src="/assets/FlowerPng.png" className="scroll-img" />
+                <img src="/assets/ChicoryTrans.png" className="scroll-img" />
             </div>
             <div id="scrollpath" className="desktop-only"></div>
             <div className="header-content">
