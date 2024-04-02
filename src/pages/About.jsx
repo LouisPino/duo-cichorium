@@ -77,9 +77,9 @@ export default function About() {
 
         <div className="bio-body">
             <div className="overlay-ctr">
-                <img className="about-photo-arrow" onClick={decHair} src="./assets/FlowerPng.png" />
+                <img className="about-photo-arrow" onClick={decHair} src="./assets/ChicoryTrans.PNG" />
                 <Photo photo={about.photos[1]} />
-                <img className="about-photo-arrow" onClick={incHair} src={`./assets/FlowerPng.png`} />
+                <img className="about-photo-arrow" onClick={incHair} src="./assets/ChicoryTrans.PNG"/>
                 {hatImgEls[hatIdx]}
             </div>
             <p className="bio">

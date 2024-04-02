@@ -26,13 +26,13 @@ header {
     min-height: 130px;
     min-width: 420px;
     padding: 0;
-    background: url("../../public/assets/BannerNoFlowersTrans.PNG");
+    background: url("../../public/assets/BannerFlowersTrans2.png");
     background-size: contain;
     background-repeat: no-repeat;
     transition: 400ms;
 }
 .cic-logo:hover {
-    background: url("../../public/assets/BannerFlowersTrans.PNG");
+    background: url("../../public/assets/BannerFlowersTrans2.png");
     min-height: 130px;
     min-width: 420px;
     background-size: contain;
