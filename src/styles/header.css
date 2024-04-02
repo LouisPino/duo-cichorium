@@ -26,7 +26,7 @@ header {
     min-height: 130px;
     min-width: 420px;
     padding: 0;
-    background: url("../../public/assets/BannerFlowersTrans2.png");
+    background: url("../../public/assets/BannerNoFlowersTrans2.png");
     background-size: contain;
     background-repeat: no-repeat;
     transition: 400ms;
