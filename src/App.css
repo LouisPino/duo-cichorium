@@ -254,6 +254,46 @@ h2 {
 
 
 
+/* //////////////////////////////////////////////////////////////////////Flower Kaboom/////////// */
+.kaboom-ctr{
+  position: absolute;
+  left: 100px;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+  background-image: url("../public/assets/ChicoryTrans.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  visibility:visible;
+}
+
+#kaboom-ctl {
+  display: none;
+}
+
+#kaboom-ctl:checked + label > .kaboom-ctr {
+  background-image: url("../public/assets/kaboom.gif");
+  animation: hideKaboom .1s linear forwards;
+  animation-delay: .75s; 
+}
+
+@keyframes hideKaboom {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  99% {
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+
 /* //////////////////////////////////////////////////////////////////////Scroll Bar/////////// */
 #progressbar {
   position: fixed;
