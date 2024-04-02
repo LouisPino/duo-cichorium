@@ -1,31 +1,51 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 
 function FlowerKaboom() {
-    let mousePos = [];
 
     function dragFlower(e){
-        if(e.screenX != 0){
-            mousePos[0] = e.screenX
+        e.preventDefault()
+        if(e.clientX){
+        e.target.style.left = `${e.clientX}px`;
         }
-        if(e.screenY != 0){
-            mousePos[1] = e.screenY
-
+        if(e.clientY){
+        e.target.style.top = `${e.clientY+window.scrollY}px`;
         }
     }
-    
-    function dropFlower(e){
-        console.log(mousePos)
-        e.target.style.left = `${mousePos[0]}px`
-        e.target.style.top =  `${mousePos[1]}px`
-    }
 
+    useEffect(() => {
+        const kaboomEl = document.querySelector(".kaboom-ctr");   
+        if (kaboomEl) {
+            kaboomEl.addEventListener("drag", dragFlower);
+
+            // Clean up the event listeners on component unmount
+            return () => {
+                kaboomEl.removeEventListener("drag", dragFlower);
+            };
+        }
+    }, [])
 
     useEffect(() => {
         const kaboomEl = document.querySelector(".kaboom-ctr");
-        kaboomEl.addEventListener("drag", (e)=>{dragFlower(e)})
-        kaboomEl.addEventListener("dragend", (e)=>{dropFlower(e)})
-    }, [])
+        if (kaboomEl) {
+            const dragStartHandler = (e) => {
+                // Create a new transparent image or use a 1x1 transparent PNG
+                var transparentImg = new Image();
+                transparentImg.src = "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==";
+
+                // Set the custom drag image, position it far off screen
+                e.dataTransfer.setDragImage(transparentImg, -10000, -10000);
+            };
+
+            kaboomEl.addEventListener("dragstart", dragStartHandler);
+
+            // Clean up the event listeners on component unmount
+            return () => {
+                kaboomEl.removeEventListener("dragstart", dragStartHandler);
+            };
+        }
+    }, []);
+
 
   return (
   <>
