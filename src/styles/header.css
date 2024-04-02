@@ -131,7 +131,7 @@ header {
     margin: 8px;
     position: fixed;
     right: 0;
-
+    z-index: 10;
 }
 
 #hamburger-div {

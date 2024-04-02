@@ -12,8 +12,8 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
     useEffect(() => {
         const hamburgerEl = document.getElementById("hamburger-div");
         const workEl = document.querySelector(".workbtn");
-        hamburgerEl.addEventListener("mouseover", () => { setBurgerDrop(true); })
-        hamburgerEl.addEventListener("click", () => { toggleBurger() })
+        // hamburgerEl.addEventListener("mouseover", () => { setBurgerDrop(true); })
+        hamburgerEl.addEventListener("click", toggleBurger)
         hamburgerEl.addEventListener("mouseout", () => { if (burgerDrop) setBurgerDrop(false); })
         workEl.addEventListener("mouseover", () => { setWorkDrop(true) })
         workEl.addEventListener("mouseout", () => { setWorkDrop(false) })
@@ -33,7 +33,7 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
         setWorkDrop(false)
     }
     function toggleBurger() {
-        setBurgerDrop((prevBurgerDrop) => (!prevBurgerDrop))
+        setBurgerDrop((prev) => (!prev))
     }
 
     window.addEventListener('resize', handleResize)
