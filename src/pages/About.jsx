@@ -14,7 +14,25 @@ export default function About() {
         setAbout(data);
     };
 
-    const hatImgs = ["blank", "hats", "saiyans", "flowers"]
+    const hatImgs = [
+        "blank", 
+        "about1",
+        "about2",
+        "about3",
+        "about4",
+        "about5",
+        "about6",
+        "about7",
+        "about8",
+        "about9",
+        "about10",
+        "about11",
+        "about12",
+        "about13",
+        "about14",
+        "about15",
+        
+    ]
 
     useEffect(() => {
         getAboutData();

@@ -47,6 +47,7 @@ function FlowerKaboom() {
     }, []);
 
 
+  ;
   return (
   <>
 <input type="checkbox" id="kaboom-ctl"/>

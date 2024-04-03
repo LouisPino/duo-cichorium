@@ -32,13 +32,21 @@ header {
     transition: 400ms;
 }
 .cic-logo:hover {
-    background: url("../../public/assets/BannerFlowersTrans2.png");
+    background: url("../../public/assets/Logo_Gif.gif");
     min-height: 130px;
     min-width: 420px;
     background-size: contain;
     background-repeat: no-repeat;
-    transition: 400ms;
+    /* transition: 400ms; */
 }
+
+.cic-logo::before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    background: url("../../public/assets/BannerFlowersTrans2.png");
+    content: '';
+  }
 
 .my-nav {
     padding: 0;
