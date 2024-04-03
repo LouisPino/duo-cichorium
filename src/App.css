@@ -272,7 +272,17 @@ h2 {
   display: none;
 }
 
-#kaboom-ctl:checked + label > .kaboom-ctr {
+#kaboom-ctl0:checked + label > .kaboom-ctr {
+  background-image: url("../public/assets/kaboom.gif");
+  animation: hideKaboom .1s linear forwards;
+  animation-delay: .75s; 
+}
+#kaboom-ctl1:checked + label > .kaboom-ctr {
+  background-image: url("../public/assets/kaboom.gif");
+  animation: hideKaboom .1s linear forwards;
+  animation-delay: .75s; 
+}
+#kaboom-ctl2:checked + label > .kaboom-ctr {
   background-image: url("../public/assets/kaboom.gif");
   animation: hideKaboom .1s linear forwards;
   animation-delay: .75s; 
