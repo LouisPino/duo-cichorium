@@ -7,7 +7,9 @@ import "../styles/home.css"
 export default function Home({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
     return (
         <>
-            <FlowerKaboom />
+            <FlowerKaboom x="100px" y="300px" flower="0" size="100px" instance={0}/>
+            <FlowerKaboom x="100px" y="100px" flower="0" size="50px" instance={1}/>
+            <FlowerKaboom x="100px" y="200px" flower="0" size="75px" instance={2}/>
             <HomeHero burgerDrop={burgerDrop} setBurgerDrop={setBurgerDrop} workDrop={workDrop} setWorkDrop={setWorkDrop} />
             <hr />
             <RecentProjects category="Featured Work" />

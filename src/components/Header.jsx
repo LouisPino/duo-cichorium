@@ -32,7 +32,6 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
     const gif=document.querySelector('.cic-logo');
     if(gif){
    gif.style.backgroundImage= "/assets/Logo_Gif.gif";
-   console.log("hit")
     }
 }
 
