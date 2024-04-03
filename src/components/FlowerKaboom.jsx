@@ -28,7 +28,7 @@ function FlowerKaboom({x, y, flower, size, instance}) {
     }, [])
 
     useEffect(() => {
-        const kaboomEl = document.querySelector(".kaboom-ctr");
+        const kaboomEl = document.querySelectorAll(".kaboom-ctr")[instance];
         if (kaboomEl) {
             const dragStartHandler = (e) => {
                 var transparentImg = new Image();
