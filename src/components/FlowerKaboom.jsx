@@ -6,10 +6,10 @@ function FlowerKaboom({x, y, flower, size, instance}) {
     function dragFlower(e){
         e.preventDefault()
         if(e.clientX){
-        e.target.style.left = `${e.clientX}px`;
+        e.target.style.left = `${e.clientX-size/2}px`;
         }
         if(e.clientY){
-        e.target.style.top = `${e.clientY+window.scrollY}px`;
+        e.target.style.top = `${e.clientY+window.scrollY-size/2}px`;
         }
     }
 
@@ -19,8 +19,8 @@ function FlowerKaboom({x, y, flower, size, instance}) {
             kaboomEl.addEventListener("drag", dragFlower);
             kaboomEl.style.top = y
             kaboomEl.style.left = x
-            kaboomEl.style.height = size
-            kaboomEl.style.width = size
+            kaboomEl.style.height = `${size}px`
+            kaboomEl.style.width = `${size}px`
             return () => {
                 kaboomEl.removeEventListener("drag", dragFlower);
             };
