@@ -44,8 +44,7 @@
 }
 
 #materialbox-overlay {
-    background-color: black;
-    opacity: .9 !important;
+    background-color: rgba(0, 0, 0, .8);
 }
 
 @media screen and (max-width: 700px) {
