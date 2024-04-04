@@ -8,7 +8,7 @@ const ProjectCard = ({ project }) => {
         <Link className="project-card" to={`/${project.url}`} >
             {/* <div className="project-card"> */}
             <h5 className="project-title">{project.name}</h5>
-            <img src={project.img} />
+            <img src={project.img} alt={project.imgAlt}  />
             <p className="project-card-desc">{project.shortDesc}</p>
             {/* <Link to={`/${project.url}`} > <button>Watch</button></Link> */}
             {/* </div > */}

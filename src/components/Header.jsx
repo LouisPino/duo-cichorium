@@ -66,7 +66,7 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
         <header>
 
             <div id="progressbar" className={`desktop-only ${scrolls ? "" : "no-width"}`}  >
-                <img src="/assets/ChicoryTrans.png" className="scroll-img" />
+                <img src="/assets/ChicoryTrans.png" className="scroll-img" alt="Chicory flower scroll indicator"/>
             </div>
             <div id="scrollpath" className="desktop-only"></div>
             <div className="header-content">
@@ -118,7 +118,7 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
 
 
             <div className="dropbtn" id="hamburger-div">
-                <img className="hamburger" src="/assets/burger.png" alt="img1" />
+                <img className="hamburger" src="/assets/burger.png" alt="Hamburger menu" />
                 <div className={burgerDrop ? 'dropdown-visible my-dropdown-content' : 'dropdown-hidden my-dropdown-content'}>
                     <Link to="/" className="burger-link" onClick={linkClicked}>
                         <p className="burger-link-text link">Home</p>
