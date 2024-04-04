@@ -33,7 +33,7 @@ header {
     position: relative;
 }
 
-/* 
+
 .cic-logo-flowers{
     position: absolute;
     top: 0;
@@ -42,11 +42,40 @@ header {
     width: 100%;
     z-index: 15;
     opacity: 0;
-    background-image: url("https://res.cloudinary.com/dsvcyich1/image/upload/v1712237708/LogoBloomFinal_no5xhe.png");
+    background: url("../../public/assets/LogoBloomFinal.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-}  */
+
+} 
+
+.cic-logo-flowers-gif{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 15;
+    opacity: 0;
+    background: url("../../public/assets/Logo_Gif.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+.cic-logo-flowers-gif-reverse{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 12;
+    opacity: 0;
+    background: url("../../public/assets/LogoBloomReverse.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
 
 .my-nav {
     padding: 0;
@@ -87,17 +116,6 @@ header {
     margin: 0;
 }
 
-/* .nav-btn-text::after {
-    content: '';
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    bottom: 0;
-    transition: 0.25s ease;
-    background-color:
-        var(--rainbow-7);
-    border-radius: 2px;
-} */
 .current-location::after {
     content: '';
     position: absolute;

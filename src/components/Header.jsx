@@ -12,23 +12,26 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
     useEffect(() => {
         const hamburgerEl = document.getElementById("hamburger-div");
         const workEl = document.querySelector(".workbtn");
-        const logoEl = document.querySelector(".cic-logo-flowers")
-        // hamburgerEl.addEventListener("mouseover", () => { setBurgerDrop(true); })
+        const logoFlowerGifEl = document.querySelector(".cic-logo-flowers-gif")
+        const logoFlowerGifReverseEl = document.querySelector(".cic-logo-flowers-gif-reverse")
         hamburgerEl.addEventListener("click", toggleBurger)
         hamburgerEl.addEventListener("mouseout", () => { if (burgerDrop) setBurgerDrop(false); })
         workEl.addEventListener("mouseover", () => { setWorkDrop(true) })
         workEl.addEventListener("mouseout", () => { setWorkDrop(false) })
-        logoEl.addEventListener("mouseover", function(e) {
+      
+      
+      
+        logoFlowerGifEl.addEventListener("mouseover", function(e) {
             e.target.style.opacity = 1;
-            setTimeout(()=>{
-                console.log("hit")
-                // e.target.style.background = "url(https://res.cloudinary.com/dsvcyich1/image/upload/v1712237708/LogoBloomFinal_no5xhe.png)"
-            }, 500)
         });
-        logoEl.addEventListener("mouseout", function(e) {
+
+        logoFlowerGifEl.addEventListener("mouseout", function(e) {
             e.target.style.opacity = 0;
-            e.target.style.backgroundImage = "url(http://localhost:3000/static/media/LogoBloom.c5672195ae72ee1034af.gif)"
+            logoFlowerGifReverseEl.style.opacity = 1;
         });
+
+
+
     }, [])
 
 
@@ -87,6 +90,8 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                 <Link className="Link" to="/">
                     <div className="cic-logo" >
                     <div className="cic-logo-flowers"> </div>
+                    <div className="cic-logo-flowers-gif"> </div>
+                    <div className="cic-logo-flowers-gif-reverse"> </div>
                     </div>
                     
                 </Link>
