@@ -14,6 +14,7 @@ import Events from "./pages/Events";
 import Sylvan from "./pages/Sylvan";
 import EventPage from "./pages/EventPage";
 import Subscribed from "./pages/Subscribed";
+import _404 from "./pages/_404.jsx";
 function App() {
   const [burgerDrop, setBurgerDrop] = useState(false)
   const [workDrop, setWorkDrop] = useState(false)
@@ -31,17 +32,18 @@ function App() {
         <Route exact path="/the-sylvan-legacy" element={<Sylvan />} />
         <Route exact path="/tranzac-residency" element={<Tranzac />} />
         <Route exact path="/subscribed" element={<Subscribed />} />
-        <Route path="/Anticommunication" element={<Project url="Anticommunication" />} />
-        <Route path="/Elemental" element={<Project url="Elemental" />} />
-        <Route path="/Letter" element={<Project url="Letter" />} />
-        <Route path="/Damage" element={<Project url="Damage" />} />
-        <Route path="/Ritual" element={<Project url="Ritual" />} />
-        <Route path="/Grains" element={<Project url="Grains" />} />
-        <Route path="/Fours" element={<Project url="Fours" />} />
-        <Route path="/Dreams" element={<Project url="Dreams" />} />
-        <Route path="/ElementalConcert" element={<EventPage url="ElementalConcert" />} />
-        <Route path="/Behaviours" element={<EventPage url="Behaviours" />} />
-        <Route path="/PonyHAUS" element={<EventPage url="PonyHAUS" />} />
+        <Route exact path="/Anticommunication" element={<Project url="Anticommunication" />} />
+        <Route exact path="/Elemental" element={<Project url="Elemental" />} />
+        <Route exact path="/Letter" element={<Project url="Letter" />} />
+        <Route exact path="/Damage" element={<Project url="Damage" />} />
+        <Route exact path="/Ritual" element={<Project url="Ritual" />} />
+        <Route exact path="/Grains" element={<Project url="Grains" />} />
+        <Route exact path="/Fours" element={<Project url="Fours" />} />
+        <Route exact path="/Dreams" element={<Project url="Dreams" />} />
+        <Route exact path="/ElementalConcert" element={<EventPage url="ElementalConcert" />} />
+        <Route exact path="/Behaviours" element={<EventPage url="Behaviours" />} />
+        <Route exact path="/PonyHAUS" element={<EventPage url="PonyHAUS" />} />
+        <Route path="/*" element={<_404/>} />
       </Routes>
       <Footer />
     </div>
