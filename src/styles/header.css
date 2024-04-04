@@ -29,24 +29,24 @@ header {
     background: url("../../public/assets/BannerNoFlowersTrans2.png");
     background-size: contain;
     background-repeat: no-repeat;
-    transition: 400ms;
-}
-.cic-logo:hover {
-    background: url("../../public/assets/Logo_Gif.gif");
-    min-height: 130px;
-    min-width: 420px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    /* transition: 400ms; */
+    background-position: center;
+    position: relative;
 }
 
-.cic-logo::before {
+/* 
+.cic-logo-flowers{
     position: absolute;
-    width: 0;
-    height: 0;
-    background: url("../../public/assets/BannerFlowersTrans2.png");
-    content: '';
-  }
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 15;
+    opacity: 0;
+    background-image: url("https://res.cloudinary.com/dsvcyich1/image/upload/v1712237708/LogoBloomFinal_no5xhe.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}  */
 
 .my-nav {
     padding: 0;

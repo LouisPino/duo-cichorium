@@ -10,7 +10,6 @@ const Carousel = () => {
 
 
     useEffect(() => {
-
         const options = {
             dist: 0,
             indicators: true,

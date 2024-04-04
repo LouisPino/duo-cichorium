@@ -53,27 +53,4 @@ const PressPhotos = () => {
     );
 }
 
-//     useEffect(() => {
-//         if (about) {
-//             if (imgCount >= about.photos.length) {
-//                 setLoaded(true)
-//             }
-//         }
-//         console.log(imgCount)
-//     }, [imgCount])
-
-//     if (about) {
-//         const images = about.photos.map((photo) => {
-//             return <Photo photo={photo} setImgCount={setImgCount} />
-//         })
-
-//         return (loaded ?
-//             <div className="press-photos-ctr">
-//                 {images}
-//             </div>
-//             :
-//             <PageTitle page={"Loading"} />
-//         );
-//     }
-// }
 export default PressPhotos;

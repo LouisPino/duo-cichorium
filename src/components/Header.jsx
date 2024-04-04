@@ -12,13 +12,23 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
     useEffect(() => {
         const hamburgerEl = document.getElementById("hamburger-div");
         const workEl = document.querySelector(".workbtn");
-        const logoEl = document.querySelector(".cic-logo")
+        const logoEl = document.querySelector(".cic-logo-flowers")
         // hamburgerEl.addEventListener("mouseover", () => { setBurgerDrop(true); })
         hamburgerEl.addEventListener("click", toggleBurger)
         hamburgerEl.addEventListener("mouseout", () => { if (burgerDrop) setBurgerDrop(false); })
         workEl.addEventListener("mouseover", () => { setWorkDrop(true) })
         workEl.addEventListener("mouseout", () => { setWorkDrop(false) })
-        logoEl.addEventListener("mouseout", () => { console.log("hot")})
+        logoEl.addEventListener("mouseover", function(e) {
+            e.target.style.opacity = 1;
+            setTimeout(()=>{
+                console.log("hit")
+                // e.target.style.background = "url(https://res.cloudinary.com/dsvcyich1/image/upload/v1712237708/LogoBloomFinal_no5xhe.png)"
+            }, 500)
+        });
+        logoEl.addEventListener("mouseout", function(e) {
+            e.target.style.opacity = 0;
+            e.target.style.backgroundImage = "url(http://localhost:3000/static/media/LogoBloom.c5672195ae72ee1034af.gif)"
+        });
     }, [])
 
 
@@ -76,7 +86,10 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                     </Link>
                 </div>
                 <Link className="Link" to="/">
-                    <div className="cic-logo" src="assets/BannerNoFlowersTrans2.png" alt="img1"></div>
+                    <div className="cic-logo" >
+                    <div className="cic-logo-flowers"> </div>
+                    </div>
+                    
                 </Link>
                 <div className="my-nav nav-r">
                     {/* <Link to="/the-sylvan-legacy">
