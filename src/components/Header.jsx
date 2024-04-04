@@ -6,6 +6,7 @@ import resizeScroll from "../scripts/scrollbar.js"
 function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
     const location = useLocation()
     const [scrolls, setScrolls] = useState(true)
+    const [hover, setHover] = useState(true)
 
     useEffect(checkHeight, [location])
 
@@ -18,9 +19,7 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
         hamburgerEl.addEventListener("mouseout", () => { if (burgerDrop) setBurgerDrop(false); })
         workEl.addEventListener("mouseover", () => { setWorkDrop(true) })
         workEl.addEventListener("mouseout", () => { setWorkDrop(false) })
-      
-      
-      
+
         logoFlowerGifEl.addEventListener("mouseover", function(e) {
             e.target.style.opacity = 1;
         });
@@ -29,9 +28,6 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
             e.target.style.opacity = 0;
             logoFlowerGifReverseEl.style.opacity = 1;
         });
-
-
-
     }, [])
 
 
