@@ -34,7 +34,7 @@ header {
 .cic-logo:hover {
     background: url("../../public/assets/Logo_Gif.gif");
     min-height: 130px;
-    min-width: 420px;
+    min-width: 400px;
     background-size: contain;
     background-repeat: no-repeat;
     /* transition: 400ms; */
@@ -65,9 +65,13 @@ header {
 .nav-l {
     padding-left: 8px;
     align-items: left;
-
 }
-
+.nav-l .nav-btn-text{
+    text-align: left;
+}
+.nav-r .nav-btn-text{
+    text-align: right;
+}
 .nav-r {
     padding-right: 24px;
     align-items: end;
@@ -225,10 +229,14 @@ header {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
+    .nav-btn-text {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 600px) {
     .hamburger {
         display: block;
-
     }
 
     .header-content * {

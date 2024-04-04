@@ -7,7 +7,7 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
     const location = useLocation()
     const [scrolls, setScrolls] = useState(true)
 
-    useEffect(()=>{checkHeight(); restartGIF()}, [location])
+    useEffect(checkHeight, [location])
 
     useEffect(() => {
         const hamburgerEl = document.getElementById("hamburger-div");
@@ -28,12 +28,6 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
         }
     }
 
-    function restartGIF(){
-    const gif=document.querySelector('.cic-logo');
-    if(gif){
-   gif.style.backgroundImage= "/assets/Logo_Gif.gif";
-    }
-}
 
     function linkClicked() {
         setBurgerDrop(false)

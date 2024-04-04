@@ -101,7 +101,8 @@ export default function About() {
                 {hatImgEls[hatIdx]}
             </div>
             <p className="bio">
-                <span className="glow font700 bio-name">{about.name}</span>{about.bio}
+                {/* <span className="glow font700 bio-name">{about.name}</span> */}
+                {about.bio}
             </p>
         </div>
 
