@@ -51,7 +51,7 @@ function FlowerKaboom({x, y, flower, size, instance}) {
   <>
 <input type="checkbox" id={`kaboom-ctl${instance}`}/>
 <label for={`kaboom-ctl${instance}`}>    
-<div className={`kaboom-ctr${instance}`} draggable={true}>
+<div className={`kaboom-ctr${instance} desktop-only`} draggable={true}>
 </div>
 </label> 
 </>

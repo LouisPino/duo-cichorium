@@ -70,7 +70,6 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
             </div>
             <div id="scrollpath" className="desktop-only"></div>
             <div className="header-content">
-
                 <div className="my-nav nav-l">
                     <Link to="/">
                         <p className={`link nav-btn-text ${location.pathname === "/" ? "current-location" : ""}`} onClick={linkClicked}>Home</p>
