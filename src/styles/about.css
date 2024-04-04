@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.bio-body * {
+    /* border: 1px solid red; */
+}
+
 
 .bio-body img {
     width: 100%;
@@ -39,19 +43,28 @@
 }
 
 .about-photo-arrow {
-    max-width: 35px;
+    max-width: 70px;
     cursor: pointer;
+}
+
+.arrow-l{
+    rotate: 180deg;
 }
 
 
 .overlay-img {
     height: 100%;
     width: 100%;
-    padding: 0 35px;
+    padding: 0 70px;
     position: absolute;
     pointer-events: none !important;
 }
+@media screen and (max-width: 1100px) {
 
+    .overlay-ctr {
+        width: 45vw;
+    }
+}
 
 @media screen and (max-width: 700px) {
 
@@ -66,9 +79,9 @@
     .overlay-ctr {
         width: 75vw;
     }
-
-
 }
+
+
 
 
 
