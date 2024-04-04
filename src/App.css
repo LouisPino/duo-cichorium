@@ -255,12 +255,8 @@ h2 {
 
 
 /* //////////////////////////////////////////////////////////////////////Flower Kaboom/////////// */
-.kaboom-ctr{
+.kaboom-ctr0, .kaboom-ctr1, .kaboom-ctr2{
   position: absolute;
-  left: 100px;
-  top: 0;
-  width: 50px;
-  height: 50px;
   z-index: 10;
   background-image: url("../public/assets/ChicoryTrans.PNG");
   background-repeat: no-repeat;
@@ -268,21 +264,21 @@ h2 {
   visibility:visible;
 }
 
-#kaboom-ctl {
+#kaboom-ctl0, #kaboom-ctl1, #kaboom-ctl2  {
   display: none;
 }
 
-#kaboom-ctl0:checked + label > .kaboom-ctr {
+#kaboom-ctl0:checked + label > .kaboom-ctr0 {
   background-image: url("../public/assets/kaboom.gif");
   animation: hideKaboom .1s linear forwards;
   animation-delay: .75s; 
 }
-#kaboom-ctl1:checked + label > .kaboom-ctr {
+#kaboom-ctl1:checked + label > .kaboom-ctr1 {
   background-image: url("../public/assets/kaboom.gif");
   animation: hideKaboom .1s linear forwards;
   animation-delay: .75s; 
 }
-#kaboom-ctl2:checked + label > .kaboom-ctr {
+#kaboom-ctl2:checked + label > .kaboom-ctr2 {
   background-image: url("../public/assets/kaboom.gif");
   animation: hideKaboom .1s linear forwards;
   animation-delay: .75s; 

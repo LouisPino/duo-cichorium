@@ -12,11 +12,13 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
     useEffect(() => {
         const hamburgerEl = document.getElementById("hamburger-div");
         const workEl = document.querySelector(".workbtn");
+        const logoEl = document.querySelector(".cic-logo")
         // hamburgerEl.addEventListener("mouseover", () => { setBurgerDrop(true); })
         hamburgerEl.addEventListener("click", toggleBurger)
         hamburgerEl.addEventListener("mouseout", () => { if (burgerDrop) setBurgerDrop(false); })
         workEl.addEventListener("mouseover", () => { setWorkDrop(true) })
         workEl.addEventListener("mouseout", () => { setWorkDrop(false) })
+        logoEl.addEventListener("mouseout", () => { console.log("hot")})
     }, [])
 
 

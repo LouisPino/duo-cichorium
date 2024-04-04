@@ -34,7 +34,7 @@ header {
 .cic-logo:hover {
     background: url("../../public/assets/Logo_Gif.gif");
     min-height: 130px;
-    min-width: 400px;
+    min-width: 420px;
     background-size: contain;
     background-repeat: no-repeat;
     /* transition: 400ms; */

@@ -14,7 +14,7 @@ function FlowerKaboom({x, y, flower, size, instance}) {
     }
 
     useEffect(() => {
-        const kaboomEl = document.querySelectorAll(".kaboom-ctr")[instance];   
+        const kaboomEl = document.querySelector(`.kaboom-ctr${instance}`);   
         if (kaboomEl) {
             kaboomEl.addEventListener("drag", dragFlower);
             kaboomEl.style.top = y
@@ -28,7 +28,7 @@ function FlowerKaboom({x, y, flower, size, instance}) {
     }, [])
 
     useEffect(() => {
-        const kaboomEl = document.querySelectorAll(".kaboom-ctr")[instance];
+        const kaboomEl = document.querySelector(`.kaboom-ctr${instance}`);
         if (kaboomEl) {
             const dragStartHandler = (e) => {
                 var transparentImg = new Image();
@@ -51,7 +51,7 @@ function FlowerKaboom({x, y, flower, size, instance}) {
   <>
 <input type="checkbox" id={`kaboom-ctl${instance}`}/>
 <label for={`kaboom-ctl${instance}`}>    
-<div className="kaboom-ctr" draggable={true}>
+<div className={`kaboom-ctr${instance}`} draggable={true}>
 </div>
 </label> 
 </>
