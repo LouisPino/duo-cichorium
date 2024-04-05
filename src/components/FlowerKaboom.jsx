@@ -33,12 +33,9 @@ function FlowerKaboom({x, y, flower, size, instance}) {
             const dragStartHandler = (e) => {
                 var transparentImg = new Image();
                 transparentImg.src = "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==";
-
                 e.dataTransfer.setDragImage(transparentImg, -10, -10);
             };
-
             kaboomEl.addEventListener("dragstart", dragStartHandler);
-
             return () => {
                 kaboomEl.removeEventListener("dragstart", dragStartHandler);
             };
@@ -51,7 +48,7 @@ function FlowerKaboom({x, y, flower, size, instance}) {
   <>
 <input type="checkbox" id={`kaboom-ctl${instance}`}/>
 <label for={`kaboom-ctl${instance}`}>    
-<div className={`kaboom-ctr${instance} desktop-only`} draggable={true}>
+<div className={`kaboom-ctr${instance} desktop-only flower${flower}`} draggable={true}>
 </div>
 </label> 
 </>

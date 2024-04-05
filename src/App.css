@@ -240,11 +240,22 @@ h2 {
 /* //////////////////////////////////////////////////////////////////////Flower Kaboom/////////// */
 .kaboom-ctr0, .kaboom-ctr1, .kaboom-ctr2{
   position: absolute;
-  background-image: url("../public/assets/ChicoryTrans.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   visibility:visible;
   z-index: 1;
+}
+
+.flower0{
+  background-image: url("../public/assets/ChicoryTrans.PNG");
+}
+
+.flower1{
+  background-image: url("../public/assets/Chicory4spin.PNG");
+}
+
+.flower2{
+  background-image: url("../public/assets/ChicoryKaboom.png");
 }
 
 #kaboom-ctl0, #kaboom-ctl1, #kaboom-ctl2  {
