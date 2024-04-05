@@ -27,7 +27,6 @@ function App() {
       el.style.top = `${(Math.floor(Math.random() * 90)+5)}%`
       el.style.left = `${(Math.floor(Math.random() * 90)+5)}vw`
     })
-    console.log('HIT')
   },[location])
 
 

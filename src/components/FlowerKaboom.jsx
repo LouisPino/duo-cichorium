@@ -41,9 +41,6 @@ function FlowerKaboom({x, y, flower, size, instance}) {
             };
         }
     }, []);
-
-
-  ;
   return (
   <>
 <input type="checkbox" id={`kaboom-ctl${instance}`}/>
