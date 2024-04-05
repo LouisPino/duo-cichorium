@@ -19,6 +19,17 @@ import _404 from "./pages/_404.jsx";
 function App() {
   const [burgerDrop, setBurgerDrop] = useState(false)
   const [workDrop, setWorkDrop] = useState(false)
+  const location = useLocation()
+
+  useEffect(()=>{
+    const kaboomEls = document.querySelectorAll(".kaboom")
+    kaboomEls.forEach((el)=>{
+      el.style.top = `${(Math.floor(Math.random() * 90)+5)}%`
+      el.style.left = `${(Math.floor(Math.random() * 90)+5)}vw`
+    })
+    console.log('HIT')
+  },[location])
+
 
   return (
     <div className="App">
