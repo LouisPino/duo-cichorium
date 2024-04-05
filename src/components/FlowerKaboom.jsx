@@ -13,6 +13,11 @@ function FlowerKaboom({x, y, flower, size, instance}) {
         }
     }
 
+    function spin(e){
+        e.target.classList.add("spin")
+        e.target.addEventListener("animationend", ()=>e.target.classList.remove("spin"))
+    }
+
     useEffect(() => {
         const kaboomEl = document.querySelector(`.kaboom-ctr${instance}`);   
         if (kaboomEl) {
@@ -48,7 +53,7 @@ function FlowerKaboom({x, y, flower, size, instance}) {
   <>
 <input type="checkbox" id={`kaboom-ctl${instance}`}/>
 <label for={`kaboom-ctl${instance}`}>    
-<div className={`kaboom-ctr${instance} desktop-only flower${flower}`} draggable={true}>
+<div className={`kaboom-ctr${instance} desktop-only flower${flower} kaboom`} onClick={spin} draggable={true}>
 </div>
 </label> 
 </>
