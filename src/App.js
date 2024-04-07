@@ -19,11 +19,21 @@ import _404 from "./pages/_404.jsx";
 function App() {
   const [burgerDrop, setBurgerDrop] = useState(false)
   const [workDrop, setWorkDrop] = useState(false)
+  const location = useLocation()
+
+  useEffect(()=>{
+    const kaboomEls = document.querySelectorAll(".kaboom")
+    kaboomEls.forEach((el)=>{
+      el.style.top = `${(Math.floor(Math.random() * 90)+5)}%`
+      el.style.left = `${(Math.floor(Math.random() * 90)+5)}vw`
+    })
+  },[location])
+
 
   return (
     <div className="App">
       <Header burgerDrop={burgerDrop} setBurgerDrop={setBurgerDrop} workDrop={workDrop} setWorkDrop={setWorkDrop} />
-      <FlowerKaboom x="1vw" y="100px" flower="0" size={150} instance={0}/>
+      <FlowerKaboom x="2vw" y="100px" flower="0" size={150} instance={0}/>
       <FlowerKaboom x="calc(95vw - 100px)" y="70vh" flower="1" size={125} instance={1}/>
       <FlowerKaboom x="calc(90vw - 100px)" y="80vh" flower="2" size={100} instance={2}/>
       <Routes>
