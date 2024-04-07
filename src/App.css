@@ -235,7 +235,12 @@ h2 {
 }
 
 
-
+._404{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* //////////////////////////////////////////////////////////////////////Flower Kaboom/////////// */
 
