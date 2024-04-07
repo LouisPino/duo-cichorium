@@ -25,10 +25,29 @@
 
 
 .socials-ctr img {
-    width: 50px;
+    width: 70px;
     margin: 0 8px;
 }
 
+.social-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.social-flower{
+    position: absolute;
+    opacity: 0;
+}
+
+.social-flower:hover{
+    opacity: 1;
+    transition: 400ms;
+}
+
+.social-l{
+    left: 0;
+}
 
 .socials-ctr {
     display: flex;
@@ -36,6 +55,7 @@
     justify-content: space-between;
     margin-top: 8px;
     align-items: center;
+    position: relative;
 }
 
 .subscribe-text {

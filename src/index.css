@@ -17,8 +17,8 @@ code {
 
 :root {
   --bg: #15161a;
-  --blue-text: #8d93ba;
-  --nav-bar: #2c2f45;
+  --blue-text: rgb(188, 173, 230);
+  --nav-bar: rgb(32, 32, 41);
   --scroll-bar: #26265a;
   --box-glow: #464185;
   --box: #1f2033;
