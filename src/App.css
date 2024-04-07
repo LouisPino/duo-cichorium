@@ -238,12 +238,18 @@ h2 {
 
 
 /* //////////////////////////////////////////////////////////////////////Flower Kaboom/////////// */
-.kaboom-ctr0, .kaboom-ctr1, .kaboom-ctr2{
+
+
+.kaboom{
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
   visibility:visible;
   z-index: 1;
+}
+
+.spin{
+  animation: spin .5s ease-in-out ;
 }
 
 .flower0{
@@ -263,7 +269,7 @@ h2 {
   z-index: 10;
 }
 
-#kaboom-ctl0:checked + label > .kaboom-ctr0 {
+/* #kaboom-ctl0:checked + label > .kaboom-ctr0 {
   background-image: url("../public/assets/kaboom.gif");
   animation: hideKaboom .1s linear forwards;
   animation-delay: .75s; 
@@ -277,7 +283,7 @@ h2 {
   background-image: url("../public/assets/kaboom.gif");
   animation: hideKaboom .1s linear forwards;
   animation-delay: .75s; 
-}
+} */
 
 @keyframes hideKaboom {
   0% {
@@ -321,6 +327,16 @@ h2 {
 
   100% {
     background-position: 0% 0%;
+  }
+}
+
+@keyframes spin {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 359deg;
   }
 }
 
