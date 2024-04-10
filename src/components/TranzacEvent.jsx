@@ -14,7 +14,7 @@ const Event = ({ event }) => {
             <div className="event-card-r">
                 <h5 className="">WE HAVE FRIENDS {event.number}</h5>
                 <h5 className="event-card-title italic">{event.title}</h5>
-                <p className="event-card-desc">{event.guests}</p>
+                <h4 className="">{event.guests}</h4>
                 <p className="event-card-desc">{event.shortDesc}</p>
             </div>
             <p className="mobile-only click-for-more">- Tap to learn more -</p>
