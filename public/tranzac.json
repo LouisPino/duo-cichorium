@@ -1,101 +1,104 @@
 [
   {
-"date": "April 16",
-"url": "tranzac1",
+    "date": "April 16 9:30 pm",
+    "url": "tranzac1",
+    "series": "Tranzac Residency",
+    "location": "Tranzac Club, Toronto",
     "title": "RESIDENCY TITLE 1 - CONCERT TITLE",
-    "guests": "Artist 1, Artist 2, and Artist 3",
+    "guests": "Guest Artists TBD",
     "imgUrl": "",
     "program": [],
     "photo": {
-        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046170/cichorium/carousel/carousel4_zv4zqs.jpg",
-        "credit": "",
-        "title": "",
-        "imgAlt": "Image from Music Gallery Desiderium performance"
-  
-      },
-      "desc": ""
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046170/cichorium/carousel/carousel4_zv4zqs.jpg",
+      "credit": "",
+      "title": "",
+      "imgAlt": "Image from Music Gallery Desiderium performance"
+    },
+    "desc": ""
   },
   {
-      "date": "May 21",
-      "title": "RESIDENCY TITLE 2 - CONCERT TITLE",
-      "guests": "Artist 1, Artist 2, and Artist 3",
-      "imgUrl": "",
-      "program": [],
-      "photo": {
-          "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046170/cichorium/carousel/carousel4_zv4zqs.jpg",
-          "credit": "",
-          "title": "",
-          "imgAlt": "Image from Music Gallery Desiderium performance"
-    
-        },
-        "desc": "",
-        "url": "tranzac2"
-  },
-  {
-      "date": "June 18",
-      "title": "RESIDENCY TITLE 3 - CONCERT TITLE",
-      "guests": "Artist 1, Artist 2, and Artist 3",
-      "imgUrl": "",
-      "program": [],
-      "photo": {
-          "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046170/cichorium/carousel/carousel4_zv4zqs.jpg",
-          "credit": "",
-          "title": "",
-          "imgAlt": "Image from Music Gallery Desiderium performance"
-    
-        },
-        "desc": "",
-        "url": "tranzac3"
-
-  },
-  {
-      "date": "July 16",
-      "title": "RESIDENCY TITLE 4 - CONCERT TITLE",
-      "guests": "Artist 1, Artist 2, and Artist 3",
-      "imgUrl": "",
-      "program": [],
-      "photo": {
-          "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046170/cichorium/carousel/carousel4_zv4zqs.jpg",
-          "credit": "",
-          "title": "",
-          "imgAlt": "Image from Music Gallery Desiderium performance"
-    
-        },
-        "desc": "",
-        "url": "tranzac4"
-
-  },
-  {
-      "date": "August 20",
-      "title": "RESIDENCY TITLE 5 - CONCERT TITLE",
-      "guests": "Artist 1, Artist 2, and Artist 3",
-      "imgUrl": "",
-      "program": [],
-      "photo": {
-          "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046170/cichorium/carousel/carousel4_zv4zqs.jpg",
-          "credit": "",
-          "title": "",
-          "imgAlt": "Image from Music Gallery Desiderium performance"
-    
-        },
-        "desc": "",
-        "url": "tranzac5"
-
-  },
-  {
-      "date": "September 17",
-      "title": "RESIDENCY TITLE 6 - CONCERT TITLE",
-    "guests": "Artist 1, Artist 2, and Artist 3",
+    "date": "May 21 9:30 pm",
+    "title": "RESIDENCY TITLE 2 - CONCERT TITLE",
+    "series": "Tranzac Residency",
+    "location": "Tranzac Club, Toronto",
+    "guests": "Guest Artists TBD",
     "imgUrl": "",
     "program": [],
     "photo": {
-        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046170/cichorium/carousel/carousel4_zv4zqs.jpg",
-        "credit": "",
-        "title": "",
-        "imgAlt": "Image from Music Gallery Desiderium performance"
-  
-      },
-      "desc": "",
-      "url": "tranzac6"
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046170/cichorium/carousel/carousel4_zv4zqs.jpg",
+      "credit": "",
+      "title": "",
+      "imgAlt": "Image from Music Gallery Desiderium performance"
+    },
+    "desc": "",
+    "url": "tranzac2"
+  },
+  {
+    "date": "June 18 9:30 pm",
+    "title": "RESIDENCY TITLE 3 - CONCERT TITLE",
+    "series": "Tranzac Residency",
+    "location": "Tranzac Club, Toronto",
+    "guests": "Guest Artists TBD",
+    "imgUrl": "",
+    "program": [],
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046170/cichorium/carousel/carousel4_zv4zqs.jpg",
+      "credit": "",
+      "title": "",
+      "imgAlt": "Image from Music Gallery Desiderium performance"
+    },
+    "desc": "",
+    "url": "tranzac3"
+  },
+  {
+    "date": "July 16 9:30 pm",
+    "title": "RESIDENCY TITLE 4 - CONCERT TITLE",
+    "series": "Tranzac Residency",
+    "location": "Tranzac Club, Toronto",
+    "guests": "Guest Artists TBD",
+    "imgUrl": "",
+    "program": [],
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046170/cichorium/carousel/carousel4_zv4zqs.jpg",
+      "credit": "",
+      "title": "",
+      "imgAlt": "Image from Music Gallery Desiderium performance"
+    },
+    "desc": "",
+    "url": "tranzac4"
+  },
+  {
+    "date": "August 20 9:30 pm",
+    "title": "RESIDENCY TITLE 5 - CONCERT TITLE",
+    "series": "Tranzac Residency",
+    "location": "Tranzac Club, Toronto",
+    "guests": "Guest Artists TBD",
+    "imgUrl": "",
+    "program": [],
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046170/cichorium/carousel/carousel4_zv4zqs.jpg",
+      "credit": "",
+      "title": "",
+      "imgAlt": "Image from Music Gallery Desiderium performance"
+    },
+    "desc": "",
+    "url": "tranzac5"
+  },
+  {
+    "date": "September 17, 9:30 pm",
+    "title": "RESIDENCY TITLE 6 - CONCERT TITLE",
+    "series": "Tranzac Residency",
+    "location": "Tranzac Club, Toronto",
+    "guests": "Guest Artists TBD",
+    "imgUrl": "",
+    "program": [],
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046170/cichorium/carousel/carousel4_zv4zqs.jpg",
+      "credit": "",
+      "title": "",
+      "imgAlt": "Image from Music Gallery Desiderium performance"
+    },
+    "desc": "",
+    "url": "tranzac6"
   }
 ]
