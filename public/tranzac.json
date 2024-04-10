@@ -1,10 +1,11 @@
 [
   {
     "date": "April 16 9:30 pm",
+    "number": 1,
     "url": "tranzac1",
     "series": "Tranzac Residency",
     "location": "Tranzac Club, Toronto",
-    "title": "RESIDENCY TITLE 1 - CONCERT TITLE",
+    "title": "THE POWER OF LOVE",
     "guests": "Guest Artists TBD",
     "imgUrl": "",
     "program": [],
@@ -14,11 +15,12 @@
       "title": "",
       "imgAlt": "Image from Music Gallery Desiderium performance"
     },
-    "desc": ""
+    "desc": "Join us for the first concert of your 6 month residency at the TRANZAC!!! We are joined by blank and blank in this performance."
   },
   {
     "date": "May 21 9:30 pm",
-    "title": "RESIDENCY TITLE 2 - CONCERT TITLE",
+    "title": "SISTERHOOD OF THE TRAVELLING JORTS",
+    "number": 2,
     "series": "Tranzac Residency",
     "location": "Tranzac Club, Toronto",
     "guests": "Guest Artists TBD",
@@ -35,7 +37,8 @@
   },
   {
     "date": "June 18 9:30 pm",
-    "title": "RESIDENCY TITLE 3 - CONCERT TITLE",
+    "number": 3,
+    "title": "CHEEX",
     "series": "Tranzac Residency",
     "location": "Tranzac Club, Toronto",
     "guests": "Guest Artists TBD",
@@ -52,7 +55,8 @@
   },
   {
     "date": "July 16 9:30 pm",
-    "title": "RESIDENCY TITLE 4 - CONCERT TITLE",
+    "number": 4,
+    "title": "ASS",
     "series": "Tranzac Residency",
     "location": "Tranzac Club, Toronto",
     "guests": "Guest Artists TBD",
@@ -69,7 +73,8 @@
   },
   {
     "date": "August 20 9:30 pm",
-    "title": "RESIDENCY TITLE 5 - CONCERT TITLE",
+    "number": 5,
+    "title": "BOOTY",
     "series": "Tranzac Residency",
     "location": "Tranzac Club, Toronto",
     "guests": "Guest Artists TBD",
@@ -86,7 +91,8 @@
   },
   {
     "date": "September 17, 9:30 pm",
-    "title": "RESIDENCY TITLE 6 - CONCERT TITLE",
+    "number": 6,
+    "title": "BUTT",
     "series": "Tranzac Residency",
     "location": "Tranzac Club, Toronto",
     "guests": "Guest Artists TBD",
