@@ -23,21 +23,19 @@
     bottom: 0;
 }
 
-
 .socials-ctr img {
     width: 70px;
     margin: 0 8px;
+    border: 1px solid red
 }
 
-.social-bg{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
 .social-flower{
     position: absolute;
     opacity: 0;
+    min-width: 140px;
+    top: -70px;
+    margin: -20px;
 }
 
 .social-flower:hover{
