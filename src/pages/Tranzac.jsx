@@ -30,9 +30,7 @@ if (tranzac === null) {
 }else{
     const tranzacEvents = tranzac.map((concert)=>{
         return(
-        <TranzacEvent event={concert}>
-        <h4 className="tranzac-p tranzac-event-line">{concert.title} <br />{concert.date} <br/>Featuring {concert.guests}</h4>
-        </TranzacEvent>
+        <TranzacEvent event={concert} />
         )
     })
     
@@ -40,8 +38,19 @@ if (tranzac === null) {
     return (
         <div className="tranzac-page">
             <Photo photo={photo} />
-            <h4 className="tranzac-p">PERFORMANCE SCHEDULE</h4>
-            {tranzacEvents}
+            <h5 className="tranzac-p">We are artists in residence at Toronto's tranzac Club until September! Join us for <em className="glow">WE ARE FRIENDS</ em>, six concerts featuring a wider aray of artists from varying disciplines.</h5>
+            <h5 className="tranzac-p">Get ready to <em className="glow">collaborate</ em>.</h5>
+            <PageTitle page="Upcoming Events" />
+            <TranzacEvent event={tranzac[0]} />
+            <TranzacEvent event={tranzac[1]} />
+            <TranzacEvent event={tranzac[2]} />
+            <TranzacEvent event={tranzac[3]} />
+            <TranzacEvent event={tranzac[4]} />
+            <TranzacEvent event={tranzac[5]} />
+            {/* <PageTitle page="Past Events" /> */}
+
+
+            {/* {tranzacEvents} */}
         </div>
 
 
