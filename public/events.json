@@ -108,18 +108,27 @@
     "organizer": "PonyHAUS",
     "series": "",
     "photo": {
-      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711141609/Screenshot_2024-03-22_170631_bwiee0.png",
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1712770854/ponyhaus_slp4nb.jpg",
       "credit": "",
       "title": "",
       "imgAlt": "Poster for PonyHAUS performance"
 
     },
     "photos": [],
-    "desc": "We'll be playing a set at the next PonyHAUS show, Horse Idoling Zone! This show is a triple bill with G.A.G. and Daniel Tapper. Not much to talk about here...it hasn't happened yet!",
-    "program": [],
+    "desc": "We'll be playing a set at the next PonyHAUS show, Horse Idoling Zone! This show is a triple bill with G.A.G. and Daniel Tapper.",
+    "program": [      {
+      "title": "Matchbox Ritual",
+      "composer": "Duo Cichorium",
+      "url": "Elemental"
+    },
+    {
+      "title": "Feedback Dreams",
+      "composer": "Duo Cichorium",
+      "url": "Dreams"
+  }],
     "recording_url": "",
     "url": "PonyHAUS",
-    "tickets": "www.gmail.com",
+    "tickets": "ponyhaus.ticketleap.com/ponyhaus--horse-idoling-zone/",
     "shortDesc": "We'll be playing a set at the next PonyHAUS show! This show is a triple bill with G.A.G. and Daniel Tapper."
   },
   {
@@ -137,7 +146,15 @@
     },
     "photos": [],
     "desc": "We will be one of the Ensembles in Residence at The TRANZAC from May to October of 2024. We'll be hosting a variety of shows, bringing together artists from different genres and backgrounds for six performances.",
-    "program": [],
+    "program": [{
+      "title": "Matchbox Ritual",
+      "composer": "",
+      "url": "Elemental"
+    },{
+      "title": "Feedback Dreams",
+      "composer": "",
+      "url": "Dreams"
+    }],
     "recording_url": "",
     "url": "tranzac-residency",
     "shortDesc": "We will be one of the Ensembles in Residence at The TRANZAC from May to October of 2024. We'll be hosting a variety of shows, bringing together artists from different genres and backgrounds for six performances."

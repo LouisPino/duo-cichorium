@@ -26,7 +26,6 @@
 .socials-ctr img {
     width: 70px;
     margin: 0 8px;
-    border: 1px solid red
 }
 
 
@@ -39,7 +38,7 @@
 }
 
 .social-flower:hover{
-    opacity: 1;
+    /* opacity: 1; */
     transition: 400ms;
 }
 
