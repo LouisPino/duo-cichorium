@@ -57,6 +57,12 @@ function App() {
         <Route exact path="/ElementalConcert" element={<EventPage url="ElementalConcert" />} />
         <Route exact path="/Behaviours" element={<EventPage url="Behaviours" />} />
         <Route exact path="/PonyHAUS" element={<EventPage url="PonyHAUS" />} />
+        <Route exact path="/tranzac1" element={<EventPage url="tranzac1" />} />
+        <Route exact path="/tranzac2" element={<EventPage url="tranzac2" />} />
+        <Route exact path="/tranzac3" element={<EventPage url="tranzac3" />} />
+        <Route exact path="/tranzac4" element={<EventPage url="tranzac4" />} />
+        <Route exact path="/tranzac5" element={<EventPage url="tranzac5" />} />
+        <Route exact path="/tranzac6" element={<EventPage url="tranzac6" />} />
         <Route path="/*" element={<_404/>} />
       </Routes>
       <Footer />

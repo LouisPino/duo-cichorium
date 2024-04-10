@@ -28,7 +28,6 @@
     margin: 0 8px;
 }
 
-
 .social-flower{
     position: absolute;
     opacity: 0;
@@ -38,7 +37,7 @@
 }
 
 .social-flower:hover{
-    /* opacity: 1; */
+    opacity: 1;
     transition: 400ms;
 }
 

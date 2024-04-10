@@ -8,3 +8,15 @@
     text-align: center;
     padding: 0 6vw;
 }
+
+.tranzac-event-line{
+    color: var(--blue-text);
+
+}
+
+.tranzac-event-line:hover{
+    color: var(--bg);
+    background-color: var(--blue-text);
+    box-shadow: 0 0 10px 2px var(--box-glow);
+    transition: 300ms;
+}
