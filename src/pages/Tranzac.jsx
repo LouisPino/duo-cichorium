@@ -19,9 +19,9 @@ export default function Tranzac() {
     }, []);
 
     const photo = {
-        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046496/cichorium/carousel/carousel1_lrvy2z.jpg",
-        "credit": "ArrayMusic, Feb. 8, 2024",
-        "title": "Speed Run"
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1712864869/April162024_pdwjjn.png",
+        "credit": "",
+        "title": ""
     }
 
 
