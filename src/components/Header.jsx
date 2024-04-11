@@ -79,7 +79,7 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                         <p className={`link nav-btn-text ${location.pathname === "/works" ? "current-location" : ""}`} onClick={linkClicked}>Repertoire</p>
                     </Link>
                     <Link to="/tranzac-residency">
-                        <p className={`link nav-btn-text ${location.pathname === "/tranzac-residency" ? "current-location" : ""}`} onClick={linkClicked}>TRANZAC Residency</p>
+                        <p className={`link nav-btn-text ${location.pathname === "/tranzac-residency" ? "current-location" : ""}`} onClick={linkClicked}>PEOPLE SOUP</p>
                     </Link>
                 </div>
                 <Link className="Link" to="/">

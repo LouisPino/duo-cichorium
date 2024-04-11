@@ -47,7 +47,7 @@ export default function Event({ url }) {
                 }
             <p className="video-caption italic">{event.video_caption}</p>
             <div className="event-page-text">
-                {event.guests ? <h3>{event.guests}</h3> : ""}
+                {event.guests ? <h3 className="center-text">{event.guestsPage}</h3> : ""}
                 {event.program.length ? <h5>Program</h5> : ""}
                 {programList}
                 <p className="event-desc">{event.desc}</p>

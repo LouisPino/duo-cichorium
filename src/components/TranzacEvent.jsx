@@ -12,7 +12,7 @@ const Event = ({ event }) => {
                 <h5 className="event-card-location">{event.location}</h5>
             </div>
             <div className="event-card-r">
-                <h5 className="">WE HAVE FRIENDS {event.number}</h5>
+                <h5 className="">PEOPLE SOUP {event.number}</h5>
                 <h5 className="event-card-title italic">{event.title}</h5>
                 <h4 className="">{event.guests}</h4>
                 <p className="event-card-desc">{event.shortDesc}</p>
