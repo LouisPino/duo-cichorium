@@ -24,7 +24,7 @@
 }
 
 .t-event-card {
-    width: 55%;
+    width: 65%;
     margin: 8px 16px;
     display: flex;
     flex-direction: column;
@@ -41,9 +41,6 @@
     position: relative
 }
 
-.t-event-card:hover{
-    
-}
 
 .t-event-card-middle{
     width: 100%;
