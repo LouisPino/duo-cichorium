@@ -30,7 +30,9 @@
 
 
 .project-card:hover,
-.event-card:hover {
+.event-card:hover,
+.t-event-card:hover
+{
   box-shadow: 0px 0px 32px 8px var(--box-glow);
   transition: 200ms
 }
