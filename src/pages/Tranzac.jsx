@@ -19,7 +19,7 @@ export default function Tranzac() {
     }, []);
 
     const photo = {
-        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1712864869/April162024_pdwjjn.png",
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1712878303/DC_people_soup_banner_qhb9b1.png",
         "credit": "",
         "title": ""
     }
