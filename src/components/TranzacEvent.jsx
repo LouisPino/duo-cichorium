@@ -15,7 +15,7 @@ const Event = ({ event }) => {
                 <div className="t-event-card-l">
                 <Photo photo={event.photo} />
                 </div>
-                <h4 className="">{event.guests}</h4>
+                {/* <h4 className="">{event.guests}</h4> */}
                 {/* <h5 className="">PEOPLE SOUP {event.number}</h5> */}
                 <p className="event-card-desc">{event.shortDesc}</p>
             </div>
