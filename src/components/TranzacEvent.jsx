@@ -15,13 +15,13 @@ const Event = ({ event }) => {
                 <div className="t-event-card-l">
                 <Photo photo={event.photo} />
                 </div>
-                {/* <h4 className="">{event.guests}</h4> */}
                 {/* <h5 className="">PEOPLE SOUP {event.number}</h5> */}
                 <p className="event-card-desc">{event.shortDesc}</p>
             </div>
 
 
             <div className="t-event-card-bottom">
+                {<h4 className="">{event.guests ? event.guests : "GUEST ARTSISTS TBD"}</h4>}
                 <h5 className="event-card-date">{event.date}</h5>
                 <h5 className="event-card-location">{event.location}</h5>
             </div>
