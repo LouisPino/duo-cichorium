@@ -16,6 +16,20 @@
       "title": "",
       "imgAlt": ""
     },
+    "photos": [
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1713363658/wdoco9y08zdf0nvjafsx.jpg",
+        "credit": "",
+        "title": "",
+        "imgAlt": "Marquee"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1713363657/kns8gafkhsj2egyjbszz.jpg",
+        "credit": "",
+        "title": "",
+        "imgAlt": "Moon on the night of People Soup 1"
+      }
+    ],
     "desc": "Join us for the first concert of our 6 month residency at the TRANZAC!!! We are joined by Hillary Jean Young, Nolan Hildebrand, and Trevor Flemings for this performance."
   },
   {
@@ -25,13 +39,14 @@
     "series": "Tranzac Residency",
     "location": "Tranzac Club, Toronto",
     "guests": "Guest Artists TBD",
+    "guestsPage": "Guest Artists TBD",
     "imgUrl": "",
     "program": [],
     "photo": {
       "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1712878303/DC_people_soup_banner_qhb9b1.png",
       "credit": "",
       "title": "",
-      "imgAlt": "Image from Music Gallery Desiderium performance"
+      "imgAlt": ""
     },
     "desc": "",
     "url": "tranzac2"
@@ -43,6 +58,7 @@
     "series": "Tranzac Residency",
     "location": "Tranzac Club, Toronto",
     "guests": "Guest Artists TBD",
+    "guestsPage": "Guest Artists TBD",
     "imgUrl": "",
     "program": [],
     "photo": {
@@ -62,6 +78,7 @@
     "location": "Tranzac Club, Toronto",
     "guests": "Guest Artists TBD",
     "imgUrl": "",
+    "guestsPage": "Guest Artists TBD",
     "program": [],
     "photo": {
       "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1712878303/DC_people_soup_banner_qhb9b1.png",
@@ -81,6 +98,7 @@
     "guests": "",
     "imgUrl": "",
     "program": [],
+    "guestsPage": "Guest Artists TBD",
     "photo": {
       "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1712878303/DC_people_soup_banner_qhb9b1.png",
       "credit": "",
@@ -99,6 +117,7 @@
     "guests": "Guest Artists TBD",
     "imgUrl": "",
     "program": [],
+    "guestsPage": "Guest Artists TBD",
     "photo": {
       "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1712878303/DC_people_soup_banner_qhb9b1.png",
       "credit": "",

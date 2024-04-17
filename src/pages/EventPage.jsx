@@ -1,17 +1,16 @@
 import { useEffect, useState } from "react";
 import PageTitle from "../components/PageTitle";
 import Photo from "../components/Photo";
-import { Link, useLocation  } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "../styles/events.css"
 export default function Event({ url }) {
     const [event, setEvent] = useState(null);
 
     const search_url = url.includes("tranzac") ? "./tranzac.json" : "./events.json"
-   
+
     const getEventData = async () => {
         const response = await fetch(search_url);
         const data = await response.json();
-        console.log(data[0].url)
         setEvent(data.filter((obj) => obj.url === url)[0]);
     };
 
@@ -34,6 +33,14 @@ export default function Event({ url }) {
             )
         }
     })
+
+    const photos = event.photos.map((photo) => {
+        return (
+            <Photo photo={photo} />
+        )
+    }
+    )
+
     return (
         <div className="event-page">
             <PageTitle page={event.title} />
@@ -42,15 +49,19 @@ export default function Event({ url }) {
             </div>
                 :
                 <Photo photo={event.photo} />}
-                                {event.tickets &&
+            {event.tickets &&
                 <a href={`https://${event.tickets}`} target="_blank"><button>Tickets Here!</button></a>
-                }
+            }
             <p className="video-caption italic">{event.video_caption}</p>
             <div className="event-page-text">
                 {event.guests ? <h3 className="center-text">{event.guestsPage}</h3> : ""}
                 {event.program.length ? <h5>Program</h5> : ""}
                 {programList}
                 <p className="event-desc">{event.desc}</p>
+                <div className="event-photos">
+                    {photos}
+                </div>
+
             </div>
 
         </div>
