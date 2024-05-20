@@ -111,7 +111,26 @@
       "title": "",
       "imgAlt": "Poster for PonyHAUS performance"
     },
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1716216344/91993c0c-5cea-4091-bfab-9f583bdab587_j6u2sa.jpg",
+        "credit": "",
+        "title": "Graffiti Alley",
+        "imgAlt": "Graffiti Alley"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1716216344/6a0dd36e-86d5-4f19-8257-6119fa6b9f17_pwf7mp.jpg",
+        "credit": "",
+        "title": "",
+        "imgAlt": "Duo Poses"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1716216344/8b05d4ca-920b-4bac-9efa-5190a5b8fa57_s9eyds.jpg",
+        "credit": "",
+        "title": "",
+        "imgAlt": "Reapplying our makeup"
+      }
+    ],
     "desc": "We'll be playing a set at the next PonyHAUS show, Horse Idoling Zone! This show is a triple bill with G.A.G. and Daniel Tapper.",
     "program": [
       {
