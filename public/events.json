@@ -11,7 +11,6 @@
       "credit": "",
       "title": "",
       "imgAlt": "Image from Music Gallery Desiderium performance"
- 
     },
     "photos": [],
     "desc": "Our debut concert, ELEMENTAL, for The Music Gallery's You In Mind series. The first half of the program features works by Matthew Shlomovitz, Pauline Oliveros, Julia Mermelstein, and Nolan Hildebrand. The second half featured our epic multimedia tribute to the four elements of nature, the Elemental Suite.",
@@ -92,7 +91,6 @@
       "credit": "",
       "title": "",
       "imgAlt": "Image from ArrayMusic Speed Run performance"
-
     },
     "photos": [],
     "desc": "In February of 2024, we performed a program designed around the idea of play for ArrayMusic's Behaviours series. In this program we debuted our performance of Jet Kye Chong's Anticommunication, as well as two new compositions, Feedback Dreams and 0% Any Damage Reverse Glitch Speed Run.",
@@ -112,20 +110,21 @@
       "credit": "",
       "title": "",
       "imgAlt": "Poster for PonyHAUS performance"
-
     },
     "photos": [],
     "desc": "We'll be playing a set at the next PonyHAUS show, Horse Idoling Zone! This show is a triple bill with G.A.G. and Daniel Tapper.",
-    "program": [      {
-      "title": "Matchbox Ritual",
-      "composer": "Duo Cichorium",
-      "url": "Elemental"
-    },
-    {
-      "title": "Feedback Dreams",
-      "composer": "Duo Cichorium",
-      "url": "Dreams"
-  }],
+    "program": [
+      {
+        "title": "Matchbox Ritual",
+        "composer": "Duo Cichorium",
+        "url": "Elemental"
+      },
+      {
+        "title": "Feedback Dreams",
+        "composer": "Duo Cichorium",
+        "url": "Dreams"
+      }
+    ],
     "recording_url": "",
     "url": "PonyHAUS",
     "tickets": "ponyhaus.ticketleap.com/ponyhaus--horse-idoling-zone/",
@@ -146,17 +145,80 @@
     },
     "photos": [],
     "desc": "We will be one of the Ensembles in Residence at The TRANZAC from May to October of 2024. We'll be hosting a variety of shows, bringing together artists from different genres and backgrounds for six performances.",
-    "program": [{
-      "title": "Matchbox Ritual",
-      "composer": "",
-      "url": "Elemental"
-    },{
-      "title": "Feedback Dreams",
-      "composer": "",
-      "url": "Dreams"
-    }],
+    "program": [
+      {
+        "title": "Matchbox Ritual",
+        "composer": "",
+        "url": "Elemental"
+      },
+      {
+        "title": "Feedback Dreams",
+        "composer": "",
+        "url": "Dreams"
+      }
+    ],
     "recording_url": "",
     "url": "tranzac-residency",
     "shortDesc": "We will be one of the Ensembles in Residence at The TRANZAC from May to October of 2024. We'll be hosting a variety of shows, bringing together artists from different genres and backgrounds for six performances."
+  },
+  {
+    "location": "Puppetmongers Theatre",
+    "date": "June 2, 2024",
+    "title": "Fresh Ideas in Puppetry 2024",
+    "organizer": "Puppetmongers",
+    "series": "",
+    "tickets": "www.eventbrite.ca/e/fresh-ideas-in-puppetry-2024-online-and-in-person-tickets-904130196757",
+    "photo": {
+      "url": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F765688249%2F135697929529%2F1%2Foriginal.20240512-171536?w=940&auto=format%2Ccompress&q=75&sharp=10&s=4c83bb7ad89d7e7d153c08e05cc7e064",
+      "credit": "Puppetmongers",
+      "title": "",
+      "imgAlt": "Live puppetry shot"
+    },
+    "photos": [],
+    "desc": "We will be scoring a dramatic puppet performance following the birth, life, and many deaths of a paper puppet pal.",
+    "program": [],
+    "recording_url": "",
+    "url": "puppetmongers",
+    "shortDesc": "We will be scoring a dramatic puppet performance following the birth, life, and many deaths of a paper puppet pal."
+  },
+  {
+    "location": "Wenona Craft Beer Lodge",
+    "date": "June 4, 2024 8:30 pm",
+    "title": "Track Could Bend #92",
+    "organizer": "Track Could Bend",
+    "series": "",
+    "tickets": "",
+    "photo": {
+      "url": "https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/428354878_782164097346077_1879954596558275232_n.jpg?stp=dst-jpg_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=zUAQx2XEWukQ7kNvgF-h0tq&_nc_ht=scontent.fyzd1-3.fna&oh=00_AYDKOsz4cWEAgczW-R6VXePnl2HhSAa7arv0YOtVbjbiVw&oe=66512E07",
+      "credit": "",
+      "title": "",
+      "imgAlt": "Track Could Bend Poster"
+    },
+    "photos": [],
+    "desc": "We will be performing an extended improvised set on garbage percussion, noisy electronics, and if you're lucky some ukulele.",
+    "program": [],
+    "recording_url": "",
+    "url": "track-could-bend",
+    "shortDesc": "We will be performing an extended improvised set on garbage percussion, noisy electronics, and if you're lucky some ukulele. Come get turnt with us in a dank basement while we serenade the souls of the innocent."
+  },
+  {
+    "location": "The TRANZAC, Toronto",
+    "date": "June 8, 2024",
+    "title": "DIY Insrument Showcase",
+    "organizer": "Michael Palumbo",
+    "series": "",
+    "tickets": "",
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1716215692/jazdrawing_gf9sg1.jpg",
+      "credit": "",
+      "title": "",
+      "imgAlt": "Prototype instrument drawing"
+    },
+    "photos": [],
+    "desc": "We are building a new instrument based on the sound of a painter's canvas, in addition with some wackadoodle electronic integrations as to be expected.",
+    "program": [],
+    "recording_url": "",
+    "url": "diy-instruments",
+    "shortDesc": "We are building a new instrument based on the sound of a painter's canvas, in addition with some wackadoodle electronic integrations as to be expected."
   }
 ]

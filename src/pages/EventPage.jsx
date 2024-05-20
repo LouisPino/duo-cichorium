@@ -44,6 +44,7 @@ export default function Event({ url }) {
     return (
         <div className="event-page">
             <PageTitle page={event.title} />
+            <PageTitle page={event.date} />
             {event.recording_url ? <div className="iframe-ctr">
                 <iframe src={event.recording_url} title={event.title} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
