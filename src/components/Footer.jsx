@@ -9,11 +9,11 @@ function Footer() {
         <div className="socials-ctr">
           <a href="https://www.instagram.com/duo_cichorium/" target="_blank" rel="noreferrer">
             {/* <img className="social-flower social-l" src="https://res.cloudinary.com/dsvcyich1/image/upload/v1712532187/YouTube_hover_gif_jv2llb.gif" alt="Duo Cichorium Background Flower" /> */}
-            <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1712532048/Insta_iwv0wl.png" alt="Duo Cichorium Instagram link" />
+            <img src="https://res.cloudinary.com/dsvcyich1/image/upload/c_scale,q_10,w_116/v1712532048/Insta_iwv0wl.png" alt="Duo Cichorium Instagram link" />
           </a>
           <a href="https://www.youtube.com/@DuoCichorium" target="_blank" rel="noreferrer" >
             {/* <img className="social-flower social-r" src="https://res.cloudinary.com/dsvcyich1/image/upload/v1712532187/YouTube_hover_gif_jv2llb.gif" alt="Duo Cichorium Background Flower" /> */}
-            <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1712532050/YouTube_vq9fpt.png" alt="Duo Cichorium YouTube link" />
+            <img src="https://res.cloudinary.com/dsvcyich1/image/upload/c_scale,q_auto:eco,w_114/v1712532050/YouTube_vq9fpt.png" alt="Duo Cichorium YouTube link" />
           </a>
         </div>
         <h6 className="glow myh3 footer-text">© Louis Pino & Jaz Tsui 2024</h6>

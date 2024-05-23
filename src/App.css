@@ -38,7 +38,7 @@ button {
   border-radius: 12px;
   border: 1px solid white;
   padding: 4px 8px;
-  font-size: var(--small)!important;
+  font-size: var(--small) !important;
 
 }
 
@@ -177,7 +177,7 @@ h2 {
   color: transparent;
   text-decoration: none;
   /* background-size: 200% 100%; */
-  background-image: url("../public/assets/TextBG.png");
+  background-image: url("https://res.cloudinary.com/dsvcyich1/image/upload/v1716498200/TextBG_xbus5x.jpg");
 }
 
 
@@ -204,7 +204,7 @@ h2 {
       var(--rainbow-4),
       var(--rainbow-3),
       var(--rainbow-2)); */
-    background-image: url("../public/assets/TextBG.png");
+  background-image: url("https://res.cloudinary.com/dsvcyich1/image/upload/v1716498200/TextBG_xbus5x.jpg");
   /* animation: animate 5s linear infinite; */
   background-clip: text;
   -webkit-background-clip: text;
@@ -237,7 +237,7 @@ h2 {
 }
 
 
-._404{
+._404 {
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -247,31 +247,33 @@ h2 {
 /* //////////////////////////////////////////////////////////////////////Flower Kaboom/////////// */
 
 
-.kaboom{
+.kaboom {
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
-  visibility:visible;
+  visibility: visible;
   z-index: 1;
 }
 
-.spin{
-  animation: spin .5s ease-in-out ;
+.spin {
+  animation: spin .5s ease-in-out;
 }
 
-.flower0{
+.flower0 {
   background-image: url("../public/assets/ChicoryTrans.PNG");
 }
 
-.flower1{
+.flower1 {
   background-image: url("../public/assets/Chicory4spin.PNG");
 }
 
-.flower2{
+.flower2 {
   background-image: url("../public/assets/ChicoryKaboom.png");
 }
 
-#kaboom-ctl0, #kaboom-ctl1, #kaboom-ctl2  {
+#kaboom-ctl0,
+#kaboom-ctl1,
+#kaboom-ctl2 {
   display: none;
   z-index: 10;
 }
@@ -297,10 +299,12 @@ h2 {
     opacity: 1;
     visibility: visible;
   }
+
   99% {
     opacity: 0;
     visibility: visible;
   }
+
   100% {
     opacity: 0;
     visibility: hidden;
