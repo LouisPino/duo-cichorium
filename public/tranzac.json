@@ -54,21 +54,22 @@
   },
   {
     "date": "June 18 9:30 pm",
+    "title": "SPIRIT STEW",
     "number": 3,
-    "title": "",
     "series": "Tranzac Residency",
     "location": "Tranzac Club, Toronto",
-    "guests": "Guest Artists TBD",
-    "guestsPage": "Guest Artists TBD",
+    "guests": "Robbie Ahmed, orangey, Parallel Play, Chibuzr",
+    "guestsPage": "Robbie Ahmed, orangey, Parallel Play (Jazz Wayde, KTown, Ting), Chibuzr",
     "imgUrl": "",
     "program": [],
     "photo": {
-      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1712878303/DC_people_soup_banner_qhb9b1.png",
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1718126333/June_18_Spirit_Stew_ljqhxv.png",
       "credit": "",
       "title": "",
-      "imgAlt": "Image from Music Gallery Desiderium performance"
+      "imgAlt": "Spirit Stew poster"
     },
-    "desc": "",
+    "photos": [],
+    "desc": "This is a 4 course stew featuring singer songwriters! Each performer will have a 20ish minute set to share their own music. May this stew nourish your soul and lift your spirit! Come and simmer with us 🥣",
     "url": "tranzac3"
   },
   {

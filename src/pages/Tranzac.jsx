@@ -41,13 +41,13 @@ export default function Tranzac() {
                 <h5 className="tranzac-p">We are artists in residence at Toronto's tranzac Club until September! Join us for <span className="glow">PEOPLE SOUP</ span>, six concerts featuring a wide array of artists from varying disciplines.</h5>
                 <h5 className="tranzac-p">Get ready to <em className="glow">collaborate</ em>.</h5>
                 <PageTitle page="Upcoming Soups" />
-                <TranzacEvent event={tranzac[1]} />
                 <TranzacEvent event={tranzac[2]} />
                 <TranzacEvent event={tranzac[3]} />
                 <TranzacEvent event={tranzac[4]} />
                 <TranzacEvent event={tranzac[5]} />
                 <PageTitle page="Spoiled Soups" />
                 <TranzacEvent event={tranzac[0]} />
+                <TranzacEvent event={tranzac[1]} />
 
 
             </div>
