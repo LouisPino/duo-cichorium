@@ -21,6 +21,11 @@ body {
   scrollbar-width: none;
 }
 
+a {
+  text-decoration: none;
+  color: none;
+}
+
 .white {
   color: white;
 }
