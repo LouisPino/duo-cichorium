@@ -109,6 +109,9 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                             <Link to="/the-sylvan-legacy">
                                 <p className="work-link-text hover-glow" onClick={linkClicked}>The Sylvan Legacy</p>
                             </Link>
+                            <Link to="/tmu">
+                                <p className="work-link-text hover-glow" onClick={linkClicked}>AI Tools for Artists</p>
+                            </Link>
                         </div>
                         }
                     </div>

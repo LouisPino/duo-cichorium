@@ -24,7 +24,7 @@ export default function Project({ url }) {
             <div className="iframe-ctr">
                 <iframe src={project.mainvideo} title={project.name} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-            <p className="project-desc">{project.desc}</p>
+            <h5 className="project-desc">{project.desc}</h5>
             {project.secondaryVideos && <SecondaryVideos project={project} />}
         </div>
     )

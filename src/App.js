@@ -13,6 +13,7 @@ import Contact from "./pages/Contact";
 import Tranzac from "./pages/Tranzac";
 import Events from "./pages/Events";
 import Sylvan from "./pages/Sylvan";
+import Tmu from "./pages/Tmu";
 import EventPage from "./pages/EventPage";
 import Subscribed from "./pages/Subscribed";
 import _404 from "./pages/_404.jsx";
@@ -44,6 +45,7 @@ function App() {
         <Route exact path="/works" element={<Works />} />
         <Route exact path="/events" element={<Events />} />
         <Route exact path="/the-sylvan-legacy" element={<Sylvan />} />
+        <Route exact path="/tmu" element={<Tmu />} />
         <Route exact path="/tranzac-residency" element={<Tranzac />} />
         <Route exact path="/subscribed" element={<Subscribed />} />
         <Route exact path="/Anticommunication" element={<Project url="Anticommunication" />} />
