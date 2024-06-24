@@ -28,7 +28,7 @@ export default function Event({ url }) {
         } else {
             return (
                 <Link to={`/${piece.url}`}>
-                    <p className="event-page-program-line">{piece.guests ? `${piece.title}` : piece.title}, <span className="italic">{piece.composer}</span></p>
+                    <p className="event-page-program-line">{piece.guests ? `${piece.title}` : piece.title} <span className="italic">{piece.composer}</span></p>
                 </Link >
             )
         }

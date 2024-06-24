@@ -208,15 +208,26 @@
     "series": "",
     "tickets": "",
     "photo": {
-      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1718127751/Screenshot_2024-06-11_at_1.42.03_PM_bvlsc2.png",
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1719269393/Duo_Cichorium_-_rec1_v9tkch.jpg",
       "credit": "",
       "title": "",
       "imgAlt": "Track Could Bend Poster"
     },
     "photos": [],
     "desc": "We will be performing an extended improvised set on garbage percussion, noisy electronics, and if you're lucky some ukulele.",
-    "program": [],
-    "recording_url": "",
+    "program": [
+      {
+        "title": "Canvas Conductor",
+        "composer": "",
+        "url": ""
+      },
+      {
+        "title": "Feedback Dreams",
+        "composer": "",
+        "url": "Dreams"
+      }
+    ],
+    "recording_url": "https://www.youtube.com/embed/XPQH9tVcp9E",
     "url": "track-could-bend",
     "shortDesc": "We will be performing an extended improvised set on garbage percussion, noisy electronics, and if you're lucky some ukulele. Come get turnt with us in a dank basement while we serenade the souls of the innocent."
   },
