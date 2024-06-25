@@ -68,6 +68,7 @@ function App() {
         <Route exact path="/puppetmongers" element={<EventPage url="puppetmongers" />} />
         <Route exact path="/track-could-bend" element={<EventPage url="track-could-bend" />} />
         <Route exact path="/diy-instruments" element={<EventPage url="diy-instruments" />} />
+        <Route exact path="/Canvas" element={<Project url="Canvas" />} />
         <Route path="/*" element={<_404 />} />
       </Routes>
       <Footer />
