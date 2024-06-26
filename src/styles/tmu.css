@@ -1,0 +1,14 @@
+.tmu-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tmu-main h1 {
+    text-align: center;
+}
+
+.tmu-main h5 {
+    text-align: center;
+    padding: 0 24px 0 24px;
+}
