@@ -43,7 +43,7 @@ const PressPhotos = () => {
     }
 
     const images = about.photos.map((photo, index) => (
-        <Photo photo={photo} />
+        <Photo photo={photo} materialbox={true} />
     ));
 
     return (

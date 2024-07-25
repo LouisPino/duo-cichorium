@@ -36,7 +36,7 @@ export default function Event({ url }) {
 
     const photos = event.photos.map((photo) => {
         return (
-            <Photo photo={photo} />
+            <Photo photo={photo} materialbox={true} />
         )
     }
     )
@@ -45,17 +45,25 @@ export default function Event({ url }) {
         <div className="event-page">
             <PageTitle page={event.title} />
             <PageTitle page={event.date} />
-            {event.recording_url ? <div className="iframe-ctr">
+            {event.recording_url ? <><div className="iframe-ctr">
                 <iframe src={event.recording_url} title={event.title} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
+                <p className="video-caption italic">{event.video_caption}</p></>
                 :
-                <Photo photo={event.photo} />}
-            {event.tickets &&
+                <Photo photo={event.photo} materialbox={true} />}
+            {event.audio_link ? <><div className="iframe-ctr audio-iframe">
+                <iframe src={event.audio_link} title={event.title} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+                <p>Full audio recording</p></>
+                :
+                ""
+            }
+            {
+                event.tickets &&
                 <a href={`https://${event.tickets}`} target="_blank"><button>Tickets Here!</button></a>
             }
-            <p className="video-caption italic">{event.video_caption}</p>
             <div className="event-page-text">
-                {event.guests ? <h3 className="center-text">{event.guestsPage}</h3> : ""}
+                {/* {event.guests ? <h3 className="center-text">{event.guestsPage}</h3> : ""} */}
                 {event.program.length ? <h5>Program</h5> : ""}
                 {programList}
                 <p className="event-desc">{event.desc}</p>
@@ -65,6 +73,6 @@ export default function Event({ url }) {
 
             </div>
 
-        </div>
+        </div >
     )
 }

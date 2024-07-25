@@ -27,7 +27,7 @@ export default function Events() {
     return events ?
 
         <div className="events-body">
-            <Photo photo={photo} />
+            <Photo photo={photo} materialbox={true} />
             <PageTitle page="Upcoming" />
             <Event event={events[3]} /> {/*Tranzac, stay at bottom*/}
             <PageTitle page="Previous" />

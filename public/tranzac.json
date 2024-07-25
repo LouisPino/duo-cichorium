@@ -78,19 +78,47 @@
     "number": 4,
     "series": "Tranzac Residency",
     "location": "Tranzac Club, Toronto",
-    "guests": "Molly McGregor, Mark Terrett, Jett McPlane",
-    "guestsPage": "Molly McGregor, Mark Terrett, Jett McPlane, Trevor Flemings",
+    "guests": "Cheyenne McLean, Mark Terrett, Mabel Wonnacott",
+    "guestsPage": "Cheyenne McLean, Mark Terrett, Mabel Wonnacott",
     "imgUrl": "",
     "program": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1721918380/IMG_3053_mztyf9.jpg",
+        "credit": "Mabel Wonnacott",
+        "title": "",
+        "imgAlt": "Puppeteers"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1721918382/IMG_3041_n7u3sl.jpg",
+        "credit": "Mabel Wonnacott",
+        "title": "",
+        "imgAlt": "Puppet Workshop"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1721918382/IMG_3034_dqjd95.jpg",
+        "credit": "Mabel Wonnacott",
+        "title": "",
+        "imgAlt": "Cheyenne and Kiwi"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1721918381/IMG_3078_sw0pyt.jpg",
+        "credit": "Mabel Wonnacott",
+        "title": "",
+        "imgAlt": "Poison Banana Bread"
+      }
+    ],
     "photo": {
-      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1712878303/DC_people_soup_banner_qhb9b1.png",
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1721917657/Stuffed_Felt_Soup_1_zqaevg.png",
       "credit": "",
       "title": "",
       "imgAlt": "Soup Banner"
     },
-    "desc": "We will be joined by Molly McGregor, Mark Terrett, and Jett McPlane for a special puppet story time around the fire.",
-    "url": "tranzac4"
+    "desc": "We will be joined by Cheyenne McLean, Mark Terrett, and Mabel Wonnacott for a special puppet story time around the fire.",
+    "url": "tranzac4",
+    "recording_url": "https://www.youtube.com/embed/dAz43ECkIU4",
+    "video_caption": "Puppet Improv with Cheyenne, Mark, and Mabel",
+    "audio_link": "https://drive.google.com/file/d/1TSAPMkb2RvcHQ4Hnh61iSbBTxzRBfox4/preview?usp=sharing"
   },
   {
     "date": "August 20 9:30 pm",
@@ -98,7 +126,7 @@
     "title": "",
     "series": "Tranzac Residency",
     "location": "Tranzac Club, Toronto",
-    "guests": "",
+    "guests": "Rowyn Campbell, Trevor Flemings, Charlee Wielgoz, Constant Yen",
     "imgUrl": "",
     "program": [],
     "guestsPage": "Guest Artists TBD",
