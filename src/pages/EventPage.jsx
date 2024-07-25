@@ -40,6 +40,14 @@ export default function Event({ url }) {
         )
     }
     )
+    const audio = event.audio_links.map((audio_link) => {
+        return (
+            <><div className="iframe-ctr audio-iframe">
+                <iframe src={audio_link.url}></iframe>
+            </div>
+                <p>{audio_link.caption}</p></>)
+    }
+    )
 
     return (
         <div className="event-page">
@@ -51,10 +59,7 @@ export default function Event({ url }) {
                 <p className="video-caption italic">{event.video_caption}</p></>
                 :
                 <Photo photo={event.photo} materialbox={true} />}
-            {event.audio_link ? <><div className="iframe-ctr audio-iframe">
-                <iframe src={event.audio_link} title={event.title} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-                <p>Full audio recording</p></>
+            {event.audio_links ? audio
                 :
                 ""
             }

@@ -1,12 +1,11 @@
-import React, { useEffect } from 'react';
-import PageTitle from "../components/PageTitle"
-import Photo from "../components/Photo"
-import { useState } from "react";
-import "../styles/press.css"
+import React, { useEffect, useState } from 'react';
+import PageTitle from "../components/PageTitle";
+import Photo from "../components/Photo";
+import "../styles/press.css";
 
 const PressPhotos = () => {
     const [about, setAbout] = useState(null);
-    const [imgCount, setImgCount] = useState(0);
+    const [loadedImages, setLoadedImages] = useState({});
     const [loaded, setLoaded] = useState(false);
 
     const getAboutData = async () => {
@@ -18,32 +17,45 @@ const PressPhotos = () => {
     useEffect(() => {
         getAboutData();
     }, []);
+
     useEffect(() => {
-        if (about) {
-            // Preload images
-            about.photos.forEach((photo) => {
-                const img = new Image();
-                img.src = photo.url;
-                img.onload = () => {
-                    setImgCount((prevCount) => prevCount + 1);
-                };
-            });
-        }
+        const preloadImages = () => {
+            if (about) {
+                about.photos.forEach((photo) => {
+                    loadPhoto(photo.url);
+                });
+            }
+        };
+
+        preloadImages();
     }, [about]);
+
+    const loadPhoto = (url, retry = 3) => {
+        const img = new Image();
+        img.src = url;
+        img.onload = () => {
+            setLoadedImages((prev) => ({ ...prev, [url]: true }));
+        };
+        img.onerror = () => {
+            if (retry > 0) {
+                setTimeout(() => loadPhoto(url, retry - 1), 1000);
+            }
+        };
+    };
 
     useEffect(() => {
         // Check if all images are loaded
-        if (imgCount === about?.photos.length) {
+        if (about && about.photos.every((photo) => loadedImages[photo.url])) {
             setLoaded(true);
         }
-    }, [imgCount, about?.photos.length]);
+    }, [loadedImages, about]);
 
     if (!about || !loaded) {
         return <PageTitle page="Loading" />; // Or any other loading indicator
     }
 
     const images = about.photos.map((photo, index) => (
-        <Photo photo={photo} materialbox={true} />
+        <Photo key={index} photo={photo} materialbox={true} />
     ));
 
     return (
@@ -51,6 +63,6 @@ const PressPhotos = () => {
             {images}
         </div>
     );
-}
+};
 
 export default PressPhotos;

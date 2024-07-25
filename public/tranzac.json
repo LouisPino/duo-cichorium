@@ -50,7 +50,17 @@
     },
     "photos": [],
     "desc": "ALPHABET SOUP features four poets and seven guest musicians. With thirteen artists this soup just might spill over but simmer just right and experience a flavor only a poet can put into words.",
-    "url": "tranzac2"
+    "url": "tranzac2",
+    "audio_links": [
+      {
+        "url": "https://drive.google.com/file/d/1gfxBHiDXyFCc73LSpF5pJ8iDTeH41q27/preview?usp=sharing",
+        "caption": "Full audio part 1"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1e1CyZcOlpE9d9tPs0oAIFZ2hS6VHvJxE/preview?usp=drive_link",
+        "caption": "Full audio part 2"
+      }
+    ]
   },
   {
     "date": "June 18 9:30 pm",
@@ -70,7 +80,25 @@
     },
     "photos": [],
     "desc": "This is a 4 course stew featuring singer songwriters! Each performer will have a 20ish minute set to share their own music. May this stew nourish your soul and lift your spirit! Come and simmer with us 🥣",
-    "url": "tranzac3"
+    "url": "tranzac3",
+    "audio_links": [
+      {
+        "url": "https://drive.google.com/file/d/1r2FY43RGdw75Q9cwr_gpqqiSbj9r-uUJ/preview?usp=drive_link",
+        "caption": "Orangey"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1Br0ChsUu0CGDuHfM_txOBkoxnUPFuloO/preview?usp=drive_link",
+        "caption": "Robbie Ahmed"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1m_Xm8KoDVkdYiwD95vX1my2TkleBqoFF/preview?usp=drive_link",
+        "caption": "Chibuzr"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1ezosRssoGjQv_m9o_bOcoRcPz8OQgsNQ/preview?usp=drive_link",
+        "caption": "Parallel Play"
+      }
+    ]
   },
   {
     "date": "July 16 9:30 pm",
@@ -118,7 +146,12 @@
     "url": "tranzac4",
     "recording_url": "https://www.youtube.com/embed/dAz43ECkIU4",
     "video_caption": "Puppet Improv with Cheyenne, Mark, and Mabel",
-    "audio_link": "https://drive.google.com/file/d/1TSAPMkb2RvcHQ4Hnh61iSbBTxzRBfox4/preview?usp=sharing"
+    "audio_links": [
+      {
+        "url": "https://drive.google.com/file/d/1TSAPMkb2RvcHQ4Hnh61iSbBTxzRBfox4/preview?usp=sharing",
+        "caption": "Full audio recording"
+      }
+    ]
   },
   {
     "date": "August 20 9:30 pm",
