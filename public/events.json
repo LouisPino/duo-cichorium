@@ -250,5 +250,26 @@
     "recording_url": "",
     "url": "diy-instruments",
     "shortDesc": "We are building a new instrument based on the sound of a painter's canvas, in addition with some wackadoodle electronic integrations as to be expected."
+  },
+  {
+    "location": "Wenona Craft Beer Lodge",
+    "date": "July 31, 2024",
+    "title": "Smash at Render File",
+    "organizer": "Render File",
+    "series": "",
+    "tickets": "",
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1722864596/Screenshot_2024-08-05_092813_fhrxyc.png",
+      "credit": "",
+      "title": "",
+      "imgAlt": "Mid performance photo"
+    },
+    "photos": [],
+    "desc": "We are building a new instrument based on the sound of a painter's canvas, in addition with some wackadoodle electronic integrations as to be expected.",
+    "program": [],
+    "recording_url": "https://www.youtube.com/embed/NKh6lITs_rk",
+    "video_caption": "Complete concert recording",
+    "url": "render-smash",
+    "shortDesc": "We performed an update version of Speed Run for Super Smash Bros. Melee, along with Render File."
   }
 ]

@@ -31,6 +31,7 @@ export default function Events() {
             <PageTitle page="Upcoming" />
             <Event event={events[3]} /> {/*Tranzac, stay at bottom*/}
             <PageTitle page="Previous" />
+            <Event event={events[7]} />{/*render smash*/}
             <Event event={events[6]} />{/*DIY Instruments*/}
             <Event event={events[5]} />{/*Track Could Bend*/}
             <Event event={events[4]} />{/*Puppet Mongers*/}
