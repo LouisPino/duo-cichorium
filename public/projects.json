@@ -33,6 +33,25 @@
     "desc": "Canvas Conductor is an instrument we built in May 2024. The canvas is outfitted with two contact microhpones and interwoven metal wires. The paintbrush contains another metal wire, allowing the painter to make electrical connections with the interwoven threads. These connections control an arduino based synthesizer, with other parameters optionally controlled by a second performer. We often run the entire output of the instrument into a delay or reverb module in performance."
   },
   {
+    "name": "0 Damage Any % Reverse Glitch Speed Run",
+    "url": "Damage",
+    "feature": true,
+    "mainvideo": "https://www.youtube.com/embed/qOQ3z_GgknQ",
+    "secondaryVideos": [
+      {
+        "url": "https://www.youtube.com/embed/5ksfpOusmCQ?feature=share",
+        "caption": "Sound checking at Render File"
+      },
+      {
+        "url": "https://www.youtube.com/embed/UgJGYTgV_-8",
+        "caption": "Sound checking at Render File"
+      }
+    ],
+    "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1708007520/cichorium/Capture_pbbox4.jpg",
+    "desc": "This piece invites audience members to play a live game of Super Smash Bros. 64. Button input from the players is captured and analyzed by Max to manipulate aspects of the electronic sound. The percussionists are each assigned a character to sonically represent in performance, creating a unified ensemble between the game players, percussionists, and electronics, all driven by gameplay.",
+    "shortDesc": "Audience members play a live game of Super Smash Bros. 64, with their button inputs controlling the musical electronics"
+  },
+  {
     "name": "Letter Piece #1",
     "url": "Letter",
     "feature": true,
@@ -54,15 +73,6 @@
     "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1708008346/cichorium/Capture_fcr75o.jpg",
     "desc": "Composed by Jet Kye Chong \nPerformed by Duo Cichorium (Jaz Tsui, Louis Pino)\nFebruary 8, 2024\nArray Space, Toronto",
     "shortDesc": "Composed by Jet Kye Chong for two speaking percussionists"
-  },
-  {
-    "name": "0 Damage Any % Reverse Glitch Speed Run",
-    "url": "Damage",
-    "feature": true,
-    "mainvideo": "https://www.youtube.com/embed/qOQ3z_GgknQ",
-    "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1708007520/cichorium/Capture_pbbox4.jpg",
-    "desc": "This piece invites audience members to play a live game of Super Smash Bros. 64. Button input from the players is captured and analyzed by Max to manipulate aspects of the electronic sound. The percussionists are each assigned a character to sonically represent in performance, creating a unified ensemble between the game players, percussionists, and electronics, all driven by gameplay.",
-    "shortDesc": "Audience members play a live game of Super Smash Bros. 64, with their button inputs controlling the musical electronics"
   },
   {
     "name": "Feedback Dreams",

@@ -265,11 +265,17 @@
       "imgAlt": "Mid performance photo"
     },
     "photos": [],
-    "desc": "We are building a new instrument based on the sound of a painter's canvas, in addition with some wackadoodle electronic integrations as to be expected.",
-    "program": [],
-    "recording_url": "https://www.youtube.com/embed/NKh6lITs_rk",
-    "video_caption": "Complete concert recording",
+    "desc": "We performed an updated version of Speed Run for Super Smash Bros. Melee, along with Render File.",
+    "program": [
+      {
+        "title": "0 Damage Any % Reverse Glitch Speed Run",
+        "composer": "Duo Cichorium",
+        "url": "Damage"
+      }
+    ],
+    "recording_url": "https://www.youtube.com/embed/5ksfpOusmCQ?feature=share",
+    "video_caption": "Sound checking",
     "url": "render-smash",
-    "shortDesc": "We performed an update version of Speed Run for Super Smash Bros. Melee, along with Render File."
+    "shortDesc": "We performed an updated version of Speed Run for Super Smash Bros. Melee, along with Render File."
   }
 ]
