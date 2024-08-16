@@ -19,7 +19,7 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
         workEl.addEventListener("mouseover", () => { setWorkDrop(true) })
         workEl.addEventListener("mouseout", () => { setWorkDrop(false) })
 
-        logoFlowerGifEl.addEventListener("mouseover", function(e) {
+        logoFlowerGifEl.addEventListener("mouseover", function (e) {
             e.target.style.opacity = 1;
         });
 
@@ -64,7 +64,7 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
         <header>
 
             <div id="progressbar" className={`desktop-only ${scrolls ? "" : "no-width"}`}  >
-                <img src="/assets/ChicoryTrans.png" className="scroll-img" alt="Chicory flower scroll indicator"/>
+                <img src="/assets/ChicoryTrans.png" className="scroll-img" alt="Chicory flower scroll indicator" />
             </div>
             <div id="scrollpath" className="desktop-only"></div>
             <div className="header-content">
@@ -84,11 +84,11 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                 </div>
                 <Link className="Link" to="/">
                     <div className="cic-logo" >
-                    <div className="cic-logo-flowers"> </div>
-                    <div className="cic-logo-flowers-gif"> </div>
-                    <div className="cic-logo-flowers-gif-reverse"> </div>
+                        <div className="cic-logo-flowers"> </div>
+                        <div className="cic-logo-flowers-gif"> </div>
+                        <div className="cic-logo-flowers-gif-reverse"> </div>
                     </div>
-                    
+
                 </Link>
                 <div className="my-nav nav-r">
                     {/* <Link to="/the-sylvan-legacy">
@@ -111,6 +111,9 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                             </Link>
                             <Link to="/tmu">
                                 <p className="work-link-text hover-glow" onClick={linkClicked}>AI Tools for Artists</p>
+                            </Link>
+                            <Link to="/tranzac-residency" onClick={linkClicked}>
+                                <p className="work-link-text hover-glow" >PEOPLE SOUP</p>
                             </Link>
                         </div>
                         }
