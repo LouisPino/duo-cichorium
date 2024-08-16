@@ -156,21 +156,64 @@
   {
     "date": "August 20 9:30 pm",
     "number": 5,
-    "title": "",
+    "title": "PAINT WATER",
     "series": "Tranzac Residency",
     "location": "Tranzac Club, Toronto",
-    "guests": "Rowan Campbell, Trevor Flemings, Charlee Wielgoz, Constant Yen",
+    "guests": "Rowan Campbell, Rod Campbell, Trevor Flemings, Chantall Hassard, Charlee Wielgoz, Constant Yen",
     "imgUrl": "",
     "program": [],
-    "guestsPage": "Guest Artists TBD",
+    "guestsPage": "Rowan Campbell, Rod Campbell, Trevor Flemings, Chantall Hassard, Charlee Wielgoz, Constant Yen",
     "photo": {
       "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1712878303/DC_people_soup_banner_qhb9b1.png",
       "credit": "",
       "title": "",
       "imgAlt": "Image from Music Gallery Desiderium performance"
     },
-    "photos": [],
-    "desc": "",
+    "photos": [
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1723774154/IMG_0974_pwhz39.gif",
+        "credit": "by Rowan Cambell",
+        "title": "",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1723774250/IMG_4096_qs43xc.gif",
+        "credit": "by Rowan Cambell",
+        "title": "",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1723773906/Paint_Water_-_Rod_Campbell_bmc0qg.png",
+        "credit": "drawn by Jaz",
+        "title": "Rod Campbell",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1723773906/Paint_Water_-_Rowan_uwvtao.png",
+        "credit": "",
+        "title": "",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1723773907/Paint_Water_-_Paint_Water_ffu7d2.png",
+        "credit": "",
+        "title": "",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1723773906/Sideburn2024-144_-_chantal_hassard_1_kwel0u.jpg",
+        "credit": "",
+        "title": "Chantal Hassard",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1723773906/constant_yen-artistphoto_-_Constant_Yen_1_wktm9x.jpg",
+        "credit": "",
+        "title": "Constant Yen",
+        "imgAlt": ""
+      }
+    ],
+    "desc": "We are joined by painters and animators Rowan Campbell, Chantal Hassard, and Constant Yen, with musicians Trevor Flemings, and Charlee Wielgoz. The night will feature music improvisation along with some live painting and animation.",
     "url": "tranzac5"
   },
   {
