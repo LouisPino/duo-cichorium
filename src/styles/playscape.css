@@ -1,0 +1,57 @@
+.playscape-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.playscape-p {
+    text-align: center;
+    padding: 0 6vw;
+}
+
+.playscape-event-line {
+    color: var(--blue-text);
+
+}
+
+
+
+.playscape-event-line:hover {
+    color: var(--bg);
+    background-color: var(--blue-text);
+    box-shadow: 0 0 10px 2px var(--box-glow);
+    transition: 300ms;
+}
+
+.playscape-event-card {
+    width: 75%;
+    margin: 8px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 8px 1px var(--box-glow);
+    /* border-radius: 16px; */
+    border: 1px solid var(--blue-text);
+    padding: 16px;
+    background-color: var(--box);
+    color: var(--blue-text);
+    text-align: center;
+    transition: 200ms;
+    position: relative
+}
+
+
+.playscape-event-card-middle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.playscape-event-card-l {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

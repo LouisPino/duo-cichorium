@@ -115,6 +115,9 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                             <Link to="/tranzac-residency" onClick={linkClicked}>
                                 <p className="work-link-text hover-glow" >PEOPLE SOUP</p>
                             </Link>
+                            {/* <Link to="/playscape-emporium" onClick={linkClicked}>
+                                <p className="work-link-text hover-glow" >PLAYSCAPE EMPORIUM</p>
+                            </Link> */}
                         </div>
                         }
                     </div>

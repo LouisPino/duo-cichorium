@@ -1,0 +1,125 @@
+[
+  {
+    "date": "Fall 2024",
+    "number": 1,
+    "url": "playscape1",
+    "series": "PLAYSCAPE EMPORIUM",
+    "location": "Array Music, Toronto",
+    "title": "OF DANCES AND DREAMS ",
+    "guests": "Angela Blumberg Dance Company, teething, Adrian Berry",
+    "guestsPage": "Angela Blumberg Dance Company, teething (Marilyn Yogarajah, Aniqa Dear, Roshanak, sxrej, Roya Biazar, yasmine), and Adrian Berry (visuals)",
+    "imgUrl": "",
+    "program": [],
+    "photo": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTkEREQXzO12WBe_BqzVw-q7qJHgdkC1GRfg&s",
+      "credit": "",
+      "title": "",
+      "imgAlt": ""
+    },
+    "photos": [],
+    "desc": "Dance!"
+  },
+  {
+    "date": "Spring 2025",
+    "title": "ARCADE-PALOOZA",
+    "number": 2,
+    "series": "PLAYSCAPE EMPORIUM",
+    "location": "Array Music, Toronto",
+    "guests": "Render File",
+    "guestsPage": "Render File",
+    "imgUrl": "",
+    "program": [],
+    "photo": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTkEREQXzO12WBe_BqzVw-q7qJHgdkC1GRfg&s",
+      "credit": "",
+      "title": "",
+      "imgAlt": ""
+    },
+    "photos": [],
+    "desc": "Video Games!",
+    "url": "playscape2",
+    "audio_links": []
+  },
+  {
+    "date": "Fall 2025",
+    "title": "THEATRICS",
+    "number": 3,
+    "series": "PLAYSCAPE EMPORIUM",
+    "location": "Array Music, Toronto",
+    "guests": "Toronto Saxophone Quintet, Trevor Flemings",
+    "guestsPage": "Toronto Saxophone Quintet, Trevor Flemings",
+    "imgUrl": "",
+    "program": [],
+    "photo": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTkEREQXzO12WBe_BqzVw-q7qJHgdkC1GRfg&s",
+      "credit": "",
+      "title": "",
+      "imgAlt": ""
+    },
+    "photos": [],
+    "desc": "Theater!",
+    "url": "playscape3",
+    "audio_links": []
+  },
+  {
+    "date": "SPRING 2026",
+    "title": "PAINT, PLAY",
+    "number": 4,
+    "series": "PLAYSCAPE EMPORIUM",
+    "location": "Array Music, Toronto",
+    "guests": "TBD",
+    "guestsPage": "TBD",
+    "imgUrl": "",
+    "program": [],
+    "photos": [],
+    "photo": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTkEREQXzO12WBe_BqzVw-q7qJHgdkC1GRfg&s",
+      "credit": "",
+      "title": "",
+      "imgAlt": "Soup Banner"
+    },
+    "desc": "",
+    "url": "playscape4",
+    "audio_links": []
+  },
+  {
+    "date": "FALL 2026",
+    "number": 5,
+    "title": "PUPPET ZONE",
+    "series": "PLAYSCAPE EMPORIUM",
+    "location": "Array Music, Toronto",
+    "guests": "TBD",
+    "imgUrl": "",
+    "program": [],
+    "guestsPage": "TBD",
+    "photo": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTkEREQXzO12WBe_BqzVw-q7qJHgdkC1GRfg&s",
+      "credit": "",
+      "title": "",
+      "imgAlt": ""
+    },
+    "photos": [],
+    "desc": "",
+    "url": "playscape5"
+  },
+  {
+    "date": "SPRING 2027",
+    "number": 6,
+    "title": "POETRY GALACTICA",
+    "series": "PLAYSCAPE EMPORIUM",
+    "location": "Array Music, Toronto",
+    "guests": "Guest Artists TBD",
+    "imgUrl": "",
+    "program": [],
+    "guestsPage": "Guest Artists TBD",
+    "photo": {
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTkEREQXzO12WBe_BqzVw-q7qJHgdkC1GRfg&s",
+      "credit": "",
+      "title": "",
+      "imgAlt": "Image from Music Gallery Desiderium performance"
+    },
+    "photos": [],
+    "desc": "",
+    "url": "playscape6"
+  }
+]

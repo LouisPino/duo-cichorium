@@ -5,8 +5,11 @@ import { Link } from "react-router-dom";
 import "../styles/events.css"
 export default function Event({ url }) {
     const [event, setEvent] = useState(null);
+    const [search_url, setSearchUrl] = useState("");
 
-    const search_url = url.includes("tranzac") ? "./tranzac.json" : "./events.json"
+
+
+
 
     const getEventData = async () => {
         const response = await fetch(search_url);
@@ -15,8 +18,15 @@ export default function Event({ url }) {
     };
 
     useEffect(() => {
+        if (url.includes("tranzac")) { setSearchUrl("./tranzac.json") }
+        else if (url.includes("playscape")) { setSearchUrl("./playscape.json") }
+        else { setSearchUrl("./events.json") }
         getEventData();
     }, []);
+
+    useEffect(() => {
+        getEventData();
+    }, [search_url]);
 
     if (event === null) {
         return <PageTitle page={"Loading"} />;

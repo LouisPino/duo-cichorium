@@ -13,6 +13,7 @@ import Contact from "./pages/Contact";
 import Tranzac from "./pages/Tranzac";
 import Events from "./pages/Events";
 import Sylvan from "./pages/Sylvan";
+import Playscape from "./pages/Playscape";
 import Tmu from "./pages/Tmu";
 import EventPage from "./pages/EventPage";
 import Subscribed from "./pages/Subscribed";
@@ -44,10 +45,14 @@ function App() {
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/works" element={<Works />} />
         <Route exact path="/events" element={<Events />} />
+
+
         <Route exact path="/the-sylvan-legacy" element={<Sylvan />} />
         <Route exact path="/tmu" element={<Tmu />} />
         <Route exact path="/tranzac-residency" element={<Tranzac />} />
-        <Route exact path="/subscribed" element={<Subscribed />} />
+        <Route exact path="/playscape-emporium" element={<Playscape />} />
+
+
         <Route exact path="/Anticommunication" element={<Project url="Anticommunication" />} />
         <Route exact path="/Elemental" element={<Project url="Elemental" />} />
         <Route exact path="/Letter" element={<Project url="Letter" />} />
@@ -56,6 +61,11 @@ function App() {
         <Route exact path="/Grains" element={<Project url="Grains" />} />
         <Route exact path="/Fours" element={<Project url="Fours" />} />
         <Route exact path="/Dreams" element={<Project url="Dreams" />} />
+        <Route exact path="/Canvas" element={<Project url="Canvas" />} />
+
+
+
+
         <Route exact path="/ElementalConcert" element={<EventPage url="ElementalConcert" />} />
         <Route exact path="/Behaviours" element={<EventPage url="Behaviours" />} />
         <Route exact path="/PonyHAUS" element={<EventPage url="PonyHAUS" />} />
@@ -65,11 +75,24 @@ function App() {
         <Route exact path="/tranzac4" element={<EventPage url="tranzac4" />} />
         <Route exact path="/tranzac5" element={<EventPage url="tranzac5" />} />
         <Route exact path="/tranzac6" element={<EventPage url="tranzac6" />} />
+        <Route exact path="/playscape1" element={<EventPage url="playscape1" />} />
+        <Route exact path="/playscape2" element={<EventPage url="playscape2" />} />
+        <Route exact path="/playscape3" element={<EventPage url="playscape3" />} />
+        <Route exact path="/playscape4" element={<EventPage url="playscape4" />} />
+        <Route exact path="/playscape5" element={<EventPage url="playscape5" />} />
+        <Route exact path="/playscape6" element={<EventPage url="playscape6" />} />
         <Route exact path="/puppetmongers" element={<EventPage url="puppetmongers" />} />
         <Route exact path="/track-could-bend" element={<EventPage url="track-could-bend" />} />
         <Route exact path="/diy-instruments" element={<EventPage url="diy-instruments" />} />
-        <Route exact path="/Canvas" element={<Project url="Canvas" />} />
         <Route exact path="/render-smash" element={<EventPage url="render-smash" />} />
+
+
+
+
+
+        <Route exact path="/subscribed" element={<Subscribed />} />
+
+
         <Route path="/*" element={<_404 />} />
       </Routes>
       <Footer />
