@@ -76,9 +76,9 @@
       "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTkEREQXzO12WBe_BqzVw-q7qJHgdkC1GRfg&s",
       "credit": "",
       "title": "",
-      "imgAlt": "Soup Banner"
+      "imgAlt": ""
     },
-    "desc": "",
+    "desc": "Paint!",
     "url": "playscape4",
     "audio_links": []
   },
@@ -99,7 +99,7 @@
       "imgAlt": ""
     },
     "photos": [],
-    "desc": "",
+    "desc": "Puppets!",
     "url": "playscape5"
   },
   {
@@ -108,18 +108,18 @@
     "title": "POETRY GALACTICA",
     "series": "PLAYSCAPE EMPORIUM",
     "location": "Array Music, Toronto",
-    "guests": "Guest Artists TBD",
+    "guests": "Nevada-Jane Arlow, Nicci Pryce",
     "imgUrl": "",
     "program": [],
-    "guestsPage": "Guest Artists TBD",
+    "guestsPage": "Nevada-Jane Arlow, Nicci Pryce",
     "photo": {
       "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTkEREQXzO12WBe_BqzVw-q7qJHgdkC1GRfg&s",
       "credit": "",
       "title": "",
-      "imgAlt": "Image from Music Gallery Desiderium performance"
+      "imgAlt": ""
     },
     "photos": [],
-    "desc": "",
+    "desc": "Poetry!",
     "url": "playscape6"
   }
 ]
