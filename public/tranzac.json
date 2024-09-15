@@ -219,21 +219,34 @@
   {
     "date": "September 17, 9:30 pm",
     "number": 6,
-    "title": "",
+    "title": "GATHERING GOULASH",
     "series": "Tranzac Residency",
     "location": "Tranzac Club, Toronto",
-    "guests": "Guest Artists TBD",
-    "imgUrl": "",
+    "guests": "brudge of sand. and whatNow",
+    "imgUrl": "https://res.cloudinary.com/dsvcyich1/image/upload/v1726414539/Gathering_Goulash_gj3uyr.png",
     "program": [],
     "guestsPage": "Guest Artists TBD",
     "photo": {
-      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1712878303/DC_people_soup_banner_qhb9b1.png",
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1726414539/Gathering_Goulash_gj3uyr.png",
       "credit": "",
       "title": "",
       "imgAlt": "Image from Music Gallery Desiderium performance"
     },
-    "photos": [],
-    "desc": "",
+    "photos": [
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1726414538/A7307938_-_Travis_John_qxscic.jpg",
+        "credit": "",
+        "title": "bridge of sand.",
+        "imgAlt": "bridge of sand. image"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1726414539/Gathering_Goulash_whatNow_bsb4tj.png",
+        "credit": "drawn by Jaz",
+        "title": "",
+        "imgAlt": "whatNow image"
+      }
+    ],
+    "desc": "The last soup of the season!!!! We're joined by bridge of sand. (Travis John) and whatNow (Lenny and Vic) for a night of music and group improvisation.",
     "url": "tranzac6"
   }
 ]
