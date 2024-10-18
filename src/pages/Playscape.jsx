@@ -18,7 +18,7 @@ export default function Playscape() {
     }, []);
 
     const photo = {
-        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1719269393/Duo_Cichorium_-_rec1_v9tkch.jpg",
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1729288211/Untitled_Artwork-min_rxezfq.png",
         "credit": "",
         "title": ""
     }

@@ -112,12 +112,12 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                             <Link to="/tmu">
                                 <p className="work-link-text hover-glow" onClick={linkClicked}>AI Tools for Artists</p>
                             </Link>
-                            <Link to="/tranzac-residency" onClick={linkClicked}>
+                            {/* <Link to="/tranzac-residency" onClick={linkClicked}>
                                 <p className="work-link-text hover-glow" >PEOPLE SOUP</p>
-                            </Link>
-                            {/* <Link to="/playscape-emporium" onClick={linkClicked}>
-                                <p className="work-link-text hover-glow" >PLAYSCAPE EMPORIUM</p>
                             </Link> */}
+                            <Link to="/playscape-emporium" onClick={linkClicked}>
+                                <p className="work-link-text hover-glow" >PLAYSCAPE EMPORIUM</p>
+                            </Link>
                         </div>
                         }
                     </div>

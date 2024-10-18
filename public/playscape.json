@@ -1,42 +1,42 @@
 [
   {
-    "date": "Fall 2024",
+    "date": "December 19, 2024",
     "number": 1,
     "url": "playscape1",
     "series": "PLAYSCAPE EMPORIUM",
     "location": "Array Music, Toronto",
     "title": "OF DANCES AND DREAMS ",
-    "guests": "Angela Blumberg Dance Company, teething, Adrian Berry",
-    "guestsPage": "Angela Blumberg Dance Company, teething (Marilyn Yogarajah, Aniqa Dear, Roshanak, sxrej, Roya Biazar, yasmine), and Adrian Berry (visuals)",
+    "guests": "Angela Blumberg Dance Company, teething, JEIA, Quinn Jacobs",
+    "guestsPage": "Angela Blumberg Dance Company, teething (Marilyn Yogarajah, Aniqa Dear, Roshanak, sxrej, Roya Biazar, yasmine), Quinn Jacobs, and JEIA (visuals)",
     "imgUrl": "",
     "program": [],
     "photo": {
-      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTkEREQXzO12WBe_BqzVw-q7qJHgdkC1GRfg&s",
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1729288087/dance_okacmm.jpg",
       "credit": "",
       "title": "",
       "imgAlt": ""
     },
     "photos": [],
-    "desc": "Dance!"
+    "desc": "Join us in welcoming Angela Blumberg Dance Company to Array for the presentation of 2 works, and a set of improvised dance with music provided by Duo Cichorium and teething, and live visuals by JEIA."
   },
   {
-    "date": "Spring 2025",
+    "date": "May 15, 2025",
     "title": "ARCADE-PALOOZA",
     "number": 2,
     "series": "PLAYSCAPE EMPORIUM",
     "location": "Array Music, Toronto",
     "guests": "Render File",
-    "guestsPage": "Render File",
+    "guestsPage": "Render File, PuzzSoft, Jason Leaver",
     "imgUrl": "",
     "program": [],
     "photo": {
-      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTkEREQXzO12WBe_BqzVw-q7qJHgdkC1GRfg&s",
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1729288087/game_dyaglf.jpg",
       "credit": "",
       "title": "",
       "imgAlt": ""
     },
     "photos": [],
-    "desc": "Video Games!",
+    "desc": "We are joined by Render File for a set of improvised music accompanying video games created by Toronto developers PuzzSoft and Jason Leaver. Afterwards will be Duo Cichorium's SPEED RUN, an interactive music piece for 4 Smash Melee players. Finishing up the night is the Duo's newest semi-concert length work, The Sylvan Legacy, which hands over controls to the audience to help shape the journey we take throughout this epic multimedia work.",
     "url": "playscape2",
     "audio_links": []
   },
@@ -46,7 +46,7 @@
     "number": 3,
     "series": "PLAYSCAPE EMPORIUM",
     "location": "Array Music, Toronto",
-    "guests": "Toronto Saxophone Quintet, Trevor Flemings",
+    "guests": "Toronto Saxophone Quintet, Trevor Flemings, Hee-Soo-Yoon, Domenic Clarke",
     "guestsPage": "Toronto Saxophone Quintet, Trevor Flemings",
     "imgUrl": "",
     "program": [],
