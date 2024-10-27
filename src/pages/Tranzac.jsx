@@ -38,11 +38,12 @@ export default function Tranzac() {
         return (
             <div className="tranzac-page">
                 <Photo photo={photo} materialbox={true} />
-                <h5 className="tranzac-p">We are artists in residence at Toronto's tranzac Club until September! Join us for <span className="glow">PEOPLE SOUP</ span>, six concerts featuring a wide array of artists from varying disciplines.</h5>
-                <h5 className="tranzac-p">Get ready to <em className="glow">collaborate</ em>.</h5>
-                <PageTitle page="Upcoming Soups" />
+                <h5 className="tranzac-p">We were artists in residence at Toronto's tranzac Club From April to October 2024, preseenting six concerts featuring a wide array of artists from varying disciplines. Check out videos and audio from our  <span className="glow">PEOPLE SOUP</ span> shows!!!!</h5>
+                {/* <h5 className="tranzac-p">Get ready to <em className="glow">collaborate</ em>.</h5> */}
+                {/* <PageTitle page="Upcoming Soups" /> */}
+                {/* <PageTitle page="Spoiled Soups" /> */}
+                <TranzacEvent event={tranzac[6]} />
                 <TranzacEvent event={tranzac[5]} />
-                <PageTitle page="Spoiled Soups" />
                 <TranzacEvent event={tranzac[4]} />
                 <TranzacEvent event={tranzac[3]} />
                 <TranzacEvent event={tranzac[2]} />

@@ -246,7 +246,27 @@
         "imgAlt": "whatNow image"
       }
     ],
-    "desc": "The last soup of the season!!!! We're joined by bridge of sand. (Travis John) and whatNow (Lenny and Vic) for a night of music and group improvisation.",
+    "desc": "We're joined by bridge of sand. (Travis John) and whatNow (Lenny and Vic) for a night of music and group improvisation.",
     "url": "tranzac6"
+  },
+  {
+    "date": "October 8, 9:30 pm",
+    "number": 7,
+    "title": "WITCH'S BREW",
+    "series": "Tranzac Residency",
+    "location": "Tranzac Club, Toronto",
+    "guests": "Trevor Flemings, Andrew Noseworthy, Xodkaar",
+    "imgUrl": "https://res.cloudinary.com/dsvcyich1/image/upload/v1726414539/Gathering_Goulash_gj3uyr.png",
+    "program": [],
+    "guestsPage": "Trevor Flemings (piano / electronics), Andrew Noseworthy (guitar / electronics), xodkaar (found objects / electronics)",
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1730046369/Witch_s_Brew_cjxlvd.png",
+      "credit": "",
+      "title": "",
+      "imgAlt": "With's Brew poster drawn by Jaz"
+    },
+    "photos": [],
+    "desc": "The final soup of the season!!!! We're improvising to a collection of horror movies with Trevor Flemings, Andrew Noseworthy, and Xodkaar!",
+    "url": "tranzac7"
   }
 ]
