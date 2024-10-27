@@ -33,7 +33,6 @@ export default function Event({ url }) {
     }
 
     const programList = event.program.map((piece) => {
-        console.log("hit")
         if (piece.title === "Intermission") {
             return <p className="event-page-program-intermission">- Intermission -</p>
         } else {
@@ -85,7 +84,7 @@ export default function Event({ url }) {
                 {/* {event.guests ? <h3 className="center-text">{event.guestsPage}</h3> : ""} */}
                 {event.program.length ? <h5>Program</h5> : ""}
                 {programList}
-                {event.longDesc ? <p className="event-desc">{event.longDesc}</p> : <p className="event-desc">{event.longDesc}</p>}
+                <p className="event-desc">{event.longDesc ? event.longDesc : event.desc}</p>
                 <div className="event-photos">
                     {photos}
                 </div>
