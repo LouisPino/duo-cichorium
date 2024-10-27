@@ -85,7 +85,7 @@ export default function Event({ url }) {
                 {/* {event.guests ? <h3 className="center-text">{event.guestsPage}</h3> : ""} */}
                 {event.program.length ? <h5>Program</h5> : ""}
                 {programList}
-                <p className="event-desc">{event.desc}</p>
+                {event.longDesc ? <p className="event-desc">{event.longDesc}</p> : <p className="event-desc">{event.longDesc}</p>}
                 <div className="event-photos">
                     {photos}
                 </div>

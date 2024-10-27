@@ -17,7 +17,8 @@
       "imgAlt": ""
     },
     "photos": [],
-    "desc": "Join us in welcoming Angela Blumberg Dance Company to Array for the presentation of 2 works, and a set of improvised dance with music provided by Duo Cichorium and teething, and live visuals by JEIA."
+    "desc": "Join us in welcoming Angela Blumberg Dance Company to Array for the presentation of 2 works, and a set of improvised dance with music provided by Duo Cichorium and teething, and live visuals by JEIA.",
+    "longDesc": "“What if life is just a dream? Would we be amazed at our own existence? Would we discover there is no master narrative, no single version of ourselves, but many? Would we be the dreamers and the nightmares?” The Angela Blumberg Dance Company confronts these questions with The Great Dream for 4 dancers. Following The Great Dream is a showing of Portrait 2020, an absurdist short film involving dance, animation, and music created by Blumberg and Quinn Jacobs. After intermission will be a free form performance of improvised dance, music, and video featuring the entourage of dancers in both solo and ensemble settings. Providing music for this are Duo Cichorium and Toronto-based improvised music ensemble Teething, a sextet of improvisers that blend vocal and instrumental performance with electronics, centering active-listening and exploration. Finally, visual artist Jeia will provide visuals to be projected during the performance."
   },
   {
     "date": "May 15, 2025",
@@ -37,6 +38,7 @@
     },
     "photos": [],
     "desc": "We are joined by Render File for a set of improvised music accompanying video games created by Toronto developers PuzzSoft and Jason Leaver. Afterwards will be Duo Cichorium's SPEED RUN, an interactive music piece for 4 Smash Melee players. Finishing up the night is the Duo's newest semi-concert length work, The Sylvan Legacy, which hands over controls to the audience to help shape the journey we take throughout this epic multimedia work.",
+    "longDesc": "ARCADE-PALOOZA is a concert entirely driven by playfulness, blending gaming, music, and audience participation. The first half will feature Toronto ensemble Render File, improvising to two videos games (Trash Panda and Trail Mix). Next Duo Cichorium will join for their interactive work, 0 Damage Any % Reverse Glitch Speed Run, inviting 4 audience members to play games of Super Smash Bros. Melee, directly translating button input from the audience performers into musical parameters. After intermission, the duo premieres their newest long form multimedia work The Sylvan Legacy. In this piece, audience members will use their smart devices to collectively control musical, visual, and narrative elements of this high fantasy choose-your-own-adventure work. Audience members will be able to choose character traits, decide which paths to travel, and determine how our heroes will respond in times of conflict.",
     "url": "playscape2",
     "audio_links": []
   },
@@ -47,7 +49,7 @@
     "series": "PLAYSCAPE EMPORIUM",
     "location": "Array Music, Toronto",
     "guests": "Toronto Saxophone Quintet, Trevor Flemings, Hee-Soo-Yoon, Domenic Clarke",
-    "guestsPage": "Toronto Saxophone Quintet, Trevor Flemings",
+    "guestsPage": "Toronto Saxophone Quintet, Trevor Flemings, Hee-Soo-Yoon, Domenic Clarke",
     "imgUrl": "",
     "program": [],
     "photo": {
@@ -57,7 +59,8 @@
       "imgAlt": ""
     },
     "photos": [],
-    "desc": "Theater!",
+    "desc": "Theatrics is a celebration of theatrical chamber and solo musical works! We will be performing an adapted version of Frederic Rzewski's Fall of The Empire, along with the premiere of Domenic Clarke's viola and percussion trio Adore with violist Hee-Soo Yoon. Closing the night is Toronto Saxophone Collective's rendition of Raymond Luedeke's Garbage Delight, narrated by Trevor Flemings.",
+    "longDesc": "THEATRICS presents an extreme range of aesthetics all through the medium of theatrical chamber music. We open with Frederic Rzewski’s Fall of the Empire, a thought-provoking satire on political extremism, religious fundamentalism, and societal sacrifice. Originally written as a solo, Duo Cichorium will alternate between the roles of performer and stagehand, assisting each other to accentuate the piece’s theatrical elements through costuming, props, and lighting. Following this is the premiere of Domenic Clarke’s Adore for viola, two percussionists, and electronics, utilizing a large custom-made box outfitted with various microphones and electronic devices to tell a story of life and death, concluding with a solemn funeral ceremony. The concert finishes with Raymond Luedeke’s Garbage Delight, performed by the Toronto Saxophone Quintet and Trevor Flemings, offering a humorous and whimsical finish with its absurd text and playful saxophone ensemble writing.",
     "url": "playscape3",
     "audio_links": []
   },
@@ -67,8 +70,8 @@
     "number": 4,
     "series": "PLAYSCAPE EMPORIUM",
     "location": "Array Music, Toronto",
-    "guests": "TBD",
-    "guestsPage": "TBD",
+    "guests": "Rowan Campbell, Constant Yen",
+    "guestsPage": "Rowan Campbell, Constant Yen",
     "imgUrl": "",
     "program": [],
     "photos": [],
@@ -78,7 +81,8 @@
       "title": "",
       "imgAlt": ""
     },
-    "desc": "Paint!",
+    "desc": "We will be joined by Rowan Campbell and Constant Yen to explore various capacities of collaboration between visual arts and music. This includes the premiere of our updated Canvas Conductor, an animation jam, and live graphic score creation and interpretation. Check out our fifth People Soup show PAINT WATER to get a taste of Contant and Rowan's work, and watch our original Canvas Conductor premiere on our repertoire page!!",
+    "longDesc": "PAINT, PLAY centers on music improvisation driven by visual art. The audience will witness the creation of various painted works, following the story of a painting as told by the brush. Duo Cichorium’s Canvas Conductor is an electroacoustic hybrid instrument which integrates a painter’s canvas with a custom built synthesizer, and AI based sampler AudioStellar. With this mega-instrument, a painter’s brush strokes to directly control the production of sound as the image progresses. Next, the animated film work of Rowan Campbell will be featured in conjunction with improvised music. An interactive installation, COUNTERVISION, created by Jaz Tsui will be presented during intermission, in which viewers will be invited to view the creation of a graphic score and encouraged to interact with a midi board that controls the mix of pre recorded instrumental tracks playing through the room’s speakers. This work allows the viewer to be an active participant in both the viewing and listening experience. In the second half, Constant Yen will be performing their various visual practices, including painting, drawing, sculpting, animation, and oil manipulation. This will act as a visual score for Duo Cichorium, joined by 5 other improvising musicians.",
     "url": "playscape4",
     "audio_links": []
   },
@@ -88,10 +92,10 @@
     "title": "PUPPET ZONE",
     "series": "PLAYSCAPE EMPORIUM",
     "location": "Array Music, Toronto",
-    "guests": "TBD",
+    "guests": "Cheyenne McLean, Mark Terrett, Mabel Wonnacott",
     "imgUrl": "",
     "program": [],
-    "guestsPage": "TBD",
+    "guestsPage": "Cheyenne McLean, Mark Terrett, Mabel Wonnacott",
     "photo": {
       "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTkEREQXzO12WBe_BqzVw-q7qJHgdkC1GRfg&s",
       "credit": "",
@@ -99,7 +103,8 @@
       "imgAlt": ""
     },
     "photos": [],
-    "desc": "Puppets!",
+    "desc": "We will be creating a new Puppet Musical with our hilarious friends Cheyenne McLean and Mark Terrett, as well as developing a previous collaboration with director and puppeteer Mabel Wonnacott! Check out the work in progress performance of Paper Man on our repertoire page! Also check out the fourth People Soup show STUFFED FELT SOUP to get a taste of Cheyenne and Mark's work!!",
+    "longDesc": "PUPPET ZONE is a performance highlighting cross-disciplinary collaboration between puppetry and music performance. Opening with Paper Man, conceptualized and directed by Mabel Wonnacott, we follow the birth and life of a simple Paper Man puppet along with the many elemental matters that threaten his very existence. The second half of this performance will be the premiere of Cheyenne McLean and Mark Terrett’s hilarious Puppet Musical, showcasing a wide array of bizarre and eccentric characters.",
     "url": "playscape5"
   },
   {
@@ -119,7 +124,8 @@
       "imgAlt": ""
     },
     "photos": [],
-    "desc": "Poetry!",
+    "desc": "We will be creating two new poetry based works for this performance! We will be collaborating with Nicci Pryce on Poetry Theater, a narrative play using poetry as dialogue. Next is Nevada-Jane Arlow's Poetry Opera, an unhinged operatic staging of poetry about narwhals. Check out our second People Soup show ALPHABET SOUP to get a taste of Nicci and Nevada's work!! ",
+    "longDesc": "POETRY GALACTICA is a presentation of two co-creations between two Toronto based poets and Duo Cichorium. The performance opens with a poetry play by Nicci Pryce,  weaving together the poet/actor’s work in a theatrical narrative setting, with music written by Duo Cichorium. After intermission is Nevada-Jane Arlow’s Poetry Opera featuring stage setting, props, and a speaker/chorus relationship between Arlow and the musicians.",
     "url": "playscape6"
   }
 ]

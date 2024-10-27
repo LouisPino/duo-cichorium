@@ -21,6 +21,7 @@ const Event = ({ event }) => {
 
             <div className="playscape-event-card-bottom">
                 {<h4 className="">{event.guests ? event.guests : "GUEST ARTSISTS TBD"}</h4>}
+                <h6 className="event-card-desc">{event.desc}</h6>
                 <h5 className="event-card-date">{event.date}</h5>
                 <h5 className="event-card-location">{event.location}</h5>
             </div>

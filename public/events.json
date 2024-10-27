@@ -277,5 +277,25 @@
     "video_caption": "Sound checking",
     "url": "render-smash",
     "shortDesc": "We performed an updated version of Speed Run for Super Smash Bros. Melee, along with Render File."
+  },
+  {
+    "location": "ArrayMusic",
+    "date": "Fall  2024 - Spring 2027",
+    "title": "DUO CICHORIUM'S PLAYSCAPE EMPORIUM",
+    "organizer": "ArrayMusic",
+    "series": "",
+    "tickets": "https://www.tickettailor.com/events/arraymusic1/",
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1729288211/Untitled_Artwork-min_rxezfq.png",
+      "credit": "",
+      "title": "",
+      "imgAlt": "Series graphic drawn by Jaz"
+    },
+    "photos": [],
+    "desc": "We will be curating six interdisciplinary concerts at ArrayMusic between December 2024 and May 2027. We'll be exploring musical collaboration with many different arts, including dance, video games, puppetry, theater, poetry, paint, and more!!!!",
+    "program": [],
+    "recording_url": "",
+    "url": "playscape-emporium",
+    "shortDesc": "We will be curating six interdisciplinary concerts at ArrayMusic between December 2024 and May 2027."
   }
 ]
