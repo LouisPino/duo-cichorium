@@ -52,6 +52,16 @@
     "shortDesc": "Audience members play a live game of Super Smash Bros. 64, with their button inputs controlling the musical electronics"
   },
   {
+    "name": "The Paper Man",
+    "url": "Paper-Man",
+    "feature": true,
+    "mainvideo": "https://www.youtube.com/embed/Fym1wfgdcYc",
+    "secondaryVideos": [],
+    "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1730048841/Screenshot_2024-10-27_130711_michfv.png",
+    "desc": "This piece invites audience members to play a live game of Super Smash Bros. 64. Button input from the players is captured and analyzed by Max to manipulate aspects of the electronic sound. The percussionists are each assigned a character to sonically represent in performance, creating a unified ensemble between the game players, percussionists, and electronics, all driven by gameplay.",
+    "shortDesc": "Audience members play a live game of Super Smash Bros. 64, with their button inputs controlling the musical electronics"
+  },
+  {
     "name": "Letter Piece #1",
     "url": "Letter",
     "feature": true,

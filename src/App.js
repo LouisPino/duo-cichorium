@@ -75,6 +75,7 @@ function App() {
         <Route exact path="/tranzac4" element={<EventPage url="tranzac4" />} />
         <Route exact path="/tranzac5" element={<EventPage url="tranzac5" />} />
         <Route exact path="/tranzac6" element={<EventPage url="tranzac6" />} />
+        <Route exact path="/tranzac7" element={<EventPage url="tranzac7" />} />
         <Route exact path="/playscape1" element={<EventPage url="playscape1" />} />
         <Route exact path="/playscape2" element={<EventPage url="playscape2" />} />
         <Route exact path="/playscape3" element={<EventPage url="playscape3" />} />
