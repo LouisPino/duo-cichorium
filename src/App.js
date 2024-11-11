@@ -12,6 +12,7 @@ import Works from "./pages/Works";
 import Contact from "./pages/Contact";
 import Tranzac from "./pages/Tranzac";
 import Events from "./pages/Events";
+import AiTools from "./pages/AiTools";
 import Sylvan from "./pages/Sylvan";
 import Playscape from "./pages/Playscape";
 import Tmu from "./pages/Tmu";
@@ -51,6 +52,7 @@ function App() {
         <Route exact path="/tmu" element={<Tmu />} />
         <Route exact path="/tranzac-residency" element={<Tranzac />} />
         <Route exact path="/playscape-emporium" element={<Playscape />} />
+        <Route exact path="/ai-tools" element={<AiTools />} />
 
 
         <Route exact path="/Anticommunication" element={<Project url="Anticommunication" />} />

@@ -1,0 +1,153 @@
+.tools-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+}
+
+.tools-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tools-body>.img-ctr>img {
+    width: 100vw;
+    margin: 0;
+}
+
+.tools-page-text,
+.tools-page-program-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--small);
+}
+
+
+.tools-page-program-intermission {
+    font-style: italic;
+}
+
+.tools-page-program-line {
+    color: var(--blue-text);
+    border-radius: 12px;
+    padding: 2px 8px;
+    margin: 4px;
+
+}
+
+.tools-page-program-line:hover {
+    color: var(--bg);
+    background-color: var(--blue-text);
+    box-shadow: 0 0 10px 2px var(--box-glow);
+    transition: 300ms;
+}
+
+.tools-page-text a {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.video-caption {
+    margin-top: 4px;
+    font-size: var(--small);
+}
+
+.tools-desc {
+    width: 80vw;
+    text-align: justify;
+}
+
+.tools-card {
+    width: 75%;
+    margin: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 8px 1px var(--box-glow);
+    /* border-radius: 16px; */
+    border: 1px solid var(--blue-text);
+    padding: 16px;
+    background-color: var(--box);
+    color: var(--blue-text);
+    text-align: center;
+    transition: 200ms;
+    position: relative
+}
+
+.tools-card-title {
+    font-size: var(--large);
+}
+
+.tools-card-desc {
+    width: 75%;
+    padding: 50px;
+    font-size: var(--medium);
+    margin: 0 auto;
+}
+
+.tools-card-location {
+    margin-top: 0;
+}
+
+.tools-card-l {
+    max-width: 33%;
+    position: relative;
+}
+
+.tools-card-series {
+    margin-top: 2px;
+    font-size: var(--small);
+}
+
+.tools-card-presenter {
+    font-size: var(--medium);
+}
+
+.tools-card-l img {
+    width: 100%;
+}
+
+.tools-photos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 1100px) {
+    .tools-card-desc {
+        width: 90%;
+        padding: 4px;
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .tools-card {
+        flex-direction: column;
+        position: relative;
+        width: 90%;
+    }
+
+    .tools-card-desc {
+        width: 100%;
+        padding: 0;
+        font-size: var(--small)
+    }
+
+    .tools-card-date,
+    .tools-card-location {
+        font-size: var(--very-small)
+    }
+
+    .tools-card-l {
+        min-width: 100%;
+        text-align: center;
+        margin: 0 auto
+    }
+}

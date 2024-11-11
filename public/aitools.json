@@ -1,0 +1,119 @@
+[
+    {
+        "name": "Elemental Suite",
+        "url": "Elemental",
+        "programLink": "Elemental_Suite_Program.pdf",
+        "feature": true,
+        "programText": "Poetry by Kevin King Hope",
+        "mainvideo": "https://www.youtube.com/embed/83XIyVW5MeA",
+        "secondaryVideos": [
+            {
+                "url": "https://www.youtube.com/embed/jY9bbJ7wv40",
+                "caption": "Desiderium performed at ArrayMusic, February 8th, 2024"
+            },
+            {
+                "url": "https://www.youtube.com/embed/f071RIIaAJk",
+                "caption": "FLASH WARNING!! at 6:00 glitching imagery begins Projection art for Morphogenesis from the Elemental Suite by Duo Cichorium"
+            }
+        ],
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711055704/cichorium/Screenshot_2024-03-21_171433_rztubh.png",
+        "shortDesc": "An epic multimedia extravaganza paying tribute to the four elements of nature",
+        "desc": "A four-movement music, art, and electronic extravaganza co-composed by Jaz Tsui and Louis Pino. Each movement utilizes customized electronic systems corresponding to a respective element of matter.\nMatchbox Ritual is a cyclical ritual between states of peace and chaos completed by two performers, both completing and beginning their journeys while briefly meeting in the middle. \nMorphogenesis features a handmade tree sculpture with custom projection art using OBS-based mapping; the sound and visuals reflect a sunset, a night storm, followed by the breaking of dawn. \nDesiderium uses DIY hydrophones, capturing the sounds of water and instruments within it; sounds are processed in Ableton Live, creating a soundscape that explores island caves, a vibrant shore, and the depths of the ocean. \nScintillation combines the MUGIC motion sensor, Arduino, and Max, to allow the performers to control the wind (electronic fans) to activate several sets of windchimes — an aleatoric soundscape evoking a spring day in a breezy field."
+    },
+    {
+        "name": "Canvas Conductor",
+        "url": "Canvas",
+        "programLink": "",
+        "feature": true,
+        "programText": "",
+        "mainvideo": "https://www.youtube.com/embed/XPQH9tVcp9E",
+        "secondaryVideos": [],
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1719269393/Duo_Cichorium_-_rec1_v9tkch.jpg",
+        "shortDesc": "A homemade electroacoustic instrument combining the sounds of a contact mic'ed painter's canvas and synthesizer controlled by the painter.",
+        "desc": "Canvas Conductor is an instrument we built in May 2024. The canvas is outfitted with two contact microhpones and interwoven metal wires. The paintbrush contains another metal wire, allowing the painter to make electrical connections with the interwoven threads. These connections control an arduino based synthesizer, with other parameters optionally controlled by a second performer. We often run the entire output of the instrument into a delay or reverb module in performance."
+    },
+    {
+        "name": "0 Damage Any % Reverse Glitch Speed Run",
+        "url": "Damage",
+        "feature": true,
+        "mainvideo": "https://www.youtube.com/embed/qOQ3z_GgknQ",
+        "secondaryVideos": [
+            {
+                "url": "https://www.youtube.com/embed/5ksfpOusmCQ?feature=share",
+                "caption": "Sound checking at Render File"
+            },
+            {
+                "url": "https://www.youtube.com/embed/UgJGYTgV_-8",
+                "caption": "Sound checking at Render File"
+            }
+        ],
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1708007520/cichorium/Capture_pbbox4.jpg",
+        "desc": "This piece invites audience members to play a live game of Super Smash Bros. 64. Button input from the players is captured and analyzed by Max to manipulate aspects of the electronic sound. The percussionists are each assigned a character to sonically represent in performance, creating a unified ensemble between the game players, percussionists, and electronics, all driven by gameplay.",
+        "shortDesc": "Audience members play a live game of Super Smash Bros. 64, with their button inputs controlling the musical electronics"
+    },
+    {
+        "name": "The Paper Man",
+        "url": "Paper-Man",
+        "feature": true,
+        "mainvideo": "https://www.youtube.com/embed/Fym1wfgdcYc",
+        "secondaryVideos": [],
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1730048841/Screenshot_2024-10-27_130711_michfv.png",
+        "desc": "This piece invites audience members to play a live game of Super Smash Bros. 64. Button input from the players is captured and analyzed by Max to manipulate aspects of the electronic sound. The percussionists are each assigned a character to sonically represent in performance, creating a unified ensemble between the game players, percussionists, and electronics, all driven by gameplay.",
+        "shortDesc": "Audience members play a live game of Super Smash Bros. 64, with their button inputs controlling the musical electronics"
+    },
+    {
+        "name": "Letter Piece #1",
+        "url": "Letter",
+        "feature": true,
+        "mainvideo": "https://www.youtube.com/embed/VghmCXoOG48",
+        "secondaryVideos": [
+            {
+                "url": "https://www.youtube.com/embed/IQzg7mLENXs",
+                "caption": ""
+            }
+        ],
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711046168/cichorium/carousel/carousel2_ymyfen.jpg",
+        "desc": "Composed by Matthew Shlomowitz; For performer and musician",
+        "shortDesc": "Composed by Matthew Shlomowitz; For physical performer and musician"
+    },
+    {
+        "name": "Anticommunication",
+        "url": "Anticommunication",
+        "mainvideo": "https://www.youtube.com/embed/D6-wE9qApBE",
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1708008346/cichorium/Capture_fcr75o.jpg",
+        "desc": "Composed by Jet Kye Chong \nPerformed by Duo Cichorium (Jaz Tsui, Louis Pino)\nFebruary 8, 2024\nArray Space, Toronto",
+        "shortDesc": "Composed by Jet Kye Chong for two speaking percussionists"
+    },
+    {
+        "name": "Feedback Dreams",
+        "url": "Dreams",
+        "feature": false,
+        "mainvideo": "https://www.youtube.com/embed/Ko-okISZyzw",
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/c_fill,w_2000,h_1125,ar_16:9/v1711046650/cichorium/carousel/carousel3_u9jjjo.jpg",
+        "desc": "Feedback Dreams is a structured improvisation using no-input mixer, percussion, melodica, and music box. The internal feedback loop of the no-input is seeded and controlled by Jaz's playing and sent out through a delay pedal.",
+        "shortDesc": "for no-input mixer, percussion, melodica, and music box"
+    },
+    {
+        "name": "Noise Ritual",
+        "url": "Ritual",
+        "mainvideo": "https://www.youtube.com/embed/AYr1qVBDHxk",
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711055830/cichorium/Duo_Cichorium_MG_June16_23_34_jp0ymv.jpg",
+        "desc": "Composed by Nolan Hildebrand; For percussionists and no-input mixer",
+        "shortDesc": "Composed by Nolan Hildebrand; For percussionists and no-input mixer"
+    },
+    {
+        "name": "out of grains, within clouds",
+        "url": "Grains",
+        "mainvideo": "https://www.youtube.com/embed/rzYfyzTV2wg",
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711056220/cichorium/Duo_Cichorium_MG_June16_23_31_lnqjov.jpg",
+        "desc": "Composed by Julia Mermelstein",
+        "shortDesc": "Composed by Julia Mermelstein for two percussionists and electronics"
+    },
+    {
+        "name": "All Fours For The Drum Bum",
+        "url": "Fours",
+        "mainvideo": "https://www.youtube.com/embed/4aZPpqpBzyM",
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711036276/cichorium/Duo_Cichorium_MG_June16_23_8_1_huxfqx.jpg",
+        "shortDesc": "Text score by Pauline Oliveros; Arranged by Duo Cichorium"
+    }
+]
