@@ -60,25 +60,38 @@
     text-align: justify;
 }
 
-.tools-card {
+.tools-div {
     width: 75%;
     margin: 8px 16px;
     display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    min-height: fit-content;
+    position: relative;
+}
+
+.tools-img,
+.tools-desc {
+    display: flex;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 0px 0px 8px 1px var(--box-glow);
-    /* border-radius: 16px; */
-    border: 1px solid var(--blue-text);
+    margin: 8px 16px;
+    border: 3px solid var(--blue-text);
     padding: 16px;
     background-color: var(--box);
     color: var(--blue-text);
     text-align: center;
     transition: 200ms;
-    position: relative
+    width: 50%;
+    position: relative;
+}
+
+.tool-img {
+    width: 100%;
 }
 
 .tools-card-title {
-    font-size: var(--large);
+    font-size: var(--medium);
 }
 
 .tools-card-desc {
