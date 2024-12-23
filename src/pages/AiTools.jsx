@@ -46,7 +46,7 @@ export default function AITools() {
     return (
         <div className="tools-body">
              <PageTitle page="AI Tools for Artists" />
-             <h5 className="tools-exp">In the 2024 Fall Sememster, we worked with a group of students in Toronto Metropolitan University's Design Solutions Supercourse to tackle the challenge of accessibility to AI tools for artists. On this page is a guide to help find tools that use machine learning in a way that can be useful to artists, while not generating the content themselves.</h5>
+             <h5 className="tools-exp">In the 2024 Fall Sememster, we worked with a group of students in Toronto Metropolitan University's Design Solutions Supercourse to tackle the challenge of accessibility to AI tools for artists. On this page is a guide to help find tools that use machine learning in a way that can be useful to artists, while not generating the content themselves. <br/> <br/> Thanks to Chloe Bard, Sasha Kovacevic, Leandros Liolis, Ava Clark, and Maya Pavlovic for compiling information and designing this page!  </h5>
             <PageTitle page="Tools for Audio" />
             {toolEls?.filter((el, idx) => tools[idx].category === "audio")}
             <PageTitle page="Tools for Video" />
