@@ -8,7 +8,6 @@ export default function Tmu() {
         <>
             <PageTitle page="AI Tools for Artists" />
             <div className="tmu-main">
-                <h4 className="center-text">We will be leading an exploratory course at Toronto Metropolitan University meant to increase artists' accesibility to non-generative AI tools for art making. We will be continuing to compile resources and post demonstrations on this page over the next year.</h4>
                 <div className="moon tmu-project">
                     <h1>Computer Vision Moon Resizing and Sorting</h1>
                     <div className="iframe-ctr">
