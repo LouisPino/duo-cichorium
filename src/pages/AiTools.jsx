@@ -21,36 +21,37 @@ export default function AITools() {
     }, []);
 
 
-    const toolEls = tools?.map(function (tool, idx) {
+    const toolElsObj = {audio:[], video:[], interdisciplinary: []}
+    
+    const toolEls = tools?.map((tool) => {
         return (
-            <div className="tools-div">
-                <div className="tools-img">
-                    <img className="tool-img" src={tool.img}></img>
+            <div className="tools-div" key={tool.name}>
+                <a className="tools-img" href={tool.url} target="_blank">
+                <div className="">
+                    <h1 className="tool-title">{tool.name}</h1>
+                    <img className="tool-img" src={tool.img} alt={`${tool.name} image`} />
                 </div>
+                </a>
                 <div className="tools-desc">
-                    <p>{tool.desc}
-                    </p>
+                    <p>{tool.desc}</p>
                 </div>
             </div>
-        )
-    }
-    )
-
-
-
+        );
+    });
+    
     if (tools === null) {
-        return <PageTitle page={"Loading"} />;
+        return <PageTitle page="Loading" />;
     }
-
-
-    return tools ?
-
+    
+    return (
         <div className="tools-body">
             <PageTitle page="Tools for Audio" />
+            {toolEls?.filter((el, idx) => tools[idx].category === "audio")}
             <PageTitle page="Tools for Video" />
+            {toolEls?.filter((el, idx) => tools[idx].category === "video")}
             <PageTitle page="Interdisciplinary Tools" />
-            {toolEls}
+            {toolEls?.filter((el, idx) => tools[idx].category === "interdisciplinary")}
         </div>
-        :
-        <h1 className="loading-title">Loading</h1>;
+    );
+    
 }

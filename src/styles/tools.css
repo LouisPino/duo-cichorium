@@ -73,6 +73,7 @@
 .tools-img,
 .tools-desc {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     margin: 8px 16px;
@@ -84,6 +85,7 @@
     transition: 200ms;
     width: 50%;
     position: relative;
+    font-size: var(--small);
 }
 
 .tool-img {
