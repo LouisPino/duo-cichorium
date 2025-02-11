@@ -144,8 +144,12 @@
     },
     "desc": "We will be joined by Cheyenne McLean, Mark Terrett, and Mabel Wonnacott for a special puppet story time around the fire.",
     "url": "tranzac4",
-    "recording_url": "https://www.youtube.com/embed/dAz43ECkIU4",
-    "video_caption": "Puppet Improv with Cheyenne, Mark, and Mabel",
+    "videos": [
+      {
+        "url": "https://www.youtube.com/embed/dAz43ECkIU4",
+        "caption": "Puppet Improv with Cheyenne, Mark, and Mabel"
+      }
+    ],
     "audio_links": [
       {
         "url": "https://drive.google.com/file/d/1TSAPMkb2RvcHQ4Hnh61iSbBTxzRBfox4/preview?usp=sharing",
@@ -244,6 +248,18 @@
         "credit": "drawn by Jaz",
         "title": "",
         "imgAlt": "whatNow image"
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://drive.google.com/file/d/19dBdMIQXboTQoiF2QZONixq3YklN4_bj/preview",
+        "caption": "brdige of sand."
+      }
+    ],
+    "audio_links": [
+      {
+        "url": "https://drive.google.com/file/d/1TSAPMkb2RvcHQ4Hnh61iSbBTxzRBfox4/preview?usp=sharing",
+        "caption": "bridge of sand."
       }
     ],
     "desc": "We're joined by bridge of sand. (Travis John) and whatNow (Lenny and Vic) for a night of music and group improvisation.",

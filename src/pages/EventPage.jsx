@@ -64,8 +64,8 @@ export default function Event({ url }) {
             <PageTitle page={event.title} />
             <PageTitle page={event.date} />
             {
-                event.recording_url ? <><div className="iframe-ctr">
-                    <iframe src={event.recording_url} title={event.title} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                event.videos ? <><div className="iframe-ctr">
+                    <iframe src={event.videos[0].url} title={event.title} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                     <p className="video-caption italic">{event.video_caption}</p></>
                     :

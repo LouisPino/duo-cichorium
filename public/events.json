@@ -52,8 +52,12 @@
         "url": "Elemental"
       }
     ],
-    "recording_url": "https://www.youtube.com/embed/NKh6lITs_rk",
-    "video_caption": "Complete concert recording",
+    "videos": [
+      {
+        "url": "https://www.youtube.com/embed/NKh6lITs_rk",
+        "caption": "Complete concert recording"
+      }
+    ],
     "url": "ElementalConcert",
     "shortDesc": "Our debut concert, ELEMENTAL, for The Music Gallery's You In Mind series. The first half of the program features works by Matthew Shlomovitz, Pauline Oliveros, Julia Mermelstein, and Nolan Hildebrand. The second half featured our epic multimedia tribute to the four elements of nature, the Elemental Suite."
   },
@@ -94,8 +98,12 @@
     },
     "photos": [],
     "desc": "In February of 2024, we performed a program designed around the idea of play for ArrayMusic's Behaviours series. In this program we debuted our performance of Jet Kye Chong's Anticommunication, as well as two new compositions, Feedback Dreams and 0% Any Damage Reverse Glitch Speed Run.",
-    "recording_url": "https://www.youtube.com/embed/HyIN7t5U9sM",
-    "video_caption": "Complete concert recording",
+    "videos": [
+      {
+        "url": "https://www.youtube.com/embed/HyIN7t5U9sM",
+        "caption": "Complete concert recording"
+      }
+    ],
     "url": "Behaviours",
     "shortDesc": "In February of 2024, we performed a program designed around the idea of play for ArrayMusic's Behaviours series. In this program we debuted our performance of Jet Kye Chong's Anticommunication, as well as two new compositions, Feedback Dreams and 0% Any Damage Reverse Glitch Speed Run "
   },
@@ -144,7 +152,6 @@
         "url": "Dreams"
       }
     ],
-    "recording_url": "",
     "url": "PonyHAUS",
     "tickets": "ponyhaus.ticketleap.com/ponyhaus--horse-idoling-zone/",
     "shortDesc": "JOIN US AS WE SACRIFICE BODY AND SOUL TO THE EQUESTRIAN OVERLORDS. We'll be sharing the bill with G.A.G. along with visuals from Dan Tapper, in a space dedicated to the praise of ponies."
@@ -176,7 +183,6 @@
         "url": "Dreams"
       }
     ],
-    "recording_url": "",
     "url": "tranzac-residency",
     "shortDesc": "We will be one of the Ensembles in Residence at The TRANZAC from May to October of 2024. We'll be hosting a variety of shows, bringing together artists from different genres and backgrounds for six performances."
   },
@@ -196,7 +202,12 @@
     "photos": [],
     "desc": "We will be scoring a dramatic puppet performance following the birth, life, and many deaths of a paper puppet pal.",
     "program": [],
-    "recording_url": "https://www.youtube.com/embed/Fym1wfgdcYc",
+    "videos": [
+      {
+        "url": "https://www.youtube.com/embed/Fym1wfgdcYc",
+        "caption": "Puppet Man performance"
+      }
+    ],
     "url": "puppetmongers",
     "shortDesc": "We will be scoring a dramatic puppet performance following the birth, life, and many deaths of a paper puppet pal."
   },
@@ -227,7 +238,12 @@
         "url": "Dreams"
       }
     ],
-    "recording_url": "https://www.youtube.com/embed/XPQH9tVcp9E",
+    "videos": [
+      {
+        "url": "https://www.youtube.com/embed/XPQH9tVcp9E",
+        "caption": "Track Could Bend performance"
+      }
+    ],
     "url": "track-could-bend",
     "shortDesc": "We will be performing an extended improvised set on garbage percussion, noisy electronics, and if you're lucky some ukulele. Come get turnt with us in a dank basement while we serenade the souls of the innocent."
   },
@@ -247,7 +263,6 @@
     "photos": [],
     "desc": "We are building a new instrument based on the sound of a painter's canvas, in addition with some wackadoodle electronic integrations as to be expected.",
     "program": [],
-    "recording_url": "",
     "url": "diy-instruments",
     "shortDesc": "We are building a new instrument based on the sound of a painter's canvas, in addition with some wackadoodle electronic integrations as to be expected."
   },
@@ -273,8 +288,12 @@
         "url": "Damage"
       }
     ],
-    "recording_url": "https://www.youtube.com/embed/5ksfpOusmCQ?feature=share",
-    "video_caption": "Sound checking",
+    "videos": [
+      {
+        "url": "https://www.youtube.com/embed/5ksfpOusmCQ?feature=share4",
+        "caption": "Sound checking"
+      }
+    ],
     "url": "render-smash",
     "shortDesc": "We performed an updated version of Speed Run for Super Smash Bros. Melee, along with Render File."
   },
@@ -294,7 +313,6 @@
     "photos": [],
     "desc": "We will be curating six interdisciplinary concerts at ArrayMusic between December 2024 and May 2027. We'll be exploring musical collaboration with many different arts, including dance, video games, puppetry, theater, poetry, paint, and more!!!!",
     "program": [],
-    "recording_url": "",
     "url": "playscape-emporium",
     "shortDesc": "We will be curating six interdisciplinary concerts at ArrayMusic between December 2024 and May 2027."
   }
