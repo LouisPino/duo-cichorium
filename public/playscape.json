@@ -6,6 +6,7 @@
     "series": "PLAYSCAPE EMPORIUM",
     "location": "Array Music, Toronto",
     "title": "OF DANCES AND DREAMS ",
+    "ticket_link": "https://www.tickettailor.com/events/arraymusic1/1406737?",
     "guests": "Angela Blumberg Dance Company, teething, JEIA, Quinn Jacobs",
     "guestsPage": "Angela Blumberg Dance Company, teething (Marilyn Yogarajah, Aniqa Dear, Roshanak, sxrej, Roya Biazar, yasmine), Quinn Jacobs, and JEIA (visuals)",
     "imgUrl": "",
@@ -16,7 +17,62 @@
       "title": "",
       "imgAlt": ""
     },
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734042978/ABDC3-credit_Domenic_Clark_qehxbw.jpg",
+        "credit": "Domenic Clark",
+        "title": "The Great Dream",
+        "imgAlt": "The Great Dream snapshot"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734043074/Angela_Blumberg_dqpldw.webp",
+        "credit": "",
+        "title": "Angela Blumberg",
+        "imgAlt": "Angela"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734043015/Screenshot_2024-12-12_at_1.39.33_PM_nsjfo6.png",
+        "credit": "",
+        "title": "teething",
+        "imgAlt": "teething outdoor shot"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734043014/Screenshot_2024-12-12_at_1.40.26_PM_uglgxs.png",
+        "credit": "",
+        "title": "more teething",
+        "imgAlt": "teething at work shot"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734042978/Jeia1_yx9uws.jpg",
+        "credit": "",
+        "title": "JEIA",
+        "imgAlt": "Jeia Headshot"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734042979/Eilish_Shin-Culhane_r27uqz.jpg",
+        "credit": "",
+        "title": "Eilish Shin-Culhane",
+        "imgAlt": "Eilish Shin-Culhane Headshot"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734042979/Meghan_McMartin_q2tvv5.jpg",
+        "credit": "",
+        "title": "Meghan McMartin",
+        "imgAlt": "Meghan McMartin Headshot"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734042979/Taylor_Collis_n6gdro.jpg",
+        "credit": "",
+        "title": "Taylor Collis",
+        "imgAlt": "Taylor Collis Headshot"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734042980/Quinn_Jacobs2-credit_REMIGIJUS_KAZ%CC%8CUKAUSKAS_jdko4t.jpg",
+        "credit": "Remigijus Kaz",
+        "title": "Quinn Jacobs",
+        "imgAlt": "Quinn Jacobs Headshot"
+      }
+    ],
     "desc": "Join us in welcoming Angela Blumberg Dance Company to Array for the presentation of 2 works, and a set of improvised dance with music provided by Duo Cichorium and teething, and live visuals by JEIA.",
     "longDesc": "“What if life is just a dream? Would we be amazed at our own existence? Would we discover there is no master narrative, no single version of ourselves, but many? Would we be the dreamers and the nightmares?” The Angela Blumberg Dance Company confronts these questions with The Great Dream for 4 dancers. Following The Great Dream is a showing of Portrait 2020, an absurdist short film involving dance, animation, and music created by Blumberg and Quinn Jacobs. After intermission will be a free form performance of improvised dance, music, and video featuring the entourage of dancers in both solo and ensemble settings. Providing music for this are Duo Cichorium and Toronto-based improvised music ensemble Teething, a sextet of improvisers that blend vocal and instrumental performance with electronics, centering active-listening and exploration. Finally, visual artist Jeia will provide visuals to be projected during the performance."
   },
@@ -24,6 +80,7 @@
     "date": "May 15, 2025",
     "title": "ARCADE-PALOOZA",
     "number": 2,
+    "ticket_link": "https://www.tickettailor.com/events/arraymusic1/1406741?",
     "series": "PLAYSCAPE EMPORIUM",
     "location": "Array Music, Toronto",
     "guests": "Render File",
@@ -36,7 +93,80 @@
       "title": "",
       "imgAlt": ""
     },
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734124910/Render_File_1_yn5vyx.jpg",
+        "credit": "",
+        "title": "Render File",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734124911/Render_File_3_uyw2kn.jpg",
+        "credit": "",
+        "title": "Render File",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734124910/Render_File_2_i2ygoj.jpg",
+        "credit": "",
+        "title": "Render File",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734124912/PuzzSoft_nyy3bi.png",
+        "credit": "",
+        "title": "PuzzSoft",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734124911/Jason_Leaver2_ik2ii7.jpg",
+        "credit": "",
+        "title": "Jason Leaver",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734124915/Sierra_Weston_e1bcxy.jpg",
+        "credit": "",
+        "title": "Sierra Weston",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734124912/Josh_Sparks_gzgmp7.jpg",
+        "credit": "",
+        "title": "Josh Sparks",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734124916/Aidan_McConnell_iafdsn.jpg",
+        "credit": "",
+        "title": "Aidan McConnell",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734124989/PT_Sandberg-min_voz3lw.jpg",
+        "credit": "",
+        "title": "PT Sandberg",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734124918/Samuel_Laramee_vqdzdz.jpg",
+        "credit": "",
+        "title": "Samuel Laramee",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734124915/Patrick_O_Reilly_zpwbom.png",
+        "credit": "",
+        "title": "Patrick O'Reilly",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734124913/Ben_Rositsan_k4glsr.jpg",
+        "credit": "",
+        "title": "Ben Rositsan",
+        "imgAlt": ""
+      }
+    ],
     "desc": "We are joined by Render File for a set of improvised music accompanying video games created by Toronto developers PuzzSoft and Jason Leaver. Afterwards will be Duo Cichorium's SPEED RUN, an interactive music piece for 4 Smash Melee players. Finishing up the night is the Duo's newest semi-concert length work, The Sylvan Legacy, which hands over controls to the audience to help shape the journey we take throughout this epic multimedia work.",
     "longDesc": "ARCADE-PALOOZA is a concert entirely driven by playfulness, blending gaming, music, and audience participation. The first half will feature Toronto ensemble Render File, improvising to two videos games (Trash Panda and Trail Mix). Next Duo Cichorium will join for their interactive work, 0 Damage Any % Reverse Glitch Speed Run, inviting 4 audience members to play games of Super Smash Bros. Melee, directly translating button input from the audience performers into musical parameters. After intermission, the duo premieres their newest long form multimedia work The Sylvan Legacy. In this piece, audience members will use their smart devices to collectively control musical, visual, and narrative elements of this high fantasy choose-your-own-adventure work. Audience members will be able to choose character traits, decide which paths to travel, and determine how our heroes will respond in times of conflict.",
     "url": "playscape2",

@@ -3,64 +3,63 @@
         "name": "VampNet",
         "url": "https://huggingface.co/spaces/descript/vampnet",
         "category": "audio",
-        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711055704/cichorium/Screenshot_2024-03-21_171433_rztubh.png",
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734926705/Screenshot_2024-12-22_at_11.03.09_PM_gpw9bs.png",
         "desc": "VampNet is a semi-generative AI software that takes a masked acoustic token modelling approach to music audio generation. Vamp net can be used by music producers to help sample music by applying a variety of masking techniques during inference Vamp net enables music compression in painting out painting continuation and looping with variation making it an invaluable music co-creation tool"
     },
     {
         "name": "AudioStellar",
         "url": "https://audiostellar.xyz/lang/en/index.html",
         "category": "audio",
-        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711055704/cichorium/Screenshot_2024-03-21_171433_rztubh.png",
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734926298/Screenshot_2024-12-22_at_10.56.35_PM_dglkwo.png",
         "desc": "Audio stellar serves as an all-in-one solution for audio analysis editing and production the platform is built for music professionals who need to analyze categorize and manipulate large collections of audio data it offers users machine learning-powered sound analysis and tagging a vast library of high quality samples customizable sound effects precise waveform editing and intuitive interface making it ideal for producers composers and sound designers of all skill levels"
     },
     {
         "name": "Lalal.Ai",
-        "url": "https://audiostellar.xyz/lang/en/index.html",
+        "url": "https://www.lalal.ai/",
         "category": "audio",
-        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711055704/cichorium/Screenshot_2024-03-21_171433_rztubh.png",
-        "desc": ""
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734926298/lalal-ai-cropped_po2rzd.png",
+        "desc": "Lalal.ai is an AI-based audio processing tool that specializes in audio stem separation, specifically vocals and instruments. This platform allows users to extract or isolate specific audio components from songs and utilizes advanced machine learning algorithms to produce high quality separation. Lalal.ai is suitable for musicians, producers, sound engineers, or those interested in sound production. This tool is “a next-generation vocal remover and music source separation service for fast, easy and precise stem extraction. Remove vocal, instrumental, drums, bass, piano, electric guitar, acoustic guitar, and synthesizer tracks without quality loss.”"
     },
     {
         "name": "Pika",
         "url": "https://pika.art/try",
         "category": "video",
-        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711055704/cichorium/Screenshot_2024-03-21_171433_rztubh.png",
-        "desc": "Pika-pika."
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734926335/pika_bj4j73.webp",
+        "desc": "Pika Labs is an AI-driven platform focused on animating still images with creative effects, making it a valuable tool for visual storytellers and content creators. Their model can add dynamic effects to static images, such as subtle motion, environmental effects, or lighting changes, creating new levels of engagement in visual media. While semi-generative, Pika Labs' AI is consistent within the same medium (image-to-image transformations), allowing users to enhance images without drastically altering the original look, giving creators control over animated results."
     },
     {
         "name": "Runway ML",
         "url": "https://runwayml.com/product",
         "category": "video",
-        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711055704/cichorium/Screenshot_2024-03-21_171433_rztubh.png",
-        "desc": "Runway"
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734926705/Runway-scaled_soyyl1.jpg",
+        "desc": "Runway ML is a creative platform that provides artists, designers, and creators with tools for machine learning and artificial intelligence. Its goal is to simplify the use of AI in creative projects without requiring deep technical expertise. Runway ML offers a suite of powerful tools that allow users to create and manipulate media, such as images, videos, audio, and text, using state-of-the-art machine learning models."
     },
     {
         "name": "Topaz Labs",
         "url": "https://www.topazlabs.com/",
         "category": "video",
-        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711055704/cichorium/Screenshot_2024-03-21_171433_rztubh.png",
-        "desc": "Topaz"
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734926706/topaz_wy7sov.png",
+        "desc": "Topaz Labs is a suite of AI powered software tools that are designed to enhance and streamline the workflows of creatives, particularly photographers, videographers, and digital artists. Topaz Labs helps a variety of different creatives save time while achieving professional level results. Within Topaz, a range of integrated tools include Gigapixel AI for upscaling, DeNoise AI for noise reduction, Sharpen AI for enhancing image sharpness, and Video Enhance AI for boosting video resolution and quality."
     },
     {
         "name": "OpenCV",
         "url": "https://opencv.org/",
         "category": "video",
-        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711055704/cichorium/Screenshot_2024-03-21_171433_rztubh.png",
-        "desc": "CV."
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734926837/opencv_tutorial_header_kictkx.jpg",
+        "desc": "OpenCV is a learning tool that can assist with image processing, computer vision, and machine learning. This open-source computer library helps with developing AI products. OpenCV can be useful in live performances as it uses technology such as shape detection, motion tracking, and face recognition that is helpful when processing images and videos. This platform is licensed as a free, open-source library."
     },
     {
         "name": "Podcastle",
         "url": "https://podcastle.ai/",
         "category": "interdisciplinary",
-        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711055704/cichorium/Screenshot_2024-03-21_171433_rztubh.png",
-        "desc": "podcastle"
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734926837/podcastle-logo_wloaec.webp",
+        "desc": "Podcastle is an AI-powered podcast creation platform that features tools for recording, editing, and transcribing audio. This user-friendly interface offers text-to-speech and speech enhancement capabilities and provides a wide variety of AI text-to-speech bots. It also includes a library of music, sound effects, and voice-over options. Podcastle is most suitable for podcasters, journalists, and content creators and supports collaborative work."
     },
     {
         "name": "sounds.pink",
         "url": "https://sounds.pink/",
         "category": "interdisciplinary",
-        "programLink": "Elemental_Suite_Program.pdf",
-        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1711055704/cichorium/Screenshot_2024-03-21_171433_rztubh.png",
-        "desc": "dancers"
+        "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734926837/Screenshot_2024-12-22_at_11.06.12_PM_skxdur.png",
+        "desc": "Sounds.pink is an AI powered platform that uses machine learning algorithms to generate soundscapes and ambient music. Sounds.pink can be used by creatives to incorporate physical expression into auditory experiences by generating music and sound based on body and facial tracking technology."
     }
 ]
