@@ -14,3 +14,10 @@
     max-width: 90vw;
 
 }
+
+#game-iframe {
+    min-height: 39vw;
+    max-height: 39vw;
+    max-width: 70vw;
+    position: relative;
+}

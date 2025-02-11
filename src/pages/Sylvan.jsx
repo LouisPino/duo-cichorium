@@ -9,15 +9,19 @@ export default function Sylvan() {
         <>
             <PageTitle page="The Sylvan Legacy" />
             <h4 className="center-text">Stay tuned for updates on our upcoming audience interactive Choose-Your-Own-Adventure multimedia piece!</h4>
-          
-          
+
+
             <div className="sylvan-entry">
-            <h5 className="center-text">Check out this demonstration of some of the preliminary interactive elements of the piece!</h5>
-            <div className="iframe-ctr"><iframe src="https://www.youtube.com/embed/gYSEOw8xKlo" frameborder="0"></iframe></div>
-           </div>
+                <h5 className="center-text"> Play the Sylvan Legacy Game!!!!</h5>
+                <iframe src="https://louispino.github.io/sylvan-game/" id="game-iframe"></iframe>
+            </div>
+            <div className="sylvan-entry">
+                <h5 className="center-text">Check out this demonstration of some of the preliminary interactive elements of the piece!</h5>
+                <div className="iframe-ctr"><iframe src="https://www.youtube.com/embed/gYSEOw8xKlo" frameborder="0"></iframe></div>
+            </div>
             <div className="sylvan-entry">
                 <h5 className="center-text">Getting started on animation and character design!</h5>
-                <div className=" iframe-ctr">
+                <div className="iframe-ctr" >
                     <iframe src={"https://youtube.com/embed/VwIg59Vlm1s"} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
