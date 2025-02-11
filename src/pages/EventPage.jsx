@@ -59,15 +59,26 @@ export default function Event({ url }) {
     }
     )
 
+    const videoiFrames = event.videos?.map((video) => {
+        return (
+            <>
+                <div className="iframe-ctr">
+                    <iframe src={video.url} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p className="video-caption italic">{video.caption}</p>
+            </>
+        )
+    }
+    )
+
+
     return (
         < div className="event-page" >
             <PageTitle page={event.title} />
             <PageTitle page={event.date} />
             {
-                event.videos ? <><div className="iframe-ctr">
-                    <iframe src={event.videos[0].url} title={event.title} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                    <p className="video-caption italic">{event.video_caption}</p></>
+                event.videos ?
+                    videoiFrames
                     :
                     <Photo photo={event.photo} materialbox={true} />
             }

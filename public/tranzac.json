@@ -253,13 +253,21 @@
     "videos": [
       {
         "url": "https://drive.google.com/file/d/19dBdMIQXboTQoiF2QZONixq3YklN4_bj/preview",
-        "caption": "brdige of sand."
+        "caption": "bridge of sand. 1"
+      },
+      {
+        "url": "https://drive.google.com/file/d/17SFr1HzCI55JxjY4aXCltlIwInTioxI9/preview",
+        "caption": "bridge of sand. 2"
       }
     ],
     "audio_links": [
       {
-        "url": "https://drive.google.com/file/d/1TSAPMkb2RvcHQ4Hnh61iSbBTxzRBfox4/preview?usp=sharing",
+        "url": "https://drive.google.com/file/d/1w5Yrr3nTHjClsJqBSrw3XWYvKR5VowqJ/preview",
         "caption": "bridge of sand."
+      },
+      {
+        "url": "https://drive.google.com/file/d/1vJON3AbhH49cUYsYmMoWnFM-z7lcPN2S/preview",
+        "caption": "whatNow"
       }
     ],
     "desc": "We're joined by bridge of sand. (Travis John) and whatNow (Lenny and Vic) for a night of music and group improvisation.",
@@ -281,6 +289,22 @@
       "title": "",
       "imgAlt": "With's Brew poster drawn by Jaz"
     },
+    "videos": [
+      {
+        "url": "https://drive.google.com/file/d/1tHdxcWmuaEHEHOMuJhaOLB6-sRuECJA7/preview",
+        "caption": "Cabinet of Dr Caligari pt 1"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1MavTKkNfQM7wRG2HdVtskcC-JvHFKDbS/preview",
+        "caption": "Cabinet of Dr Caligari pt 2"
+      }
+    ],
+    "audio_links": [
+      {
+        "url": "https://drive.google.com/file/d/11OJnYqeN3fcRE2YlflCeQE0N1Nf_rD_K/preview",
+        "caption": "complete audio recording"
+      }
+    ],
     "photos": [],
     "desc": "The final soup of the season!!!! We're improvising to a collection of horror movies with Trevor Flemings, Andrew Noseworthy, and Xodkaar!",
     "url": "tranzac7"
