@@ -26,11 +26,16 @@
     "programLink": "",
     "feature": true,
     "programText": "",
-    "mainvideo": "https://www.youtube.com/embed/XPQH9tVcp9E",
-    "secondaryVideos": [],
+    "mainvideo": "https://www.youtube.com/embed/zNJKUIFoMM4",
+    "secondaryVideos": [
+      {
+        "url": "https://www.youtube.com/embed/XPQH9tVcp9E",
+        "caption": ""
+      }
+    ],
     "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1719269393/Duo_Cichorium_-_rec1_v9tkch.jpg",
     "shortDesc": "A homemade electroacoustic instrument combining the sounds of a contact mic'ed painter's canvas and synthesizer controlled by the painter.",
-    "desc": "Canvas Conductor is an instrument we built in May 2024. The canvas is outfitted with two contact microhpones and interwoven metal wires. The paintbrush contains another metal wire, allowing the painter to make electrical connections with the interwoven threads. These connections control an arduino based synthesizer, with other parameters optionally controlled by a second performer. We often run the entire output of the instrument into a delay or reverb module in performance."
+    "desc": "Canvas Conductor is an instrument we built in May 2024. Each brush contains a charged wire, which sends information to the brain of the device when touching any of the 5 wires weaved into the canvas. In this performance, we use this contact information to control a built in synthesizer, as well as an AudioStellar sample map via Max/MSP."
   },
   {
     "name": "0 Damage Any % Reverse Glitch Speed Run",

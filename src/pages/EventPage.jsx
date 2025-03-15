@@ -89,13 +89,13 @@ export default function Event({ url }) {
             }
             {
                 event.tickets &&
-                <a href={`https://${event.tickets}`} target="_blank"><button>Tickets Here!</button></a>
+                <a href={`${event.tickets}`} target="_blank"><button>Tickets Here!</button></a>
             }
             {
-                event.ticket_link ?  <a className="playscape-tickets" href= {event.ticket_link} target="_blank"><button>Tickets Here!</button></a>
-                : ""
+                event.ticket_link ? <a className="playscape-tickets" href={event.ticket_link} target="_blank"><button>Tickets Here!</button></a>
+                    : ""
             }
-            
+
             <div className="event-page-text">
                 {/* {event.guests ? <h3 className="center-text">{event.guestsPage}</h3> : ""} */}
                 {event.program.length ? <h5>Program</h5> : ""}

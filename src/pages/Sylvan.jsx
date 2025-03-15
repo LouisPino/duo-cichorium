@@ -1,19 +1,61 @@
+import { useEffect } from "react";
 import PageTitle from "../components/PageTitle";
 import Photo from "../components/Photo";
 import "../styles/sylvan.css"
 
-
-
 export default function Sylvan() {
+    let iframeContent
+    useEffect(() => {
+        const handleKeyDown = (e) => {
+            if (e.key === "ArrowUp" || e.key === "ArrowDown" || e.key === " ") {
+                console.log("Key pressed:", e);
+                e.preventDefault();
+            }
+        };
+
+        iframeContent?.addEventListener("keydown", handleKeyDown);
+        // Cleanup the listener on unmount
+        return () => iframeContent?.removeEventListener("keydown", handleKeyDown);
+    }, []);
+
+
+    function preventArrows(evt) {
+        console.log(evt)
+        const el = document.querySelector("#game-iframe")
+        console.log(el)
+        el.addEventListener("keydown", (e) => {
+            console.log(e)
+        })
+    }
+
+
+
+    useEffect(() => {
+        const handleMessage = (event) => {
+            // Optionally, check event.origin for security
+            if (event.data.type === 'iframe-keydown') {
+                if (event.data.key === "ArrowUp" || event.data.key === "ArrowDown" || event.data.key === " ") {
+                    console.log(event.data.key)
+                    event.preventDefault()
+
+                }
+            }
+        };
+
+        window.addEventListener('message', handleMessage);
+        return () => window.removeEventListener('message', handleMessage);
+    }, []);
+
+
     return (
         <>
             <PageTitle page="The Sylvan Legacy" />
             <h4 className="center-text">Stay tuned for updates on our upcoming audience interactive Choose-Your-Own-Adventure multimedia piece!</h4>
 
 
-            <div className="sylvan-entry">
+            <div className="sylvan-entry" tabIndex="0">
                 <h5 className="center-text"> Play the Sylvan Legacy Game!!!!</h5>
-                <iframe src="https://louispino.github.io/sylvan-game/" id="game-iframe"></iframe>
+                <iframe onLoad={preventArrows} src="https://louispino.github.io/sylvan-game/" id="game-iframe" tabindex="0"></iframe>
             </div>
 
 
@@ -28,8 +70,6 @@ export default function Sylvan() {
                     <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1739310612/Cloud_to_Space_Jan17_zk7d43.png"></img>
                     <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1739310612/Sylvan_world_map_Jan17_ggl3mh.png"></img>
                     <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1739310611/Cave_map_Jan17_q9pwwq.png"></img>
-
-
                 </div>
             </div >
 
