@@ -56,13 +56,13 @@ export default function AITools() {
             <PageTitle page="Examples" />
             <div className="tmu-main">
                 <div className="moon tmu-project">
-                    <h1>Computer Vision Moon Resizing and Sorting</h1>
+                    <h1>AudioStellar in Action</h1>
                     <div className="iframe-ctr">
-                        <iframe width="1862" height="1047" src="https://www.youtube.com/embed/zNJKUIFoMM4" title="Canvas Conductor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                        <iframe src="https://www.youtube.com/embed/zNJKUIFoMM4" title="Canvas Conductor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
                     <h5>Over many months, Jasmine has been taking photos of the moon every night. In order to crop and resize these photos to a standard size, we are using computer vision via OpenCV's Python library to find the moon in each image and crop a square around it. We are then using computer vision to determine how full the moon is, and then sort the images by fullness. Computer vision allows us to process hundreds of photos at once, which would otherwise take hours upon hours to do manually. The max patch above is used to quickly jump through and display each image in order.</h5>
                 </div>
-                <div className=" tmu-project">
-                    <h1>AudioStellar in Action</h1>
+                <div className="tmu-project">
+                    <h1>Computer Vision Moon Resizing and Sorting</h1>
                     <div className="iframe-ctr">
                         <iframe src="https://www.youtube.com/embed/XJ0QcLnkgIw"></iframe>
                     </div>
