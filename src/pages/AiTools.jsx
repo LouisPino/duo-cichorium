@@ -21,16 +21,16 @@ export default function AITools() {
     }, []);
 
 
-    const toolElsObj = {audio:[], video:[], interdisciplinary: []}
-    
+    const toolElsObj = { audio: [], video: [], interdisciplinary: [] }
+
     const toolEls = tools?.map((tool) => {
         return (
             <div className="tools-div" key={tool.name}>
                 <a className="tools-img" href={tool.url} target="_blank">
-                <div className="">
-                    <h1 className="tool-title">{tool.name}</h1>
-                    <img className="tool-img" src={tool.img} alt={`${tool.name} image`} />
-                </div>
+                    <div className="">
+                        <h1 className="tool-title">{tool.name}</h1>
+                        <img className="tool-img" src={tool.img} alt={`${tool.name} image`} />
+                    </div>
                 </a>
                 <div className="tools-desc">
                     <p>{tool.desc}</p>
@@ -38,15 +38,15 @@ export default function AITools() {
             </div>
         );
     });
-    
+
     if (tools === null) {
         return <PageTitle page="Loading" />;
     }
-    
+
     return (
         <div className="tools-body">
-             <PageTitle page="AI Tools for Artists" />
-             <h5 className="tools-exp">In the 2024 Fall Sememster, we worked with a group of students in Toronto Metropolitan University's Design Solutions Supercourse to tackle the challenge of accessibility to AI tools for artists. On this page is a guide to help find tools that use machine learning in a way that can be useful to artists, while not generating the content themselves. <br/> <br/> Thanks to Chloe Bard, Sasha Kovacevic, Leandros Liolis, Ava Clark, and Maya Pavlovic for compiling information and designing this page!  </h5>
+            <PageTitle page="AI Tools for Artists" />
+            <h5 className="tools-exp">In the 2024 Fall Sememster, we worked with a group of students in Toronto Metropolitan University's Design Solutions Supercourse to tackle the challenge of accessibility to AI tools for artists. On this page is a guide to help find tools that use machine learning in a way that can be useful to artists, while not generating the content themselves. <br /> <br /> Thanks to Chloe Bard, Sasha Kovacevic, Leandros Liolis, Ava Clark, and Maya Pavlovic for compiling information and designing this page!  </h5>
             <PageTitle page="Tools for Audio" />
             {toolEls?.filter((el, idx) => tools[idx].category === "audio")}
             <PageTitle page="Tools for Video" />
@@ -55,19 +55,25 @@ export default function AITools() {
             {toolEls?.filter((el, idx) => tools[idx].category === "interdisciplinary")}
             <PageTitle page="Examples" />
             <div className="tmu-main">
-                            <div className="moon tmu-project">
-                                <h1>Computer Vision Moon Resizing and Sorting</h1>
-                                <div className="iframe-ctr">
-                                    <iframe src="https://www.youtube.com/embed/XJ0QcLnkgIw"></iframe>
-                                </div>
-                                <h5>Over many months, Jasmine has been taking photos of the moon every night. In order to crop and resize these photos to a standard size, we are using computer vision via OpenCV's Python library to find the moon in each image and crop a square around it. We are then using computer vision to determine how full the moon is, and then sort the images by fullness. Computer vision allows us to process hundreds of photos at once, which would otherwise take hours upon hours to do manually. The max patch above is used to quickly jump through and display each image in order.</h5>
-                            </div>
-                        </div>
-                            <div className="funders-imgs sylvan-entry">
-                                <h5 className="center-text ">This project is produced with the support of the City of Toronto through Toronto Arts Council.</h5>
-                                <img className="funders-img" src="https://res.cloudinary.com/dsvcyich1/image/upload/v1719412705/images_y6yzjq.png" width="200px" />
-                            </div>
+                <div className="moon tmu-project">
+                    <h1>Computer Vision Moon Resizing and Sorting</h1>
+                    <div className="iframe-ctr">
+                        <iframe width="1862" height="1047" src="https://www.youtube.com/embed/zNJKUIFoMM4" title="Canvas Conductor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                    <h5>Over many months, Jasmine has been taking photos of the moon every night. In order to crop and resize these photos to a standard size, we are using computer vision via OpenCV's Python library to find the moon in each image and crop a square around it. We are then using computer vision to determine how full the moon is, and then sort the images by fullness. Computer vision allows us to process hundreds of photos at once, which would otherwise take hours upon hours to do manually. The max patch above is used to quickly jump through and display each image in order.</h5>
+                </div>
+                <div className=" tmu-project">
+                    <h1>AudioStellar in Action</h1>
+                    <div className="iframe-ctr">
+                        <iframe src="https://www.youtube.com/embed/XJ0QcLnkgIw"></iframe>
+                    </div>
+                    <h5>Sample playback is handled by AudioStellar, using AI to cut up a 2 hour concert into thousands of samples.</h5>
+                </div>
+            </div>
+            <div className="funders-imgs sylvan-entry">
+                <h5 className="center-text ">This project is produced with the support of the City of Toronto through Toronto Arts Council.</h5>
+                <img className="funders-img" src="https://res.cloudinary.com/dsvcyich1/image/upload/v1719412705/images_y6yzjq.png" width="200px" />
+            </div>
         </div>
     );
-    
+
 }
