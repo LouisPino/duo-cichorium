@@ -54,13 +54,13 @@ export default function Sylvan() {
 
 
             <div className="sylvan-entry" tabIndex="0">
-                <h5 className="center-text"> Play the Sylvan Legacy Game!!!!</h5>
-                <iframe onLoad={preventArrows} src="https://louispino.github.io/sylvan-game/" id="game-iframe" tabindex="0"></iframe>
+                <h5 className="center-text"> Play Sylvan Dash!!!!</h5>
+                <iframe onLoad={preventArrows} src="https://louispino.github.io/sylvan-dash/" id="game-iframe" tabindex="0"></iframe>
             </div>
 
 
             <div className="sylvan-entry">
-                <h5 className="center-text"> Developing a system to trigger text, audio, image, and video changes with one click.</h5>
+                <h5 className="center-text"> Developing a system to trigger text, audio, image, and video changes.</h5>
                 <div className="iframe-ctr sylvan-iframe-ctr"><iframe src="https://drive.google.com/file/d/1CBOoOQQLp0J5zq8llb3Z8Ru3yP2u6q9l/preview" frameborder="0"></iframe></div>
             </div>
             <div className="sylvan-entry sylvan-images-div">
