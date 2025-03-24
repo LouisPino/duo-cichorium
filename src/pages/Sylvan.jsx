@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import PageTitle from "../components/PageTitle";
 import Photo from "../components/Photo";
 import "../styles/sylvan.css"
+import { Link } from "react-router-dom";
 
 export default function Sylvan() {
     let iframeContent
@@ -51,6 +52,12 @@ export default function Sylvan() {
         <>
             <PageTitle page="The Sylvan Legacy" />
             <h4 className="center-text">Stay tuned for updates on our upcoming audience interactive Choose-Your-Own-Adventure multimedia piece!</h4>
+            <h4 className="center-text"><Link to="/playscape-emporium">
+                <span className="glow">
+                    Premiering on May 15th, 2025 at ArrayMusic
+                </span>
+            </Link >
+            </h4>
 
 
             <div className="sylvan-entry" tabIndex="0">

@@ -29,7 +29,7 @@ export default function Playscape() {
 
     return (
         <div className="playscape-page">
-            <div className="playscape-div"><h4 >We will be curators at <span className="glow">Array Music</ span> from 2024 to 2027. Join us for <span className="glow">DUO CICHORIUM'S PLAYSCAPE EMPORIUM</ span>, six concerts featuring a wide array of artists from varying disciplines. </h4>
+            <div className="playscape-div"><h4 >We are curators at <span className="glow">Array Music</ span> from 2024 to 2027. Join us for <span className="glow">DUO CICHORIUM'S PLAYSCAPE EMPORIUM</ span>, six concerts featuring a wide array of artists from varying disciplines. </h4>
             </div>
             <Photo photo={photo} materialbox={true} />
             <a className="playscape-tickets" href="https://www.tickettailor.com/events/arraymusic1" target="_blank"><button>Tickets Here!</button></a>

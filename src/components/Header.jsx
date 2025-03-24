@@ -78,8 +78,8 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                     <Link to="/works">
                         <p className={`link nav-btn-text ${location.pathname === "/works" ? "current-location" : ""}`} onClick={linkClicked}>Repertoire</p>
                     </Link>
-                    <Link to="/tranzac-residency">
-                        <p className={`link nav-btn-text ${location.pathname === "/tranzac-residency" ? "current-location" : ""}`} onClick={linkClicked}>PEOPLE SOUP</p>
+                    <Link to="/playscape-emporium">
+                        <p className={`link nav-btn-text ${location.pathname === "/playscape-emporium" ? "current-location" : ""}`} onClick={linkClicked}>PLAYSCAPE EMPORIUM</p>
                     </Link>
                 </div>
                 <Link className="Link" to="/">
@@ -112,9 +112,6 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                             <Link to="/ai-tools">
                                 <p className="work-link-text hover-glow" onClick={linkClicked}>AI Tools for Artists</p>
                             </Link>
-                            {/* <Link to="/tranzac-residency" onClick={linkClicked}>
-                                <p className="work-link-text hover-glow" >PEOPLE SOUP</p>
-                            </Link> */}
                             <Link to="/playscape-emporium" onClick={linkClicked}>
                                 <p className="work-link-text hover-glow" >PLAYSCAPE EMPORIUM</p>
                             </Link>
