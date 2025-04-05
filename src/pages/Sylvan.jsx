@@ -50,11 +50,12 @@ export default function Sylvan() {
 
     return (
         <>
-            <PageTitle page="The Sylvan Legacy" />
+            {/* <PageTitle page="The Sylvan Legacy" /> */}
             <h4 className="center-text">Stay tuned for updates on our upcoming audience interactive Choose-Your-Own-Adventure multimedia piece!</h4>
-            <h4 className="center-text"><Link to="/playscape-emporium">
+            <img className="sylvan-gif" src="https://res.cloudinary.com/dsvcyich1/image/upload/v1743883651/Promo_gif_zav6ci.gif" />
+            <h4 className="center-text"><Link to="/playscape2">
                 <span className="glow">
-                    Premiering on May 15th, 2025 at ArrayMusic
+                    Click here for tickets!
                 </span>
             </Link >
             </h4>
