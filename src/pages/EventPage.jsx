@@ -89,7 +89,7 @@ export default function Event({ url }) {
             }
             {
                 event.tickets &&
-                <a href={`${event.tickets}`} target="_blank"><button>Tickets Here!</button></a>
+                <a href={`${event.tickets}`} target="_blank"><button >Tickets Here!</button></a>
             }
             {
                 event.ticket_link ? <a className="playscape-tickets" href={event.ticket_link} target="_blank"><button>Tickets Here!</button></a>

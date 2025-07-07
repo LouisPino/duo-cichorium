@@ -88,9 +88,8 @@ function App() {
         <Route exact path="/track-could-bend" element={<EventPage url="track-could-bend" />} />
         <Route exact path="/diy-instruments" element={<EventPage url="diy-instruments" />} />
         <Route exact path="/render-smash" element={<EventPage url="render-smash" />} />
-
-
-
+        <Route exact path="/vector" element={<EventPage url="vector" />} />
+        <Route exact path="/head" element={<EventPage url="head" />} />
 
 
         <Route exact path="/subscribed" element={<Subscribed />} />

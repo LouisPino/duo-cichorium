@@ -29,8 +29,10 @@ export default function Events() {
         <div className="events-body">
             <Photo photo={photo} materialbox={true} />
             <PageTitle page="Upcoming" />
+            <Event event={events[10]} />{/*Vector*/}
             <Event event={events[8]} />{/*playscape*/}
             <PageTitle page="Previous" />
+            <Event event={events[9]} />{/*head*/}
             <Event event={events[7]} />{/*render smash*/}
             <Event event={events[6]} />{/*DIY Instruments*/}
             <Event event={events[5]} />{/*Track Could Bend*/}

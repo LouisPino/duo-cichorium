@@ -68,7 +68,7 @@ export default function Sylvan() {
 
             <div className="sylvan-entry">
                 <h5 className="center-text"> Developing a system to trigger text, audio, image, and video changes.</h5>
-                <div className="iframe-ctr sylvan-iframe-ctr"><iframe src="https://drive.google.com/file/d/1CBOoOQQLp0J5zq8llb3Z8Ru3yP2u6q9l/preview" frameborder="0"></iframe></div>
+                <div className="iframe-ctr sylvan-iframe-ctr"><iframe src="https://www.youtube.com/embed/0_M-LMbkIPQ" frameborder="0"></iframe></div>
             </div>
             <div className="sylvan-entry sylvan-images-div">
                 <h5 className="center-text"> Map and environment sketches </h5>
@@ -86,6 +86,7 @@ export default function Sylvan() {
                 <h5 className="center-text">Check out this demonstration of some of the preliminary interactive elements of the piece!</h5>
                 <div className="iframe-ctr sylvan-iframe-ctr"><iframe src="https://www.youtube.com/embed/gYSEOw8xKlo" frameborder="0"></iframe></div>
             </div>
+
             <div className="sylvan-entry">
                 <h5 className="center-text">Getting started on animation and character design!</h5>
                 <div className="iframe-ctr sylvan-iframe-ctr" >
