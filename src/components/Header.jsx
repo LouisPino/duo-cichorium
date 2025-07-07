@@ -140,9 +140,6 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                     <Link to="/playscape-emporium">
                         <p className="link burger-link-text" onClick={linkClicked}>PLAYSCAPE EMPORIUM</p>
                     </Link>
-                    <Link to="/tranzac-residency" className="burger-link" onClick={linkClicked}>
-                        <p className="burger-link-text link">PEOPLE SOUP</p>
-                    </Link>
                     <Link to="/events">
                         <p className="link burger-link-text" onClick={linkClicked}>Events</p>
                     </Link>
