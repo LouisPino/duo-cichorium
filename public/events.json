@@ -329,7 +329,14 @@
       "title": "",
       "imgAlt": ""
     },
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1751927407/4ec1d42c-0623-4ac4-abfd-f86cee5936ac_ouykga.jpg",
+        "credit": "",
+        "title": "",
+        "imgAlt": "catboy pose"
+      }
+    ],
     "desc": "We mourn the death of H.E.A.D.",
     "program": [],
     "url": "head",
