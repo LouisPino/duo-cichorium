@@ -51,21 +51,29 @@ export default function Sylvan() {
     return (
         <>
             {/* <PageTitle page="The Sylvan Legacy" /> */}
-            <h4 className="center-text">Stay tuned for updates on our upcoming audience interactive Choose-Your-Own-Adventure multimedia piece!</h4>
-            <img className="sylvan-gif" src="https://res.cloudinary.com/dsvcyich1/image/upload/v1743883651/Promo_gif_zav6ci.gif" />
-            <h4 className="center-text"><Link to="/playscape2">
-                <span className="glow">
-                    Click here for tickets!
-                </span>
-            </Link >
-            </h4>
-
+            <div className="sylvan-entry">
+                <h5 className="center-text"> Watch The Sylvan Legacy!</h5>
+                <div className="iframe-ctr sylvan-iframe-ctr"><iframe src="https://www.youtube.com/embed/upiCu-sOIZY" frameborder="0"></iframe></div>
+            </div>
 
             <div className="sylvan-entry" tabIndex="0">
                 <h5 className="center-text"> Play Sylvan Dash!!!!</h5>
                 <iframe onLoad={preventArrows} src="https://louispino.github.io/sylvan-dash/" id="game-iframe" tabindex="0"></iframe>
             </div>
+            <img className="sylvan-gif" src="https://res.cloudinary.com/dsvcyich1/image/upload/v1743883651/Promo_gif_zav6ci.gif" />
 
+            <div className="sylvan-entry sylvan-images-div">
+                <div className="sylvan-images">
+                    <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1751923838/DSC07715_xmxqz2.jpg"></img>
+                    <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1751926827/Screenshot_2025-07-07_182015_ymzbls.png"></img>
+                    <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1751926743/Screenshot_2025-07-07_181730_mxzzt7.png"></img>
+                    <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1751926743/Screenshot_2025-07-07_181651_yxukv7.png"></img>
+                    <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1751926743/Screenshot_2025-07-07_181831_pjph5n.png"></img>
+                    <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1751927215/Screenshot_2025-07-07_182634_asddnk.png"></img>
+                </div>
+            </div >
+
+            <h2 className="center-text">Benchmark updates from development</h2>
 
             <div className="sylvan-entry">
                 <h5 className="center-text"> Developing a system to trigger text, audio, image, and video changes.</h5>
