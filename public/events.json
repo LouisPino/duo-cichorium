@@ -335,6 +335,26 @@
         "credit": "",
         "title": "",
         "imgAlt": "catboy pose"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1751983445/image0_l9lblc.png",
+        "credit": "",
+        "title": "",
+        "imgAlt": "catboy pose"
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/embed/8Xq08IAYLdA?feature=share4",
+        "caption": ""
+      },
+      {
+        "url": "https://www.youtube.com/embed/05qGfhlUTs8?feature=share4",
+        "caption": ""
+      },
+      {
+        "url": "https://www.youtube.com/embed/d1jFtpz9nm0?feature=share4",
+        "caption": ""
       }
     ],
     "desc": "We mourn the death of H.E.A.D.",
@@ -359,6 +379,6 @@
     "desc": "Canvas Conductor is an interdisciplinary instrument by musical and performance duo, Duo Cichorium, built and debuted in May 2024. It is a hybrid artistic tool that integrates a painter’s canvas with a custom built synthesizer and a suite of other digital musical technologies, giving four painters simultaneous control over sonic and visual output. The most recent version of this developing instrument utilizes reusable Chinese calligraphy paper instead of standard cotton canvases. Rather than using acrylic or watercolor paints, the artist uses plain water to paint on the surface. As the water evaporates, the surface becomes blank again, allowing the instrument to be used over and over. The nervous system of the instrument consists of galvanized steel wires woven through the painting surface, receiving input from the painters through electrically charged paint brushes. The action of painting over the wires with the paintbrush continually opens and closes electrical circuits, acting as “buttons” for painters to push with their brushes. The canvas is also outfitted with contact microphones, amplifying the tactile gestures and brush strokes of the painters.",
     "program": [],
     "url": "vector",
-    "shortDesc": "WA performance and installation with the newest version of Canvas Conductor"
+    "shortDesc": "Performance and installation with the newest version of Canvas Conductor"
   }
 ]

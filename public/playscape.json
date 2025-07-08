@@ -101,6 +101,54 @@
     },
     "photos": [
       {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1751926743/Screenshot_2025-07-07_181831_pjph5n.png",
+        "credit": "Thomas Li",
+        "title": "",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1751927215/Screenshot_2025-07-07_182634_asddnk.png",
+        "credit": "Thomas Li",
+        "title": "",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1751926743/Screenshot_2025-07-07_181730_mxzzt7.png",
+        "credit": "Thomas Li",
+        "title": "",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1751985509/Screenshot_2025-07-08_103612_kicngc.png",
+        "credit": "Thomas Li",
+        "title": "",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1751985509/Screenshot_2025-07-08_103346_rd44x4.png",
+        "credit": "Thomas Li",
+        "title": "",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1751985510/Screenshot_2025-07-08_103734_cvty6j.png",
+        "credit": "Thomas Li",
+        "title": "",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1751985508/Screenshot_2025-07-08_103505_sp6dtv.png",
+        "credit": "Thomas Li",
+        "title": "",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1751985509/Screenshot_2025-07-08_103813_ewqnok.png",
+        "credit": "Thomas Li",
+        "title": "",
+        "imgAlt": ""
+      },
+      {
         "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734124910/Render_File_1_yn5vyx.jpg",
         "credit": "",
         "title": "Render File",
@@ -171,6 +219,16 @@
         "credit": "",
         "title": "Ben Rositsan",
         "imgAlt": ""
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/embed/q5AyaxWZfNI",
+        "caption": ""
+      },
+      {
+        "url": "https://www.youtube.com/embed/upiCu-sOIZY",
+        "caption": ""
       }
     ],
     "desc": "We are joined by Render File for a set of improvised music accompanying video games created by Toronto developers PuzzSoft and Jason Leaver. Afterwards will be Duo Cichorium's SPEED RUN, an interactive music piece for 4 Smash Melee players. Finishing up the night is the Duo's newest semi-concert length work, The Sylvan Legacy, which hands over controls to the audience to help shape the journey we take throughout this epic multimedia work.",

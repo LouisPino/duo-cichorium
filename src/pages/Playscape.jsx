@@ -36,12 +36,12 @@ export default function Playscape() {
 
             <h5 className="playscape-p"><span className="glow">OF DANCES AND DREAMS</span> explores the surreal nature of existence through choreography in Angela Blumberg's The Great Dream, followed by an improvised dance and music set featuring Duo Cichorium and the ensemble Teething. <span className="glow">ARCADE-PALOOZA</span> merges gaming with live music, with sets by Toronto gaming and music ensemble Render File, culminating in the premiere of Duo Cichorium’s interactive multimedia work, The Sylvan Legacy. <span className="glow">THEATRICS</span> showcases theatrical chamber music with Rzewski's Fall of the Empire and the premiere of Domenic Clarke's Adore, concluding with Raymond Luedeke's whimsical Garbage Delight featuring Hee-Soo Yoon and the Toronto Saxophone Collective. <span className="glow">PAINT, PLAY</span> focuses on improvisation driven by visual art, including Duo Cichorium’s Canvas Conductor and interactive installations, featuring the work of Constant Yen, Rowan Campbell, and the duo’s own Jasmine Tsui. <span className="glow">PUPPET ZONE</span> highlights the collaboration between puppetry and music, featuring Mabel Wonnacott's Paper Man and the premiere of Cheyenne McLean and Mark Terrett’s Puppet Musical with live foley and music by Duo Cichorium and guest musicians. Finally, <span className="glow">POETRY GALACTICA</span> presents co-creations between Duo Cichorium and two Toronto-based poets, including a poetry play by Nicci Pryce and poetry opera by Nevada-Jane Arlow, blending theatrical narratives, structured improvisation, and poetic expression.</h5>
             <PageTitle page="Upcoming Shows" />
-            <PlayscapeEvent event={playscape[1]} />
             <PlayscapeEvent event={playscape[2]} />
             <PlayscapeEvent event={playscape[3]} />
             <PlayscapeEvent event={playscape[4]} />
             <PlayscapeEvent event={playscape[5]} />
             <PageTitle page="Previous Shows" />
+            <PlayscapeEvent event={playscape[1]} />
             <PlayscapeEvent event={playscape[0]} />
         </div >
 
