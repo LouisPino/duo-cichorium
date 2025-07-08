@@ -1,5 +1,17 @@
 [
   {
+    "name": "The Sylvan Legacy",
+    "url": "the-sylvan-legacy",
+    "programLink": "",
+    "feature": true,
+    "programText": "",
+    "mainvideo": "https://www.youtube.com/embed/upiCu-sOIZY",
+    "secondaryVideos": [],
+    "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1743883651/Promo_gif_zav6ci.gif",
+    "shortDesc": "A choose-your-own-adventure journey through the Sylvan Forest!",
+    "desc": "A choose-your-own-adventure journey through the Sylvan Forest!"
+  },
+  {
     "name": "Elemental Suite",
     "url": "Elemental",
     "programLink": "Elemental_Suite_Program.pdf",
