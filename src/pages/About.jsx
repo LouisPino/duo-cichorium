@@ -15,7 +15,7 @@ export default function About() {
     };
 
     const hatImgs = [
-        "blank", 
+        "blank",
         "about1",
         "about2",
         "about3",
@@ -31,7 +31,7 @@ export default function About() {
         "about13",
         "about14",
         "about15",
-        
+
     ]
 
     useEffect(() => {
@@ -96,7 +96,7 @@ export default function About() {
         <div className="bio-body">
             <div className="overlay-ctr">
                 <img className="about-photo-arrow arrow-l" onClick={decHair} src="./assets/Arrows.png" alt="Left arrow" />
-                <Photo photo={about.photos[1]} />
+                <Photo photo={about.photos[2]} />
                 <img className="about-photo-arrow" onClick={incHair} src="./assets/Arrows.png" alt="Right arrow" />
                 {hatImgEls[hatIdx]}
             </div>
