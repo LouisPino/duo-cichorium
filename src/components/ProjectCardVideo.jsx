@@ -10,7 +10,8 @@ const ProjectCardVideo = ({ project }) => {
             <h5 className="project-title">{project.name}</h5>
             <div className="iframe-ctr-card">
                 <img className="iframe-load-flower" src="./assets/Chicory4spin.png" alt="Spinning chicory flower loading icon" />
-                <iframe allowFullScreen src={project.mainvideo}></iframe>
+                <iframe allowFullScreen allow="autoplay; encrypted-media; picture-in-picture"
+                    src={project.mainvideo + "?rel=0&modestbranding=1"}></iframe>
             </div>
 
             <p className="project-card-desc">{project.shortDesc}</p>
