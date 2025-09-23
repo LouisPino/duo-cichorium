@@ -380,5 +380,24 @@
     "program": [],
     "url": "vector",
     "shortDesc": "Performance and installation with the newest version of Canvas Conductor"
+  },
+  {
+    "location": "Funny Farm, Meaford, ON",
+    "date": "August 1 2025",
+    "title": "Elemental Suite at Electric Eclectics",
+    "organizer": "",
+    "series": "",
+    "tickets": "https://electric-eclectics.com/",
+    "photo": {
+      "url": "https://electric-eclectics.com/wp-content/uploads/eeheader25ORANGE.png",
+      "credit": "",
+      "title": "",
+      "imgAlt": ""
+    },
+    "photos": [],
+    "desc": "We will be performing an outdoor version of The Elemental Suite adapted for the 2025 Electric Eclectics festival.",
+    "program": [],
+    "url": "electric-eclectics",
+    "shortDesc": "We will be performing an outdoor version of The Elemental Suite adapted for the 2025 Electric Eclectics festival."
   }
 ]
