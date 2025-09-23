@@ -31,12 +31,13 @@ export default function About() {
         "about13",
         "about14",
         "about15",
-
     ]
 
     useEffect(() => {
         getAboutData();
     }, []);
+
+
 
     useEffect(() => {
         if (hatIdx) {
@@ -81,9 +82,9 @@ export default function About() {
 
 
 
-    const hatImgEls = hatImgs.map((img) => {
-        return <img className="overlay-img" src={`./assets/hair/${img}.png`} />
-    })
+    // const hatImgEls = hatImgs.map((img) => {
+    //     return <img className="overlay-img" src={`./assets/hair/${img}.png`} />
+    // })
 
 
 
@@ -98,7 +99,12 @@ export default function About() {
                 <img className="about-photo-arrow arrow-l" onClick={decHair} src="./assets/Arrows.png" alt="Left arrow" />
                 <Photo photo={about.photos[2]} />
                 <img className="about-photo-arrow" onClick={incHair} src="./assets/Arrows.png" alt="Right arrow" />
-                {hatImgEls[hatIdx]}
+                {/* {hatImgEls[hatIdx]} */}
+                <img
+                    className="overlay-img"
+                    src={`/assets/hair/${hatImgs[hatIdx]}.png`}
+                    alt=""
+                />
             </div>
             <p className="bio">
                 {/* <span className="glow font700 bio-name">{about.name}</span> */}
