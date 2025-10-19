@@ -13,11 +13,11 @@
       "imgAlt": "Image from Music Gallery Desiderium performance"
     },
     "photos": [],
-    "desc": "Our debut concert, ELEMENTAL, for The Music Gallery's You In Mind series. The first half of the program features works by Matthew Shlomovitz, Pauline Oliveros, Julia Mermelstein, and Nolan Hildebrand. The second half featured our epic multimedia tribute to the four elements of nature, the Elemental Suite.",
+    "desc": "Our debut concert, ELEMENTAL, for The Music Gallery's You In Mind series. The first half of the program features works by Matthew Shlomowitz, Pauline Oliveros, Julia Mermelstein, and Nolan Hildebrand. The second half featured our epic multimedia tribute to the four elements of nature, the Elemental Suite.",
     "program": [
       {
         "title": "Letter Piece #1-A",
-        "composer": "Matthew Shlomovitz",
+        "composer": "Matthew Shlomowitz",
         "url": "Letter"
       },
       {
@@ -38,7 +38,7 @@
       },
       {
         "title": "Letter Piece #1-B",
-        "composer": "Matthew Shlomovitz",
+        "composer": "Matthew Shlomowitz",
         "url": "Letter"
       },
       {
@@ -59,7 +59,7 @@
       }
     ],
     "url": "ElementalConcert",
-    "shortDesc": "Our debut concert, ELEMENTAL, for The Music Gallery's You In Mind series. The first half of the program features works by Matthew Shlomovitz, Pauline Oliveros, Julia Mermelstein, and Nolan Hildebrand. The second half featured our epic multimedia tribute to the four elements of nature, the Elemental Suite."
+    "shortDesc": "Our debut concert, ELEMENTAL, for The Music Gallery's You In Mind series. The first half of the program features works by Matthew Shlomowitz, Pauline Oliveros, Julia Mermelstein, and Nolan Hildebrand. The second half featured our epic multimedia tribute to the four elements of nature, the Elemental Suite."
   },
   {
     "location": "ArrayMusic, Toronto",
