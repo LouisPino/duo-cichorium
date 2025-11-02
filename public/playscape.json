@@ -252,7 +252,62 @@
       "title": "",
       "imgAlt": ""
     },
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1762121025/Hee-Soo_Yoon_i3i7it.jpg",
+        "credit": "",
+        "title": "Hee-Soo Yoon",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1762121025/Trevor_Flemings_jryzns.jpg",
+        "credit": "",
+        "title": "Trevor Flemings",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1762121019/Blake_Smith_1_ew1eys.jpg",
+        "credit": "",
+        "title": "Blake Smith",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1762121116/Chantelle_Tom-Ying_1_zlhlas.jpg",
+        "credit": "",
+        "title": "Chantelle Tom-Ying",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1762121018/Domenic_Clark_xfi1dp.jpg",
+        "credit": "",
+        "title": "Domenic Clark",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1762121168/Christopher_Jones_1_ldadng.jpg",
+        "credit": "",
+        "title": "Christopher Jones",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1762121018/Toronto_Saxophone_Collective_1_dz6zlg.jpg",
+        "credit": "",
+        "title": "Toronto Saxophone Collective",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1762121142/Min_Gu_Kang_1_uu1myc.jpg",
+        "credit": "",
+        "title": "Min Gu Kang",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1762121066/Kannan_Bloor_1_fbhaxe.jpg",
+        "credit": "",
+        "title": "Kannan Bloor",
+        "imgAlt": ""
+      }
+    ],
     "desc": "Theatrics is a celebration of theatrical chamber and solo musical works! We will be performing an adapted version of Frederic Rzewski's Fall of The Empire, along with the premiere of Domenic Clarke's viola and percussion trio Adore with violist Hee-Soo Yoon. Closing the night is Toronto Saxophone Collective's rendition of Raymond Luedeke's Garbage Delight, narrated by Trevor Flemings.",
     "longDesc": "THEATRICS presents an extreme range of aesthetics all through the medium of theatrical chamber music. We open with Frederic Rzewski’s Fall of the Empire, a thought-provoking satire on political extremism, religious fundamentalism, and societal sacrifice. Originally written as a solo, Duo Cichorium will alternate between the roles of performer and stagehand, assisting each other to accentuate the piece’s theatrical elements through costuming, props, and lighting. Following this is the premiere of Domenic Clarke’s Adore for viola, two percussionists, and electronics, utilizing a large custom-made box outfitted with various microphones and electronic devices to tell a story of life and death, concluding with a solemn funeral ceremony. The concert finishes with Raymond Luedeke’s Garbage Delight, performed by the Toronto Saxophone Quintet and Trevor Flemings, offering a humorous and whimsical finish with its absurd text and playful saxophone ensemble writing.",
     "url": "playscape3",
@@ -268,7 +323,38 @@
     "guestsPage": "Rowan Campbell, Constant Yen",
     "imgUrl": "",
     "program": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1762121479/Rowan_Campbell_drsxld.jpg",
+        "credit": "",
+        "title": "Rowan Campbell",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1762121478/Mira_Martin-Gray_q6sub2.jpg",
+        "credit": "",
+        "title": "Mira Martin-Gray",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1762121477/Joe_Strutt_bt4ho1.jpg",
+        "credit": "",
+        "title": "Joe Strutt",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1762121476/Fahmid_Nibesh_z86jdn.jpg",
+        "credit": "",
+        "title": "Fahmid Nibesh",
+        "imgAlt": ""
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1762121475/Constant_Yen_Headshot_qkcfqs.png",
+        "credit": "",
+        "title": "Constant Yen",
+        "imgAlt": ""
+      }
+    ],
     "photo": {
       "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1719269393/Duo_Cichorium_-_rec1_v9tkch.jpg",
       "credit": "",

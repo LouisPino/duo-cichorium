@@ -18,7 +18,7 @@ export default function Playscape() {
     }, []);
 
     const photo = {
-        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1729288211/Untitled_Artwork-min_rxezfq.png",
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1762121868/2025-2026_Playscape_poster_page-0001_qmzo76.jpg",
         "credit": "",
         "title": ""
     }
