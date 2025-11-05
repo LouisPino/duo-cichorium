@@ -64,12 +64,13 @@ export default function Sylvan() {
 
             <div className="sylvan-entry sylvan-images-div">
                 <div className="sylvan-images">
-                    <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1751923838/DSC07715_xmxqz2.jpg"></img>
-                    <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1751926827/Screenshot_2025-07-07_182015_ymzbls.png"></img>
-                    <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1751926743/Screenshot_2025-07-07_181730_mxzzt7.png"></img>
-                    <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1751926743/Screenshot_2025-07-07_181651_yxukv7.png"></img>
-                    <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1751926743/Screenshot_2025-07-07_181831_pjph5n.png"></img>
-                    <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1751927215/Screenshot_2025-07-07_182634_asddnk.png"></img>
+                    <Photo photo={{ url: "https://res.cloudinary.com/dsvcyich1/image/upload/v1751923838/DSC07715_xmxqz2.jpg" }} />
+                    <Photo photo={{ url: "https://res.cloudinary.com/dsvcyich1/image/upload/v1751926827/Screenshot_2025-07-07_182015_ymzbls.png" }} />
+                    <Photo photo={{ url: "https://res.cloudinary.com/dsvcyich1/image/upload/v1751926743/Screenshot_2025-07-07_181730_mxzzt7.png" }} />
+                    <Photo photo={{ url: "https://res.cloudinary.com/dsvcyich1/image/upload/v1751926743/Screenshot_2025-07-07_181651_yxukv7.png" }} />
+                    <Photo photo={{ url: "https://res.cloudinary.com/dsvcyich1/image/upload/v1751926743/Screenshot_2025-07-07_181831_pjph5n.png" }} />
+                    <Photo photo={{ url: "https://res.cloudinary.com/dsvcyich1/image/upload/v1751927215/Screenshot_2025-07-07_182634_asddnk.png" }} />
+
                 </div>
             </div >
 
