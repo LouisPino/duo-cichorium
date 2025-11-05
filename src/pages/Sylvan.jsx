@@ -82,11 +82,17 @@ export default function Sylvan() {
             <div className="sylvan-entry sylvan-images-div">
                 <h5 className="center-text"> Map and environment sketches </h5>
                 <div className="sylvan-images">
+                    <Photo photo={{ url: "https://res.cloudinary.com/dsvcyich1/image/upload/v1739310614/Beach_to_Ocean_Jan17_ics5zm.png" }} />
+                    <Photo photo={{ url: "https://res.cloudinary.com/dsvcyich1/image/upload/v1739310612/Cloud_to_Space_Jan17_zk7d43.png" }} />
+                    <Photo photo={{ url: "https://res.cloudinary.com/dsvcyich1/image/upload/v1739310612/Sylvan_world_map_Jan17_ggl3mh.png" }} />
+                    <Photo photo={{ url: "https://res.cloudinary.com/dsvcyich1/image/upload/v1739310611/Cave_map_Jan17_q9pwwq.png" }} />
+                </div>
+                {/* <div className="sylvan-images">
                     <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1739310614/Beach_to_Ocean_Jan17_ics5zm.png"></img>
                     <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1739310612/Cloud_to_Space_Jan17_zk7d43.png"></img>
                     <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1739310612/Sylvan_world_map_Jan17_ggl3mh.png"></img>
                     <img src="https://res.cloudinary.com/dsvcyich1/image/upload/v1739310611/Cave_map_Jan17_q9pwwq.png"></img>
-                </div>
+                </div> */}
             </div >
 
 
