@@ -21,6 +21,20 @@
         "desc": "Lalal.ai is an AI-based audio processing tool that specializes in audio stem separation, specifically vocals and instruments. This platform allows users to extract or isolate specific audio components from songs and utilizes advanced machine learning algorithms to produce high quality separation. Lalal.ai is suitable for musicians, producers, sound engineers, or those interested in sound production. This tool is “a next-generation vocal remover and music source separation service for fast, easy and precise stem extraction. Remove vocal, instrumental, drums, bass, piano, electric guitar, acoustic guitar, and synthesizer tracks without quality loss.”"
     },
     {
+        "name": "iZotope RX",
+        "url": "https://www.izotope.com/en/products/rx.html",
+        "category": "audio",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROCpCyS37z32a_Cm-lNiBDB2NV2nsiG3hg4w&s",
+        "desc": "RX is iZotopoe's legendary noise remover. In it's newest version, iZotpoe employs machine learning algorithms to enhance it's capability to remove environment noise for pristine recording quality."
+    },
+    {
+        "name": "Bonk~",
+        "url": "https://github.com/v7b1/bonk_64bit-version?tab=readme-ov-file",
+        "category": "audio",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/9/93/Logo_Max_8_software.jpg",
+        "desc": "Bonk~ is a Max MSP external object used to categorize percussion sounds. It can learn sounds and assign them to integer values to be used as data within a performance or patch. Send a learn message and play a sound a few times for Bonk to know the difference between multiple percussion sounds and you are good to go!"
+    },
+    {
         "name": "Pika",
         "url": "https://pika.art/try",
         "category": "video",
@@ -61,5 +75,12 @@
         "category": "interdisciplinary",
         "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734926837/Screenshot_2024-12-22_at_11.06.12_PM_skxdur.png",
         "desc": "Sounds.pink is an AI powered platform that uses machine learning algorithms to generate soundscapes and ambient music. Sounds.pink can be used by creatives to incorporate physical expression into auditory experiences by generating music and sound based on body and facial tracking technology."
+    },
+    {
+        "name": "Wekinator",
+        "url": "https://sounds.pink/",
+        "category": "interdisciplinary",
+        "img": "http://www.wekinator.org/wp-content/uploads/2015/08/wekinator31-300x177.jpg",
+        "desc": "he Wekinator is free, open source software. Wekinator 1.0 was originally created in 2009 by Rebecca Fiebrink. In 2015, Rebecca released Wekinator 2.0, an entirely new version with redesigned interactions, new algorithms, and ability to connect easily to dozens of other creative coding tools and sensors. Wekinator 2.0 continues to be gently updated with bug fixes and feature requests. \nIt allows anyone to use machine learning to build new musical instruments, gestural game controllers, computer vision or computer listening systems, and more.\nThe Wekinator allows users to build new interactive systems by demonstrating human actions and computer responses, instead of writing programming code.\nExample applications include:\nCreation of new musical instruments \nCreate mappings between gesture and computer sounds. Control a drum machine using your webcam! Play Ableton using a Kinect!\nCreation of gesturally-controlled animations and games\nControl interactive visual environments created in Processing, OpenFrameworks, or Quartz Composer, or game engines like Unity, using gestures sensed from webcam, Kinect, Arduino, etc.\nCreation of systems for gesture analysis and feedback\nBuild classifiers to detect which gesture a user is performing. Use the identified gesture to control the computer or to inform the user how he’s doing.\nCreation of real-time music information retrieval and audio analysis systems\nDetect instrument, genre, pitch, rhythm, etc. of audio coming into the mic, and use this to control computer audio, visuals, etc.\nCreation of other interactive systems in which the computer responds in real-time to some action performed by a human user (or users)\nAnything that can output OSC can be used as a controller\nAnything that can be controlled by OSC can be controlled by Wekinator"
     }
 ]
