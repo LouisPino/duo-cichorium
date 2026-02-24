@@ -399,5 +399,23 @@
     "program": [],
     "url": "electric-eclectics",
     "shortDesc": "We will be performing an outdoor version of The Elemental Suite adapted for the 2025 Electric Eclectics festival."
+  },
+  {
+    "location": "918 Bathurst, Toronto",
+    "date": "April 24 2026",
+    "title": "Gráve at DACO",
+    "organizer": "",
+    "series": "Dance Collaboration Lab",
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1771943235/Screenshot_2026-02-24_092634_qukyet.png",
+      "credit": "",
+      "title": "",
+      "imgAlt": ""
+    },
+    "photos": [],
+    "desc": "Bringing back Gráve by Youell Domenico for Dance Collaboration Lab 2026.",
+    "program": [],
+    "url": "daco",
+    "shortDesc": "Bringing back Gráve by Youell Domenico for Dance Collaboration Lab 2026."
   }
 ]

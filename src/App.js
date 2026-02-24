@@ -91,6 +91,7 @@ function App() {
         <Route exact path="/vector" element={<EventPage url="vector" />} />
         <Route exact path="/head" element={<EventPage url="head" />} />
         <Route exact path="/electric-eclectics" element={<EventPage url="electric-eclectics" />} />
+        <Route exact path="/daco" element={<EventPage url="daco" />} />
 
 
         <Route exact path="/subscribed" element={<Subscribed />} />
