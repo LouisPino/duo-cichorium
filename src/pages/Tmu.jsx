@@ -6,7 +6,7 @@ import "../styles/tmu.css"
 export default function Tmu() {
     return (
         <>
-            <PageTitle page="AI Tools for Artists" />
+            <PageTitle page="Non Generative AI Tools for Artists" />
             <div className="tmu-main">
                 <div className="moon tmu-project">
                     <h1>Computer Vision Moon Resizing and Sorting</h1>

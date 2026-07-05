@@ -258,10 +258,9 @@ h2 {
   background-size: cover;
   visibility: visible;
   z-index: 1;
-}
-
-.spin {
-  animation: spin .5s ease-in-out;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
 }
 
 .flower0 {
@@ -276,44 +275,10 @@ h2 {
   background-image: url("../public/assets/ChicoryKaboom.png");
 }
 
-#kaboom-ctl0,
-#kaboom-ctl1,
-#kaboom-ctl2 {
-  display: none;
-  z-index: 10;
-}
-
-/* #kaboom-ctl0:checked + label > .kaboom-ctr0 {
-  background-image: url("../public/assets/kaboom.gif");
-  animation: hideKaboom .1s linear forwards;
-  animation-delay: .75s; 
-}
-#kaboom-ctl1:checked + label > .kaboom-ctr1 {
-  background-image: url("../public/assets/kaboom.gif");
-  animation: hideKaboom .1s linear forwards;
-  animation-delay: .75s; 
-}
-#kaboom-ctl2:checked + label > .kaboom-ctr2 {
-  background-image: url("../public/assets/kaboom.gif");
-  animation: hideKaboom .1s linear forwards;
-  animation-delay: .75s; 
-} */
-
-@keyframes hideKaboom {
-  0% {
-    opacity: 1;
-    visibility: visible;
-  }
-
-  99% {
-    opacity: 0;
-    visibility: visible;
-  }
-
-  100% {
-    opacity: 0;
-    visibility: hidden;
-  }
+.kaboom.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .1s linear;
 }
 
 
@@ -323,7 +288,9 @@ h2 {
   top: 0;
   right: 0;
   width: 12px;
-  z-index: 10;
+  /* Above .header-content (z-index: 100 in header.css), which otherwise
+     covers this fixed track wherever it overlaps the header's height. */
+  z-index: 101;
   min-height: 100vh;
   background: var(--scroll-bar);
 }
@@ -332,7 +299,15 @@ h2 {
   max-width: 200%;
   position: absolute;
   z-index: 0;
-  left: -8px
+  left: -8px;
+  cursor: grab;
+  touch-action: none;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.scroll-img.dragging {
+  cursor: grabbing;
 }
 
 
@@ -345,17 +320,6 @@ h2 {
     background-position: 0% 0%;
   }
 }
-
-@keyframes spin {
-  0% {
-    rotate: 0deg;
-  }
-
-  100% {
-    rotate: 359deg;
-  }
-}
-
 
 .mobile-only {
   display: none;

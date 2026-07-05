@@ -64,7 +64,7 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
         <header>
 
             <div id="progressbar" className={`desktop-only ${scrolls ? "" : "no-width"}`}  >
-                <img src="/assets/ChicoryTrans.png" className="scroll-img" alt="Chicory flower scroll indicator" />
+                <img src="/assets/ChicoryTrans.png" className="scroll-img" alt="Chicory flower scroll indicator" draggable={false} />
             </div>
             <div id="scrollpath" className="desktop-only"></div>
             <div className="header-content">
@@ -73,7 +73,7 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                         <p className={`link nav-btn-text ${location.pathname === "/" ? "current-location" : ""}`} onClick={linkClicked}>Home</p>
                     </Link>
                     <Link to="/about">
-                        <p className={`link nav-btn-text ${location.pathname === "/about" ? "current-location" : ""}`} onClick={linkClicked}>About</p>
+                        <p className={`link nav-btn-text ${location.pathname === "/about" ? "current-location" : ""}`} onClick={linkClicked}>About Us</p>
                     </Link>
                     <Link to="/works">
                         <p className={`link nav-btn-text ${location.pathname === "/works" ? "current-location" : ""}`} onClick={linkClicked}>Repertoire</p>
@@ -110,7 +110,7 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                                 <p className="work-link-text hover-glow" onClick={linkClicked}>The Sylvan Legacy</p>
                             </Link>
                             <Link to="/ai-tools">
-                                <p className="work-link-text hover-glow" onClick={linkClicked}>AI Tools for Artists</p>
+                                <p className="work-link-text hover-glow" onClick={linkClicked}>Non Generative AI Tools for Artists</p>
                             </Link>
                             <Link to="/playscape-emporium" onClick={linkClicked}>
                                 <p className="work-link-text hover-glow" >PLAYSCAPE EMPORIUM</p>
@@ -129,7 +129,7 @@ function Header({ burgerDrop, setBurgerDrop, workDrop, setWorkDrop }) {
                         <p className="burger-link-text link">Home</p>
                     </Link>
                     <Link to="/about" className="burger-link" onClick={linkClicked}>
-                        <p className="burger-link-text link">About</p>
+                        <p className="burger-link-text link">About Us</p>
                     </Link>
                     <Link to="/works">
                         <p className="link burger-link-text" onClick={linkClicked}>Repertoire</p>
