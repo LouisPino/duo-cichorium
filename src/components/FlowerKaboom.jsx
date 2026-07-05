@@ -94,7 +94,7 @@ function FlowerKaboom({x, y, flower, size, instance}) {
 
     return (
         <div
-            className={`kaboom-ctr${instance} desktop-only flower${flower} kaboom${popped ? " popped" : ""}${hidden ? " hidden" : ""}`}
+            className={`kaboom-ctr${instance} flower${flower} kaboom${popped ? " popped" : ""}${hidden ? " hidden" : ""}`}
             style={style}
         >
         </div>

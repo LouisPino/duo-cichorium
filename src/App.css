@@ -369,4 +369,8 @@ h2 {
     background: none;
   }
 
+  .kaboom {
+    transform: scale(0.5);
+  }
+
 }
