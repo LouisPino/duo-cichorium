@@ -27,11 +27,11 @@ export default function Events() {
     return events ?
 
         <div className="events-body">
-            <Photo photo={photo} materialbox={true} />
+            {/* <Photo photo={photo} materialbox={true}/> */}
             <PageTitle page="Upcoming" />
-            <Event event={events[12]} />{/*DACO*/}
             <Event event={events[8]} />{/*playscape*/}
             <PageTitle page="Previous" />
+            <Event event={events[12]} />{/*DACO*/}
             <Event event={events[11]} />{/*EE*/}
             <Event event={events[10]} />{/*Vector*/}
             <Event event={events[9]} />{/*head*/}
