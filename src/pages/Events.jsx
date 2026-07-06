@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 import PageTitle from "../components/PageTitle";
-import Photo from "../components/Photo"
+// import Photo from "../components/Photo"
 import Event from "../components/Event"
 import "../styles/about.css"
 export default function Events() {
@@ -11,11 +11,11 @@ export default function Events() {
         const data = await response.json();
         setEvents(data);
     };
-    const photo = {
-        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1708007520/cichorium/Capture_pbbox4.jpg",
-        "credit": "ArrayMusic, Feb. 8, 2024",
-        "title": "Speed Run"
-    }
+    // const photo = {
+    //     "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1708007520/cichorium/Capture_pbbox4.jpg",
+    //     "credit": "ArrayMusic, Feb. 8, 2024",
+    //     "title": "Speed Run"
+    // }
 
     useEffect(() => {
         getEventData();
