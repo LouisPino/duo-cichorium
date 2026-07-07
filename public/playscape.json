@@ -335,7 +335,21 @@
     "desc": "Theatrics is a celebration of theatrical chamber and solo musical works! We will be performing an adapted version of Frederic Rzewski's Fall of The Empire, along with the premiere of Domenic Clarke's viola and percussion trio Adore with violist Hee-Soo Yoon. Closing the night is Toronto Saxophone Collective's rendition of Raymond Luedeke's Garbage Delight, narrated by Trevor Flemings.",
     "longDesc": "THEATRICS presents an extreme range of aesthetics all through the medium of theatrical chamber music. We open with Frederic Rzewski’s Fall of the Empire, a thought-provoking satire on political extremism, religious fundamentalism, and societal sacrifice. Originally written as a solo, Duo Cichorium will alternate between the roles of performer and stagehand, assisting each other to accentuate the piece’s theatrical elements through costuming, props, and lighting. Following this is the premiere of Domenic Clarke’s Adore for viola, two percussionists, and electronics, utilizing a large custom-made box outfitted with various microphones and electronic devices to tell a story of life and death, concluding with a solemn funeral ceremony. The concert finishes with Raymond Luedeke’s Garbage Delight, performed by the Toronto Saxophone Quintet and Trevor Flemings, offering a humorous and whimsical finish with its absurd text and playful saxophone ensemble writing.",
     "url": "playscape3",
-    "audio_links": []
+    "audio_links": [],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/embed/b26JU0FvpBI",
+        "caption": "Gra-ve by Youell Domenico, with Hee-Soo Yoon"
+      },
+      {
+        "url": "https://www.youtube.com/embed/GRj7UdQx_6Q",
+        "caption": "Fall of the Empire by Frederic Rzewski"
+      },
+        {
+        "url": "https://www.youtube.com/embed/6WOwoMuYJT4",
+        "caption": "Garbage Delight by Raymond Luedeke, with Toronto Saxophone Collective"
+      }
+    ]
   },
   {
     "date": "May 21, 2026",
