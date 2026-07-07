@@ -576,43 +576,25 @@
 
 
 
-  
+
 
   {
     "location": "Registry Theater",
     "date": "June 7, 2026",
     "title": "The Sylvan Legacy at Open Ears",
-    "tickets": "https://www.eventbrite.ca/e/oe26-festival-passes-tickets-1986346363444?aff=oddtdtcreator&keep_tld=true",
     "organizer": "Open Ears Festival",
     "series": "Open Ears Festival 2026",
     "photo": {
-      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783449893/img_2526_nx84kh.jpg",
-      "credit": "Emma Johnston-Wheeler",
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1751926827/Screenshot_2025-07-07_182015_ymzbls.png",
+      "credit": "",
       "title": "",
       "imgAlt": ""
     },
-    "photos": [{
-      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783449893/img_2526_nx84kh.jpg",
-      "credit": "Emma Johnston-Wheeler",
-      "title": "The gang",
-      "imgAlt": "DuonCichorium in front of a screen"
-    },
-  {
-      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783450792/img_2514_ktwnkh.jpg",
-      "credit": "Emma Johnston-Wheeler",
-      "title": "Pino's setup",
-      "imgAlt": ""
-    }],
-    "desc": "Hear ye, hear ye! Step into a world of music, magic, and marvelous shoes! This delightful performance combines interactive storytelling, hands-on fun, and lively audience participation — perfect for kids, families, and anyone who loves a royal adventure. Meet King Tilly, the royal kitty with the world’s most fabulous shoe collection. Inspired by his dear friend Mrs. Sonja Bata, King Tilly has made it his royal mission to collect shoes from every corner of the globe. From dazzling Renaissance chopines to rugged Mongolian gutal boots to delicate ballet slippers, each journey adds a new treasure to his ever-growing Shoe Pile — a dangerously tall tower of footwear stacked right beside the Grand Window. But beware… one mighty gust of winter wind could send this wobbly pile tumbling into chaos! If disaster strikes, will you be ready to help King Tilly sort through his marvelous collection and restore order to the royal closet?",
+    "photos": [],
+    "desc": "Closing up our stay at Open Ears was a performance of The Sylvan Legacy, our choose-your-own-adventure journey through the Sylvan Forest!",
     "program": [],
-    "url": "oe-diy",
-    "shortDesc": "A special family friendly spin-off of Sylvan Legacy, KING TILLY'S SHOE DISASTER. Help us clean up this mess!",
-        "videos": [
-      {
-        "url": "https://www.youtube.com/embed/2lok9tC0qiM",
-        "caption": ""
-      }
-    ],
-    "article": "https://www.torontotoday.ca/local/arts-culture/meet-duo-cichorium-percussionists-redefining-interactive-performance-11756792"
+    "url": "oe-sylvan",
+    "shortDesc": "Closing up our stay at Open Ears was a performance of The Sylvan Legacy, our choose-your-own-adventure journey through the Sylvan Forest!"
+
   }
 ]
