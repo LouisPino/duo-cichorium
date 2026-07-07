@@ -408,7 +408,17 @@
     "desc": "We will be joined by Rowan Campbell and Constant Yen to explore various capacities of collaboration between visual arts and music. This includes the premiere of our updated Canvas Conductor, an animation jam, and live graphic score creation and interpretation. Check out our fifth People Soup show PAINT WATER to get a taste of Contant and Rowan's work, and watch our original Canvas Conductor premiere on our repertoire page!!",
     "longDesc": "PAINT, PLAY centers on music improvisation driven by visual art. The audience will witness the creation of various painted works, following the story of a painting as told by the brush. Duo Cichorium’s Canvas Conductor is an electroacoustic hybrid instrument which integrates a painter’s canvas with a custom built synthesizer, and AI based sampler AudioStellar. With this mega-instrument, a painter’s brush strokes to directly control the production of sound as the image progresses. Next, the animated film work of Rowan Campbell will be featured in conjunction with improvised music. An interactive installation, COUNTERVISION, created by Jaz Tsui will be presented during intermission, in which viewers will be invited to view the creation of a graphic score and encouraged to interact with a midi board that controls the mix of pre recorded instrumental tracks playing through the room’s speakers. This work allows the viewer to be an active participant in both the viewing and listening experience. In the second half, Constant Yen will be performing their various visual practices, including painting, drawing, sculpting, animation, and oil manipulation. This will act as a visual score for Duo Cichorium, joined by 5 other improvising musicians.",
     "url": "playscape4",
-    "audio_links": []
+    "audio_links": [],
+     "videos": [
+       {
+         "url": "https://www.youtube.com/embed/0eaDsqnFork",
+         "caption": "Paint, Play Set 1 - Rowan Campbell's Set"
+        },
+        {
+          "url": "https://www.youtube.com/embed/jjMS02gmJVo",
+          "caption": "Paint, Play Set 2 - Constant Yen's Set"
+        }
+    ]
   },
   {
     "date": "FALL 2026",
