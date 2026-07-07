@@ -50,6 +50,23 @@
     "desc": "Canvas Conductor is an instrument we built in May 2024. Each brush contains a charged wire, which sends information to the brain of the device when touching any of the 5 wires weaved into the canvas. In this performance, we use this contact information to control a built in synthesizer, as well as an AudioStellar sample map via Max/MSP."
   },
   {
+    "name": "Gra-ve",
+    "url": "gra-ve",
+    "programLink": "",
+    "feature": true,
+    "programText": "",
+    "mainvideo": "https://www.youtube.com/embed/2W6Sj_2Z5VQ",
+    "secondaryVideos": [
+      {
+        "url": "https://www.youtube.com/embed/b26JU0FvpBI",
+        "caption": ""
+      }
+    ],
+    "img": "https://res.cloudinary.com/dsvcyich1/image/upload/v1719269393/Duo_Cichorium_-_rec1_v9tkch.jpg",
+    "shortDesc": "Gra-ve by Youell Domenico",
+    "desc": "We got to premiere AND record Youell Domenico's new piece Gra-ve for percussion, electronics, and solo viola. Above is the official video recorded at Array Music in December 2025, and below is a video of the premiere performance."
+  },
+  {
     "name": "0 Damage Any % Reverse Glitch Speed Run",
     "url": "Damage",
     "feature": true,
