@@ -19,6 +19,30 @@
     },
     "photos": [
       {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783449510/DSC01547_ytqqrc.png",
+        "credit": "Domenic Clark",
+        "title": "Improv",
+        "imgAlt": "Improv"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783449510/DSC01514_cuoqkk.png",
+        "credit": "Domenic Clark",
+        "title": "teething live",
+        "imgAlt": "The Great Dream snapshot"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783449508/DSC01882_ukdh5z.png",
+        "credit": "Domenic Clark",
+        "title": "Improv",
+        "imgAlt": "Dance improv snapshot"
+      },
+      {
+        "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783449505/DSC01292_xgk0qs.png",
+        "credit": "Domenic Clark",
+        "title": "The Great Dream",
+        "imgAlt": "The Great Dream snapshot"
+      },
+      {
         "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1734042978/ABDC3-credit_Domenic_Clark_qehxbw.jpg",
         "credit": "Domenic Clark",
         "title": "The Great Dream",

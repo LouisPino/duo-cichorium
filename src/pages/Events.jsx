@@ -31,6 +31,11 @@ export default function Events() {
             <PageTitle page="Upcoming" />
             <Event event={events[8]} />{/*playscape*/}
             <PageTitle page="Previous" />
+            <Event event={events[17]} />{/*OE Sylvan*/}
+            <Event event={events[16]} />{/*OE Improv*/}
+            <Event event={events[15]} />{/*OE DIY*/}
+            <Event event={events[14]} />{/*OE Interactive*/}
+            <Event event={events[13]} />{/*Bata*/}
             <Event event={events[12]} />{/*DACO*/}
             <Event event={events[11]} />{/*EE*/}
             <Event event={events[10]} />{/*Vector*/}

@@ -417,5 +417,202 @@
     "program": [],
     "url": "daco",
     "shortDesc": "Bringing back Gráve by Youell Domenico for Dance Collaboration Lab 2026."
+  },
+  {
+    "location": "Bata Shoe Museum",
+    "date": "January 17-18, 2026",
+    "title": "King Tilly's Shoe Disaster",
+    "tickets": "https://batashoemuseum.ca/event/king-tillys-shoe-disaster/",
+    "organizer": "Bata Shoe Museuem",
+    "series": "",
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783449893/img_2526_nx84kh.jpg",
+      "credit": "Emma Johnston-Wheeler",
+      "title": "",
+      "imgAlt": ""
+    },
+    "photos": [{
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783449893/img_2526_nx84kh.jpg",
+      "credit": "Emma Johnston-Wheeler",
+      "title": "The gang",
+      "imgAlt": "Duo Cichorium in front of a screen"
+    },
+  {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783450792/img_2514_ktwnkh.jpg",
+      "credit": "Emma Johnston-Wheeler",
+      "title": "Pino's setup",
+      "imgAlt": ""
+    }],
+    "desc": "Hear ye, hear ye! Step into a world of music, magic, and marvelous shoes! This delightful performance combines interactive storytelling, hands-on fun, and lively audience participation — perfect for kids, families, and anyone who loves a royal adventure. Meet King Tilly, the royal kitty with the world’s most fabulous shoe collection. Inspired by his dear friend Mrs. Sonja Bata, King Tilly has made it his royal mission to collect shoes from every corner of the globe. From dazzling Renaissance chopines to rugged Mongolian gutal boots to delicate ballet slippers, each journey adds a new treasure to his ever-growing Shoe Pile — a dangerously tall tower of footwear stacked right beside the Grand Window. But beware… one mighty gust of winter wind could send this wobbly pile tumbling into chaos! If disaster strikes, will you be ready to help King Tilly sort through his marvelous collection and restore order to the royal closet?",
+    "program": [],
+    "url": "king-tilly",
+    "shortDesc": "A special family friendly spin-off of Sylvan Legacy, KING TILLY'S SHOE DISASTER. Help us clean up this mess!",
+        "videos": [
+      {
+        "url": "https://www.youtube.com/embed/2lok9tC0qiM",
+        "caption": ""
+      }
+    ],
+    "article": "https://www.torontotoday.ca/local/arts-culture/meet-duo-cichorium-percussionists-redefining-interactive-performance-11756792"
+  },
+  {
+    "location": "Church of the Good Shepherd",
+    "date": "June 4, 2026",
+    "title": "Open Ears Interactive Performance Workshop",
+    "organizer": "Open Ears Festival",
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1751985510/Screenshot_2025-07-08_103734_cvty6j.png",
+      "credit": "",
+      "title": "",
+      "imgAlt": ""
+    },
+        "photos": [],
+    "desc": "Our first workshop at Open Ears 2026 was a session to show two of our interactive works, Speed Run and Canvas Conductor",
+    "program": [],
+    "url": "oe-interactive",
+    "shortDesc": "A workshop for Open Ears demonstrating two of our interactive works, Speed Run and Canvas Conductor",
+    "videos": [
+      {
+        "url": "https://www.youtube.com/embed/AUXDYV2OZx8", 
+        "caption": ""
+      },
+      {
+        "url": "https://www.youtube.com/embed/5R08yzkVCDQ", 
+        "caption": ""
+      },
+      {
+        "url": "https://www.youtube.com/embed/u4a9ZaPF5f4", 
+        "caption": ""
+      },
+      {
+        "url": "https://www.youtube.com/embed/xkXP6m63r_Q", 
+        "caption": ""
+      },
+      {
+        "url": "https://www.youtube.com/embed/EuyFFvMpbGY", 
+        "caption": ""
+      },
+      {
+        "url": "https://www.youtube.com/embed/bjGRqqHbU1k", 
+        "caption": ""
+      }
+    ]
+    },
+  {
+    "location": "Church of the Good Shepherd",
+    "date": "June 5, 2026",
+    "title": "Open Ears DIY Instrument Building Workshop",
+    "organizer": "Open Ears Festival",
+    "series": "Open Ears Festival 2026",
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783451686/IMG_4460_ksxgs7.jpg",
+      "credit": "",
+      "title": "",
+      "imgAlt": ""
+    },
+    "photos": [{
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783451686/IMG_4460_ksxgs7.jpg",
+      "credit": "",
+      "title": "",
+      "imgAlt": ""
+    },
+  {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783451684/IMG_4459_xlxubi.jpg",
+      "credit": "",
+      "title": "",
+      "imgAlt": ""
+    }],
+    "desc": "Our second workshop at Open Ears 2026 was a session led by Jaz showing off lots of ways to use dollar store and household objects to build instruments.",
+    "program": [],
+    "url": "oe-diy",
+    "shortDesc": "A workshop for Open Ears demonstrating ideas on building DIY instruments.",
+        "videos": [
+      {
+        "url": "https://www.youtube.com/embed/OztTqkzRU5g",
+        "caption": ""
+      },
+      {
+        "url": "https://www.youtube.com/embed/myt8xBhBL7A",
+        "caption": ""
+      },
+      {
+        "url": "https://www.youtube.com/embed/3oiXpXo0ueU",
+        "caption": ""
+      },
+      {
+        "url": "https://www.youtube.com/embed/81k9TGLkYiU",
+        "caption": ""
+      }
+    ]
+  },
+  {
+    "location": "Church of the Good Shepherd",
+    "date": "June 6, 2026",
+    "title": "Open Ears Improvisation Workshop",
+    "organizer": "Open Ears Festival",
+    "series": "Open Ears Festival 2026",
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1751985509/Screenshot_2025-07-08_103346_rd44x4.png",
+      "credit": "",
+      "title": "",
+      "imgAlt": ""
+    },
+    "photos": [{
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783453806/Quadrant_n33bpr_jnbw6r.png",
+      "credit": "",
+      "title": "",
+      "imgAlt": ""
+    },{
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783453875/Screenshot_2026-07-07_at_3.51.01_PM_dhrdsu.png",
+      "credit": "",
+      "title": "",
+      "imgAlt": ""
+    }],
+    "desc": "Our last workshop at Open Ears 2026 was a group improvisation workshop led by Jaz, focusing on listening strategies, and the interpretation of ext and graphic scores.",
+    "program": [],
+    "url": "oe-improv",
+    "shortDesc": "A workshop for Open Ears focused on improvisation."
+  },
+
+
+
+  
+
+  {
+    "location": "Registry Theater",
+    "date": "June 7, 2026",
+    "title": "The Sylvan Legacy at Open Ears",
+    "tickets": "https://www.eventbrite.ca/e/oe26-festival-passes-tickets-1986346363444?aff=oddtdtcreator&keep_tld=true",
+    "organizer": "Open Ears Festival",
+    "series": "Open Ears Festival 2026",
+    "photo": {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783449893/img_2526_nx84kh.jpg",
+      "credit": "Emma Johnston-Wheeler",
+      "title": "",
+      "imgAlt": ""
+    },
+    "photos": [{
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783449893/img_2526_nx84kh.jpg",
+      "credit": "Emma Johnston-Wheeler",
+      "title": "The gang",
+      "imgAlt": "DuonCichorium in front of a screen"
+    },
+  {
+      "url": "https://res.cloudinary.com/dsvcyich1/image/upload/v1783450792/img_2514_ktwnkh.jpg",
+      "credit": "Emma Johnston-Wheeler",
+      "title": "Pino's setup",
+      "imgAlt": ""
+    }],
+    "desc": "Hear ye, hear ye! Step into a world of music, magic, and marvelous shoes! This delightful performance combines interactive storytelling, hands-on fun, and lively audience participation — perfect for kids, families, and anyone who loves a royal adventure. Meet King Tilly, the royal kitty with the world’s most fabulous shoe collection. Inspired by his dear friend Mrs. Sonja Bata, King Tilly has made it his royal mission to collect shoes from every corner of the globe. From dazzling Renaissance chopines to rugged Mongolian gutal boots to delicate ballet slippers, each journey adds a new treasure to his ever-growing Shoe Pile — a dangerously tall tower of footwear stacked right beside the Grand Window. But beware… one mighty gust of winter wind could send this wobbly pile tumbling into chaos! If disaster strikes, will you be ready to help King Tilly sort through his marvelous collection and restore order to the royal closet?",
+    "program": [],
+    "url": "oe-diy",
+    "shortDesc": "A special family friendly spin-off of Sylvan Legacy, KING TILLY'S SHOE DISASTER. Help us clean up this mess!",
+        "videos": [
+      {
+        "url": "https://www.youtube.com/embed/2lok9tC0qiM",
+        "caption": ""
+      }
+    ],
+    "article": "https://www.torontotoday.ca/local/arts-culture/meet-duo-cichorium-percussionists-redefining-interactive-performance-11756792"
   }
 ]

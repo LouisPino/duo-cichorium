@@ -92,6 +92,11 @@ function App() {
         <Route exact path="/head" element={<EventPage url="head" />} />
         <Route exact path="/electric-eclectics" element={<EventPage url="electric-eclectics" />} />
         <Route exact path="/daco" element={<EventPage url="daco" />} />
+        <Route exact path="/king-tilly" element={<EventPage url="king-tilly" />} />
+        <Route exact path="/oe-interactive" element={<EventPage url="oe-interactive" />} />
+        <Route exact path="/oe-diy" element={<EventPage url="oe-diy" />} />
+        <Route exact path="/oe-improv" element={<EventPage url="oe-improv" />} />
+        <Route exact path="/oe-sylvan" element={<EventPage url="oe-sylvan" />} />
 
 
         <Route exact path="/subscribed" element={<Subscribed />} />
